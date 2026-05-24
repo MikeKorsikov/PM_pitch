@@ -1,0 +1,200 @@
+AI tools:
+Claude Code (Anthropic) paid
+GitHub Copilot (GitHub) free
+Microsoft Copilot (Microsoft) free
+Codex (OpenAI) paid
+Antigravity (Google) free
+OpenClaw
+
+AI models:
+GPT (OpenAI)
+Claude (Anthropic)
+Gemini (Google)
+Grok (xAI)
+DeepSeek (DeepSeek)
+
+IDEs:
+windsurf
+Cursor
+visual studio code
+JetBrains PyCharm
+
+Modeling and diagraming:
+Lucidchart
+Visio
+Camundo Modeler
+Bizagi Modeler
+
+DevOps tools:
+Git
+GitHub
+GitLab
+
+
+Programming languages:
+Python
+SQL
+
+Cloud:
+Azure (Compute/Storage/Architecture)
+
+Other tools:
+PowerShell
+Command Line Interface (CLI)
+
+Microsoft tools:
+Excel
+Word
+PowerPoint
+Visio
+Project
+PowerBI
+Outlook
+Teams
+SharePoint
+
+Project management tools:
+Jira 
+MS Project
+Aha!
+
+Change management:
+SAP Change Request Management (ChaRM)
+ServiceNow
+
+Document management:
+Veeva Vault
+SAP Solution Manager (SolMan)
+Confluence (Atlassian)
+
+SAP tools:
+SAP Fiori
+SAP ECC
+SAP ChaRM
+SAP SolMan
+SAP LeanIX
+SAP SAC
+
+Communication tools:
+MS Teams
+Zoom
+Slack
+Google Meet
+
+Resource management:
+Workday
+Fieldglass
+
+Risk management:
+CyberArk
+SailPoint
+Archer
+
+> OpenAI list:
+
+AI Coding & Productivity Tools:
+Anthropic Claude Code
+GitHub GitHub Copilot
+Microsoft Microsoft Copilot
+OpenAI Codex
+Windsurf
+Cursor
+
+AI Models & LLM Ecosystem:
+OpenAI GPT models
+Anthropic Claude models
+Google Gemini
+xAI Grok
+DeepSeek DeepSeek
+Meta Llama
+Hugging Face
+OpenAI API
+
+Development Environments & Engineering Tools:
+Visual Studio Code
+JetBrains PyCharm
+Git
+GitHub
+GitLab
+Command Line Interface (CLI)
+PowerShell
+FastAPI
+Flask
+Django
+SQLAlchemy
+
+Programming & Query Languages:
+Python
+SQL
+JavaScript (fundamentals/intermediate)
+
+Data, Analytics & BI:
+Excel
+Power BI
+pandas
+NumPy
+PostgreSQL
+Snowflake
+Databricks
+PySpark
+
+Process Modeling, Architecture & Documentation:
+Lucidchart
+Visio
+Camunda Modeler
+Bizagi Modeler
+BPMN
+Confluence
+SAP LeanIX
+
+Cloud & Platform Technologies
+Microsoft Azure
+Azure Compute
+Azure Storage
+Azure Architecture fundamentals
+Azure Databricks
+AWS (fundamentals)
+
+Enterprise, Automation & Workflow Platforms:
+ServiceNow
+SAP Solution Manager (SolMan)
+SAP ChaRM
+Power Automate
+UiPath
+Azure Logic Apps
+
+SAP Ecosystem:
+SAP ECC
+SAP Fiori
+SAP Solution Manager (SolMan)
+SAP ChaRM
+SAP LeanIX
+SAP Analytics Cloud (SAC)
+
+Product, Delivery & Collaboration Tools:
+Jira
+Aha!
+Microsoft Project
+Teams
+SharePoint
+Outlook
+Slack
+Zoom
+Google Meet
+
+Governance, Security & Risk Tools:
+CyberArk
+SailPoint
+Archer
+
+Resource & Workforce Management:
+Workday
+SAP Fieldglass
+
+Gemini list:
+Cloud & Enterprise Platforms: Microsoft Azure (Compute/Storage/Architecture), SAP S/4HANA (Group Reporting/IBP/SolMan/ChaRM/Fiori/LeanIX), ServiceNow, AWS (SAP-focused).
+Modeling & Diagramming: Bizagi Modeler, Camunda Modeler, Lucidchart, Microsoft Visio.
+Data & Analytics: Python (Pandas, NumPy), SQL (Advanced), Power BI, SAP Analytics Cloud.
+Product & Project Management: Jira, Azure DevOps, Aha!, Productboard, Confluence, MS Project.
+AI Development & Coding: Windsurf, Cursor, PyCharm, GitHub Copilot, Claude Code, OpenAI API.
+Collaboration & Documentation: MS Teams, Zoom, Slack, Loom, Veeva Vault, Google Workspace.

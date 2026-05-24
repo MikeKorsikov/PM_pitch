@@ -1,0 +1,134 @@
+What do I do well?
+I am good at...
+- creating process flow diagrams using BPMN notation
+- managing people
+- doing elaboration of processes and requirements
+- connecting the dots
+- reverse engineering processes
+- reverse engineering legacy systems
+- finance management
+- stakeholder management
+- vendor management
+- resource management
+- document management
+- improving the ways of working
+- establishing and following governance
+- standardising processes
+- 
+
+Gemini:
+I am good at...
+Enterprise Architecture & Process Modeling
+Designing complex enterprise ecosystems using SAP EAF and TOGAF-aligned methodologies.
+Creating precise process and decision models using BPMN 2.0 and DMN standards.
+Reverse-engineering legacy systems and fragmented business processes into standardized, scalable architectures.
+Orchestrating agentic workflows to automate cross-platform business logic.
+
+Strategic Leadership & Governance
+Establishing and enforcing IT governance frameworks (ITIL v4) to ensure operational compliance (SOX/PII/Security).
+Managing multi-million-dollar budgets, cloud infrastructure costs, and resource allocation.
+Leading global transformation strategies and managing change across multinational organizational structures.
+Bridging the communication gap between technical engineering teams and C-level stakeholders.
+
+Product Strategy & Management
+Defining vision and roadmap strategy using V2MOM and OKR frameworks.
+Prioritizing feature backlogs using data-driven frameworks (RICE/MoSCoW).
+Driving internal product evangelism and stakeholder alignment on technical transformation projects.
+Managing the end-to-end product lifecycle, from concept and PRD elaboration to GTM and post-launch monitoring.
+
+Data, AI & Technical Orchestration
+Leveraging AI-assisted development (Claude/Copilot) to accelerate delivery and automate documentation.
+Integrating AI models and protocols (MCP) into existing enterprise middleware.
+Performing quantitative analysis and forecasting to justify technical investments (ROI/cost-benefit modeling).
+Building and maintaining data-driven pipelines to monitor product performance and operational KPIs.
+
+Operational Excellence
+Standardizing processes and establishing "ways of working" to optimize team velocity.
+Managing complex vendor relationships and third-party service SLAs.
+Fostering a high-performing team culture through active mentoring, coaching, and conflict resolution.
+Maintaining rigorous document management standards for enterprise-grade compliance.
+
+OpenAI:
+Business Process & Analysis
+Creating process flow diagrams using BPMN notation
+Business process analysis
+Process decomposition and elaboration
+Reverse engineering business processes
+Reverse engineering legacy systems
+Requirements elicitation and documentation
+Functional and non-functional requirements analysis
+Gap analysis
+Root cause analysis
+Identifying process inefficiencies and bottlenecks
+Standardising processes
+Designing operating models
+Process optimisation and continuous improvement
+Establishing and following governance
+Improving ways of working
+Business rules analysis
+Documentation management
+
+Stakeholder & Organisational Management
+Stakeholder management
+Vendor management
+Cross-functional collaboration
+Facilitating workshops and discovery sessions
+Managing conflicting priorities
+Building alignment across teams
+Change management
+Communication between business and technical teams
+Translating business needs into technical solutions
+Resource management
+Managing distributed/global teams
+Governance coordination
+
+Product, Strategy & Transformation
+Product thinking
+Product roadmap contribution
+Data-driven decision making
+KPI and metrics definition
+Agile ways of working
+Supporting digital transformation initiatives
+Process transformation
+Business capability mapping
+Supporting enterprise transformation initiatives
+Strategic thinking and connecting the dots
+Identifying automation opportunities
+Solution evaluation and recommendation
+
+Automation & AI
+Identifying automation opportunities
+Workflow automation design
+AI-assisted process optimisation
+Prompt engineering fundamentals
+AI agent concepts
+Agentic workflow understanding
+AI solution evaluation for business processes
+Intelligent automation concepts
+RPA fundamentals
+Process orchestration concepts
+
+Data & Analytical Skills
+Data analysis
+Exploratory data analysis
+Statistical thinking
+Hypothesis-based problem solving
+Data interpretation and storytelling
+Dashboard and reporting concepts
+Data governance awareness
+Data quality awareness
+Financial data analysis
+Forecasting process understanding
+
+Technical & Architecture-Oriented Skills
+SQL fundamentals
+Python fundamentals
+API fundamentals
+Data modelling fundamentals
+Enterprise architecture fundamentals
+Solution architecture awareness
+Cloud fundamentals
+Systems thinking
+Understanding integrations and data flows
+Technical documentation
+Understanding modern data architecture

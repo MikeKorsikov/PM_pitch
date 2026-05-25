@@ -25,8 +25,12 @@ D:\PYTHON\PM_pitch
 │   │       
 │   ├───industry_patterns
 │   │       finance.md
+│   │       healthcare.md
+│   │       insurance.md
+│   │       logistics.md
 │   │       manufacturing.md
 │   │       pharma.md
+│   │       retail.md
 │   │       
 │   ├───pain_point_patterns
 │   │       compliance_audit_complexity.md

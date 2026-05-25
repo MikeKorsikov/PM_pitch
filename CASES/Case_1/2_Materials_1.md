@@ -1,4 +1,17 @@
-# These are slides for the presentation of the case study
+# These are slides, materials for the presentation of the case study
+
+Tools to be used for each slide:
+[ ] Discovery -> Miro
+[ ] Business architecture -> Lucidchart (BPMN)
+[ ] Current vs Target -> Lucidchart
+[ ] Solution architecture -> Lucidchart (UML)
+[ ] End-to-end value flows -> Lucidchart (BPMN + UML)
+[ ] Delivery & Operating Model -> Miro
+[ ] Governance & RACI -> Excel
+[ ] Financial Model -> Excel
+[ ] Migration roadmap -> Lucidchart
+[ ] AI -> Lucidchart (BPMN)
+
 🧭 1. Vision & Strategy (WHY)
 Business problem / opportunity
 Strategic intent
@@ -16,7 +29,7 @@ Pain points / inefficiencies
 👉 This is where you show “reverse engineering thinking”
 
 🧩 3. Current vs Target State
-As-is capability map
+As-is capability map (use a visual "Heat Map." Color-code the capabilities: Green (Keep), Yellow (Improve/Modernize), Red (Retire/Replace). This makes the gap analysis instantly readable for executive eyes.)
 To-be capability map
 Gap analysis
 
@@ -37,6 +50,16 @@ Integration architecture
 Infrastructure architecture
 Security architecture
 
+Answer the questions:
+- who the platform serves?
+- what decisions it enables?
+- what it replaces?
+- what it simplifies?
+- what happens if we don't invest?
+- is architecture loosely coupled?
+- is architecture stateless?
+- what is the latency?
+
 👉 layered but subordinate to capability flow
 
 🔁 5. End-to-End Value Flows (CRITICAL)
@@ -47,6 +70,7 @@ Business process flow (A)
 Solution process flow (B)
 Data flow
 Component flow
+Add a visual indicator of "The Bottleneck." On your "As-Is" flow, highlight exactly where the process slows down. On your "To-Be" flow, show the "AI/Automation" layer clearing that bottleneck. This turns your diagram into a story of efficiency gains.
 
 👉 THIS is where you show “connect the dots” skill
 
@@ -64,6 +88,9 @@ Decision rights
 Ownership model
 Vendor vs internal roles
 Change governance
+Guardrails, not gates
+Risk based controls
+Lightweight approvals 
 
 👉 this is where enterprise maturity shows
 
@@ -72,6 +99,10 @@ TCO model
 Cost breakdown
 Value realization timeline
 Investment vs benefit
+Cost to serve per customer
+Cost per transaction
+Chargeback model
+Add a "Time-to-Value" (TTV) indicator. Executive sponsors are usually more concerned with how quickly they can see the first results (e.g., "Phase 1 delivers 20% efficiency in 3 months") than the total 5-year TCO.
 
 👉 this is what separates architects from consultants
 

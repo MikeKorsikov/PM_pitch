@@ -1,4 +1,4 @@
-# Strategic Campaign for case 1
+# Strategic Campaign checklist for case 1
 
 👉 Phase 1: Intelligence & Scoping (The "Discovery" Phase)
 Before creating materials, you must validate that you are solving a real, high-priority business problem.
@@ -7,7 +7,7 @@ Before creating materials, you must validate that you are solving a real, high-p
 
 [ ] Identify the "North Star" Pain: Define the specific business capability that is underperforming (e.g., "The finance function’s ability to forecast is hampered by siloed data").
 
-[ ] State the hypothesis: ...
+[ ] Verify the Hypothesis: Search for at least two independent sources (e.g., industry analyst reports like Gartner or Forrester, or peer-reviewed articles) that confirm the "Pain" you identified is a known industry bottleneck. This gives you external validation to cite during your interview.
 
 [ ] Define the Scope: Limit your study to one business process or one technical domain (e.g., "Order-to-Cash process automation") to ensure the materials remain sharp and focused.
 
@@ -49,12 +49,14 @@ Ask if they are open to seeing a high-level architectural view on how to optimiz
 
 [ ] Prepare the Portfolio Assets: Host your materials in a professional, clean format (e.g., a PDF on a personal webpage or a clean Notion link) to make it easy to attach to job applications.
 
+[ ] The "Soft Launch": Share your LinkedIn article or your pitch email with 1-2 trusted mentors or peers in the architecture space first to see if your technical argument holds water before sending it to a decision-maker at your "Dream Target."
+
 👉 Phase 4: Outreach & Application
 [ ] Identify the Target: Find the specific Head of Enterprise Architecture, CTO, or VP of Finance on LinkedIn.
 
 [ ] Send Personalized Outreach: Connect with them and offer to share the materials.
 
-[ ] Apply & Package: When applying for a vacancy, attach your "Reference Case Study" as a supplementary file.
+[ ] Apply & Package: When applying for a vacancy, attach your "Reference Case Study" as a supplementary file AND tailored CV.
 
 [ ] Label it: "[Company Name] Transformation - Architectural Perspective by [Your Name]."
 

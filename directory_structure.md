@@ -8,22 +8,31 @@ D:\PYTHON\PM_pitch
 │   
 ├───.antigravitycli
 ├───INPUTS
-│   ├───agent_knowledge_base
+│   │   playbook.md
+│   │   
+│   ├───agent_knowledge_base (WHAT capabilities/tools are involved)
 │   │       business_capabilities.md
 │   │       capability_framework.md
 │   │       technology_capabilities.md
 │   │       tools_inventory.md
 │   │       
-│   ├───ai_patterns
+│   ├───ai_patterns (HOW AI can help)
 │   │       ai_agent_orchestration.md
 │   │       ai_assisted_decision_support.md
+│   │       ai_assisted_reporting.md
+│   │       ai_copilot.md
+│   │       ai_governance_and_controls.md
+│   │       anomaly_detection.md
+│   │       intelligent_document_processing.md
+│   │       knowledge_assistant.md
+│   │       process_mining_and_insights.md
 │   │       workflow_automation.md
 │   │       
-│   ├───draft_input
+│   ├───draft_input (ignore)
 │   │       skills.txt
 │   │       tools.txt
 │   │       
-│   ├───industry_patterns
+│   ├───industry_patterns (WHY problem matters)
 │   │       finance.md
 │   │       healthcare.md
 │   │       insurance.md
@@ -32,7 +41,7 @@ D:\PYTHON\PM_pitch
 │   │       pharma.md
 │   │       retail.md
 │   │       
-│   ├───pain_point_patterns
+│   ├───pain_point_patterns (WHAT problems exist)
 │   │       compliance_audit_complexity.md
 │   │       data_fragmentation.md
 │   │       duplicated_proceses.md
@@ -57,12 +66,16 @@ D:\PYTHON\PM_pitch
 │   │       weak_architecture_standardisation.md
 │   │       zombie_data.md
 │   │       
-│   └───templates
+│   └───templates (HOW to turn reasoning into materials)
 │           0_Checklist.md
 │           1_Target_profile.md
 │           2_Materials.md
 │           
-├───OUTPUTS
+├───OUTPUTS (Final company-specific deliverables)
+│   └───cases
+│       ├───Case_1
+│       ├───Case_2
+│       └───Case_3
 └───temp_insights
         gap_assessment.md
         repository_review.md

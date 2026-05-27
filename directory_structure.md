@@ -72,10 +72,10 @@ D:\PYTHON\PM_pitch
 │   │       2_Materials.md (updated 2026-05-24)
 │   │       
 │   └───value_models
-│           ai_adoption_value.md (empty, updated 2026-05-25)
-│           automation_roi.md (empty, updated 2026-05-25)
-│           governance_maturity.md (empty, updated 2026-05-25)
-│           operational_efficiency.md (empty, updated 2026-05-25)
+│           ai_adoption_value.md (updated 2026-05-27)
+│           automation_roi.md (updated 2026-05-27)
+│           governance_maturity.md (updated 2026-05-27)
+│           operational_efficiency.md (updated 2026-05-27)
 │           
 ├───OUTPUTS (Final company-specific deliverables)
 │   └───cases

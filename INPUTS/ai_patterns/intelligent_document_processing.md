@@ -12,7 +12,7 @@ Use this pattern when document-heavy workflows create delays, rekeying, quality 
 - knowledge_risk
 - inefficient_workflow
 - poor_e2e_visibility
-- poor_md_management
+- poor_master_data_management
 
 ## Business Capabilities Supported
 - document management

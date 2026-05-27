@@ -169,7 +169,7 @@
 * fragmented_governance
 * legacy_system_dependency
 * poor_e2e_visibility
-* poor_md_management
+* poor_master_data_management
 * integration_complexity
 * slow_change
 * tribal_knowledge

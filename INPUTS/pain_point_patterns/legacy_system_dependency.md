@@ -1,69 +1,89 @@
-﻿# This file contains information about unique pain point patterns and how it should be handled
-
 # Legacy System Dependency
 
-1. Symptoms
-Frequent manual reconciliation between core enterprise systems
-Brittle point-to-point integrations breaking due to minor changes
-Critical business logic embedded in undocumented legacy code or configurations
-High dependency on a small number of SMEs for system operation and troubleshooting
-Batch-based processing causing delayed data availability
-Duplicated or inconsistent data stores across regions or systems
-Slow release cycles for changes, upgrades, and feature delivery
-2. Root Causes
-Historical mergers and acquisitions without full system integration
-Weak enterprise architecture governance and inconsistent enforcement of standards
-Accumulated technical debt from long-term deferred modernization
-Over-customization of ERP and core platforms preventing standard upgrades
-Lack of standardized API strategy and integration architecture
-Absence of modular system decomposition over time
-3. Business Impact
-High operational risk and increased system outage exposure
-Reduced organizational agility and slow response to market change
-High cost of system maintenance and specialized support
-Transformation delays due to system complexity and dependencies
-Regulatory and compliance risk from unsupported or outdated platforms
-4. Technology Indicators
-Heavy use of custom ERP extensions (e.g., SAP ECC custom transactions)
-Spreadsheet-based systems (VBA/Excel) acting as integration layers
-File-based integrations (FTP, batch file transfers) between systems
-Shared mailboxes used for transactional processing
-Multiple siloed databases with inconsistent schemas and logic
-5. Architecture Implications
-Complex and risky cloud migration paths
-Tight coupling between systems and business logic
-Limited observability across end-to-end business processes
-High maintenance overhead for integrations and extensions
-Fragile release and deployment processes with limited automation
-6. Common Solution Patterns
-Introduce API abstraction layers to decouple legacy systems
-Apply domain decomposition to break monolithic architectures
-Standardize core business processes prior to modernization
-Implement workflow orchestration platforms for process control
-Transition toward event-driven and asynchronous architectures
-Use phased strangler migration approach for system replacement
-7. AI & Automation Opportunities
-Process mining to reconstruct and visualize legacy workflows
-Automated dependency discovery across systems and applications
-AI-assisted code modernization and refactoring support
-Agent-based orchestration to interact with legacy UIs and systems
-Extraction of business rules from logs, code, and documentation
-Knowledge graph generation for system and data dependencies
-8. KPIs / Metrics
-Number of legacy-related incidents per month
-Frequency of software releases (deployment velocity)
-Time spent on manual reconciliation and workaround processes
-Cost of maintaining legacy systems and integrations
-Percentage of systems classified as end-of-life or unsupported
-9. Risks of Transformation
-Business disruption during migration or cutover phases
-Hidden dependencies leading to unexpected system failures
-Underestimated complexity of legacy environments
-Loss of critical SME knowledge during transformation
-Extended timelines due to system coupling and technical debt
-10. Related Patterns
-fragmented_governance
-duplicated_processes
-shadow_it
-excel_middleware
-knowledge_risk
+## Summary
+Legacy system dependency occurs when critical business operations rely on old, highly customized, poorly documented, or hard-to-change platforms.
+
+## Symptoms
+- Small changes require long lead times and specialist knowledge
+- Critical processes run on outdated or unsupported technology
+- Interfaces are brittle and difficult to modify
+- Users maintain workarounds around system limitations
+- Modernization is repeatedly deferred due to risk
+
+## Typical Root Causes
+- Long-term underinvestment in platform modernization
+- Excessive customization of core systems
+- Lack of documentation and SME dependency
+- Business-critical processes tightly coupled to legacy platforms
+- High migration risk and unclear business case
+
+## Business Impact
+- High support and maintenance cost
+- Slow transformation and product or process change
+- Increased operational and cybersecurity risk
+- Poor user experience and low automation potential
+- Difficulty integrating with modern platforms and AI capabilities
+
+## Architecture Implications
+- Application landscape has high technical debt
+- Data models and integrations are constrained by legacy design
+- Business logic is embedded in old code or configurations
+- Migration planning requires detailed dependency mapping
+- Operating model depends on scarce technical skills
+
+## Commonly Affected Business Capabilities
+- application portfolio management
+- enterprise architecture management
+- operational resilience
+- service management
+- process management
+- technology modernization
+
+## Commonly Affected Technology Capabilities
+- legacy modernization
+- integration management
+- data migration
+- application rationalization
+- API enablement
+- observability and monitoring
+
+## Relevant AI and Automation Opportunities
+- AI-assisted documentation of legacy behavior
+- knowledge assistant for legacy support knowledge
+- process mining to identify dependency hotspots
+- anomaly detection for operational risk
+- workflow automation around unavoidable legacy constraints
+
+## Relevant Value Models
+- operational_efficiency
+- governance_maturity
+- automation_roi
+
+## Typical KPIs and Evidence Signals
+- legacy system support cost
+- change lead time
+- number of critical legacy dependencies
+- incident rate on legacy platforms
+- unsupported technology count
+- manual workaround volume
+
+## Common Solution Directions
+- Map business capabilities to legacy applications
+- Prioritize modernization by risk and value
+- Encapsulate legacy systems with APIs where feasible
+- Retire or replace redundant platforms incrementally
+- Capture documentation and SME knowledge before migration
+
+## Risks and Watchouts
+- Big-bang migration failure
+- Underestimating hidden business logic
+- Losing critical historical data
+- Weak user adoption of replacement systems
+- Rebuilding legacy complexity in modern platforms
+
+## Related Pain Point Patterns
+- integration_complexity
+- knowledge_risk
+- spaghetti_integration
+- shadow_it
+- duplicated_processes

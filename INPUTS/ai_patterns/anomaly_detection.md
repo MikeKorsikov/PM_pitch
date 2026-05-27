@@ -10,7 +10,7 @@ Use this pattern when high-volume data makes manual monitoring ineffective or wh
 - manual_reconciliation
 - compliance_audit_complexity
 - zombie_data
-- poor_md_management
+- poor_master_data_management
 - limited_real_time_insights
 - data_fragmentation
 

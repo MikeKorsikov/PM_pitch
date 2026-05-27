@@ -10,7 +10,7 @@ Use this pattern when decisions require multiple data sources, uncertain evidenc
 - limited_real_time_insights
 - zombie_data
 - data_fragmentation
-- poor_md_management
+- poor_master_data_management
 - manual_reconciliation
 - fragmented_governance
 

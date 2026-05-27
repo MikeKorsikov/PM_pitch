@@ -34,6 +34,66 @@ Important rule:
 * Hypothesis is hypothesis.
 * User-approved positioning is final positioning.
 
+## Minimum Viable Execution Rule
+
+The full playbook represents the maximum available workflow, not the default workflow.
+
+Do not run all phases for every target.
+
+Start each case with the minimum phases required by:
+
+* `case_type`
+* `effort_tier`
+* `target_output_type`
+* urgency
+* quality of available evidence
+* strategic value of the opportunity
+
+Deepen the case only when at least one of the following is true:
+
+* the role is high priority
+* there is recruiter, referral, or stakeholder engagement
+* an interview is scheduled
+* the company is strategically important
+* the case will be reused as a portfolio or thought-leadership asset
+* the expected value justifies additional effort
+
+Default behavior:
+
+| Tier | Default Scope |
+|---|---|
+| Tier 0 | Research only. |
+| Tier 1 | Outreach only. |
+| Tier 2 | Application or interview preparation. |
+| Tier 3 | Strategic deep-dive only when justified. |
+
+The playbook should optimize for speed, relevance, and credibility, not completeness for its own sake.
+
+## Deep Work Trigger Conditions
+
+Move from lightweight execution to deeper analysis only when one or more conditions are met:
+
+* Target company is highly aligned with career goals.
+* Target role is strongly aligned with personal strengths.
+* Interview is scheduled or likely.
+* There is a warm referral or stakeholder contact.
+* The company has visible transformation signals.
+* The material can be reused for other similar targets.
+* The opportunity has high strategic or financial upside.
+
+If none of these conditions are met, keep the case at Tier 0 or Tier 1.
+
+## Do Not Overproduce Rules
+
+* Do not create a full transformation narrative for low-priority targets.
+* Do not create a pitch deck before there is enough engagement.
+* Do not create detailed architecture materials for speculative outreach.
+* Do not generate all output files unless required by the selected tier.
+* Do not run value modeling unless it supports the target output.
+* Do not generate AI recommendations unless AI is relevant to the role, company context, or pain point.
+* Do not turn weak evidence into strong claims.
+* Do not spend more effort than the opportunity justifies.
+
 ## Case Configuration Model
 
 Each case starts with a configuration file:
@@ -121,6 +181,38 @@ Default `do_not_claim` examples:
 * Do not present pain point hypotheses as confirmed facts.
 * Do not state personal experience claims unless validated by the user.
 
+## Minimum Viable Case Config
+
+A case may be initialized with only:
+
+```yaml
+case_id: ""
+company_name: ""
+target_role: ""
+industry: ""
+case_type: ""
+effort_tier: ""
+target_output_type: ""
+workflow_status: "initialized"
+```
+
+All other fields may be populated progressively by the agent or user.
+
+The full case configuration remains the source of truth, but not every field must be completed at the start.
+
+## Progressive Enrichment Rule
+
+Case information should be enriched gradually. Do not require complete information before starting.
+
+Recommended progression:
+
+1. Minimum viable config.
+2. Basic company research.
+3. Role analysis if a job description exists.
+4. Pain point hypotheses only if evidence supports them.
+5. Capability and value mapping only if useful for materials.
+6. Deep architecture narrative only if the opportunity justifies it.
+
 ## Input File Selection Logic
 
 Variables drive file selection.
@@ -184,6 +276,15 @@ External-facing status rule:
 | Tier 2 - Application / First Interview | Prepare tailored application materials and concise case narrative. | 3-6 hrs | Role analysis, hypotheses, tailored materials, interview talking points. | Role is relevant and application quality matters. | No clear role fit or weak motivation. | Does the case justify tailored application effort? |
 | Tier 3 - Deep-Dive Interview / Strategic Pitch | Prepare detailed architecture, roadmap, governance, migration, AI, and value materials. | 8-16 hrs | Strategic pitch, capability map, value case, roadmap, stakeholder versions. | Interview scheduled or target is high value. | Target is unvalidated or low probability. | Has the user approved assumptions and depth? |
 
+## Optional Tier 2 Split
+
+Tier 2 may be split to avoid doing interview-level preparation before there is interview-level signal.
+
+| Tier | Use When | Typical Outputs | Avoid |
+|---|---|---|---|
+| Tier 2A - Application Package | The goal is to submit a strong tailored application. | Role analysis, tailored CV bullets, cover note or application narrative, short company-fit summary. | Full architecture deck, detailed roadmap, deep value case. |
+| Tier 2B - Interview Preparation | An interview is scheduled or likely. | Pain point hypotheses, capability impact map, value case, transformation narrative, interview talking points, questions for interviewer. | Broad research or deck-building that does not support interview performance. |
+
 ## Tier-to-Output Rules
 
 Use the effort tier to prevent overproduction.
@@ -194,6 +295,21 @@ Use the effort tier to prevent overproduction.
 | Tier 1 - Outreach | 1-3, 12 | `0_case_config.yaml`, `1_company_research.md`, `8_outreach.md` | `2_role_analysis.md` |
 | Tier 2 - Application / First Interview | 1-11, 13 | `2_role_analysis.md`, `3_pain_point_hypotheses.md`, `4_capability_impact_map.md`, `5_value_case.md`, `6_transformation_narrative.md`, `7_materials.md`, `9_interview_prep.md` | `8_outreach.md` |
 | Tier 3 - Deep-Dive Interview / Strategic Pitch | 1-15 | Full case package | Stakeholder variants, roadmap, architecture deck, value model expansion |
+
+## Phase Selection Guidance
+
+Use this table to select phases by situation. Do not run more phases unless the case meets deep work trigger conditions.
+
+| Situation | Recommended Phases |
+|---|---|
+| Quick target scan | Phases 1-2 |
+| Networking or speculative outreach | Phases 1-3 and 12 |
+| Standard application | Phases 1-3 and 10 |
+| Strong application | Phases 1-10 |
+| Interview preparation | Phases 1-13 |
+| Strategic deep-dive | Phases 1-15 |
+| Follow-up after interview | Phases 9, 10, 12, 14 |
+| Case closure | Phases 14-15 |
 
 ## Case-Type Workflow Guidance
 
@@ -574,13 +690,23 @@ Use this structure inside a case tracker or future master tracker when managing 
 
 Archive or pause the case when:
 
+* No visible role fit exists.
 * Role fit is weak.
 * No credible business angle exists.
+* Insufficient public evidence exists.
 * Evidence is too thin.
+* Personal differentiation is weak.
+* Response probability is low.
+* Better opportunities are available.
 * Effort required exceeds opportunity value.
+* Too much manual work is required for too little value.
 * Target company is no longer relevant.
 * User decides not to proceed.
 * Application is rejected and no reuse value remains.
+
+Principle:
+
+* If the case does not improve probability of interview, quality of positioning, or reusable learning, pause or archive it.
 
 Before archive:
 
@@ -657,6 +783,8 @@ Script-friendly rules:
 
 * Treat `0_case_config.yaml` as the source of truth.
 * Treat each phase as an idempotent workflow step.
+* Start with the minimum viable case config and enrich progressively.
+* Select phases before generating outputs.
 * Use `case_id` as the output folder name under `OUTPUTS/cases/`.
 * Store generated outputs in chronological files.
 * Store user approvals as explicit decisions in the case config.
@@ -676,6 +804,7 @@ Variable-driven automation rules:
 * `target_output_type` determines which outputs to generate.
 * `effort_tier` determines workflow depth.
 * `case_type` determines workflow branch.
+* Deep work trigger conditions determine whether optional phases should run.
 * `evidence_confidence_score` determines how strongly materials can state conclusions.
 * `do_not_claim` blocks risky statements from external outputs.
 * `hypotheses[*].user_approved` determines which hypotheses can be used in approved positioning.
@@ -691,16 +820,3 @@ Minimum automation checkpoints:
 | Narrative approved | Phase 10 |
 | Materials approved | Phase 12 or application |
 | Retrospective captured | Archive |
-
-## Minimum Viable Execution Rule
-
-Do not run the full workflow by default.
-
-Start every case with the minimum required phases for the selected effort tier and target output type.
-
-Only deepen the case when one of the following is true:
-- the role is high priority,
-- there is recruiter or stakeholder engagement,
-- an interview is scheduled,
-- the company is strategically important,
-- the output will be reused for portfolio or thought leadership.

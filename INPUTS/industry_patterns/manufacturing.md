@@ -169,7 +169,7 @@
 * poor_e2e_visibility
 * integration_complexity
 * legacy_system_dependency
-* poor_md_management
+* poor_master_data_management
 * limited_real_time_insights
 * fragmented_governance
 * high_ops_costs

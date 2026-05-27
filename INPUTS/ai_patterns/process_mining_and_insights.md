@@ -9,7 +9,7 @@ Use this pattern when documented processes differ from reality, process ownershi
 ## Typical Pain Points Addressed
 - poor_e2e_visibility
 - inefficient_workflow
-- duplicated_proceses
+- duplicated_processes
 - manual_reconciliation
 - org_silos
 - slow_change

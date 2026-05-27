@@ -163,7 +163,7 @@
 * excel_middleware
 * fragmented_governance
 * poor_e2e_visibility
-* poor_md_management
+* poor_master_data_management
 * legacy_system_dependency
 * shadow_it
 * integration_complexity

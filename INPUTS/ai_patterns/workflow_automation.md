@@ -10,7 +10,7 @@ Use this pattern when work is repetitive, rules-based, approval-heavy, delayed b
 - low_automation
 - inefficient_workflow
 - manual_reconciliation
-- duplicated_proceses
+- duplicated_processes
 - slow_change
 - poor_e2e_visibility
 

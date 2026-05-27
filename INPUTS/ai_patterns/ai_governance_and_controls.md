@@ -10,7 +10,7 @@ Use this pattern when AI is used in regulated, customer-facing, financial, opera
 - shadow_it
 - fragmented_governance
 - compliance_audit_complexity
-- weak_architecture_standardisation
+- weak_architecture_standardization
 - slow_change
 - knowledge_risk
 

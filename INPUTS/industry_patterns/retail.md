@@ -171,7 +171,7 @@
 * poor_customer_experience
 * poor_e2e_visibility
 * data_fragmentation
-* poor_md_management
+* poor_master_data_management
 * limited_real_time_insights
 * integration_complexity
 * shadow_it

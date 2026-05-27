@@ -12,7 +12,7 @@ Use this pattern when reporting is repetitive, manual, spreadsheet-heavy, fragme
 - manual_reconciliation
 - zombie_data
 - excel_middleware
-- duplicated_proceses
+- duplicated_processes
 
 ## Business Capabilities Supported
 - management reporting

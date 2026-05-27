@@ -26,7 +26,7 @@ This document provides a comprehensive review of the `PM_pitch` repository, asse
 * **Missing Domains**: 
   * **Data Architecture**: Lacks schemas or guidelines on data lineage, Master Data Management (MDM) hub configurations, and data migration ETL controls.
   * **Integration Architecture**: Does not define standard patterns for legacy-to-cloud integration (e.g., Event-driven brokers, API Gateways, REST vs. OData protocols).
-* **Traceability Gaps**: The connection between business pain points (e.g., `duplicated_proceses.md`) and solution architectures (e.g., `workflow_automation.md`) is described, but lacks a strict traceability matrix to show *exactly* which system components resolve which process bottlenecks.
+* **Traceability Gaps**: The connection between business pain points (e.g., `duplicated_processes.md`) and solution architectures (e.g., `workflow_automation.md`) is described, but lacks a strict traceability matrix to show *exactly* which system components resolve which process bottlenecks.
 
 ### 2.3 AI-Readiness & AI-Agent Usability
 * **Readiness for Prompt Injection**: High. The clean bullet points, strict section divisions, and normalized terminology allow standard LLMs to parse and use this data directly.

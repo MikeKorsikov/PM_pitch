@@ -1,642 +1,692 @@
 # Enterprise Tool and Capability Inventory
 
-This structured inventory represents a realistic tool and capability profile based on current-role usage, practical enterprise exposure, role-adjacent familiarity, and developing personal technical capability.
+This structured inventory represents a realistic tool and capability profile for a senior finance systems product, transformation, governance, and process improvement professional.
 
-It is designed for CV positioning, interview preparation, skill mapping, role matching, learning planning, and capability development.
+It is designed for CV positioning, interview preparation, role matching, capability mapping, and skill development.
 
 The inventory distinguishes between:
 
-* **Core current-role tools**: tools used directly and regularly in the current professional role.
-* **Current-role enterprise exposure**: tools that are part of the active work environment, governance processes, reporting landscape, access workflows, or stakeholder coordination, but not necessarily administered or configured directly.
-* **Role-adjacent / awareness-level tools**: tools that appear in the wider enterprise landscape or related processes, but where evidence suggests dependency awareness rather than active ownership.
-* **Developing / personal technical capability**: tools used in learning, personal projects, automation prototypes, or technical development outside core day-to-day role tooling.
+* **Core professional tools**: tools used hands-on and regularly for product management, governance, documentation, collaboration, reporting, process mapping, delivery tracking, or operational coordination.
+* **Finance systems / product stack tools**: tools that form part of the finance, planning, budgeting, controlling, reporting, or technology product landscape. The experience level may range from user/developer to product ownership, architecture awareness, governance, or team-led delivery.
+* **Governance, access, compliance, and workforce tools**: tools used as an operational workflow user, approver, reviewer, or governance participant, without implying platform administration or technical configuration.
+* **Architecture, service, and change-management tools**: tools used to support application mapping, change approval, ITSM, documentation, support, governance, or enterprise technology management.
+* **Developing / personal technical capability**: tools used mainly through learning, personal projects, experimentation, or non-core technical development.
+* **Training / awareness-level tools**: tools or platforms understood conceptually or through training, but not used as core day-to-day professional tooling.
 
-## 1. Core Current-Role Tools
+## 1. Core Professional Tools
 
 * **Tool**: Microsoft Excel
-  * **Experience Level**: Core current-role tool.
-  * **Purpose**: Spreadsheet-based analysis, reporting support, reconciliation, tracking, forecasting support, and operational process execution.
-  * **Capabilities**: Data analysis, formulas, structured templates, reporting tables, manual validation, reconciliation support, operational calculations, process tracking.
-  * **Inputs**: Excel files, CSV exports, SAP report outputs, manually prepared templates, business inputs, forecast data, operational assumptions.
-  * **Outputs**: Analysis files, summary tables, reconciliations, reporting templates, process trackers, forecast support files, business review materials.
-  * **Integration Context**: Used alongside SAP reports, Power BI / SAC reporting discussions, Outlook approvals, Teams meetings, SharePoint files, and governance routines.
-  * **Domain**: Finance, Operations, Business Analysis, Reporting.
-  * **Transformation Relevance**: Reporting optimization, process analysis, manual-work identification, template standardization, automation opportunity discovery.
+  * **Experience Level**: Core professional tool.
+  * **Purpose**: Spreadsheet-based analysis, reporting, reconciliation, financial planning support, tracking, forecasting, and operational process execution.
+  * **Capabilities**: Data analysis, formulas, structured templates, reporting tables, manual validation, reconciliation support, operational calculations, trackers, control files, reporting packs.
+  * **Inputs**: Excel files, CSV exports, finance data, SAP outputs, Board exports, Power BI outputs, manually maintained templates, forecast data, cost trackers, business assumptions.
+  * **Outputs**: Analysis files, summary tables, reporting packs, reconciliations, financial trackers, operational dashboards, governance inputs, forecast support files.
+  * **Integration Context**: Used with SAP finance systems, Board, Power BI, Outlook, Teams, SharePoint, governance forums, reporting processes, and finance operating routines.
+  * **Domain**: Finance, Reporting, Planning, Operations, Product Governance.
+  * **Transformation Relevance**: Reporting optimization, process improvement, template standardization, manual effort reduction, control visibility, automation opportunity identification.
   * **Architecture Layer**: Presentation, Data.
-  * **Positioning Note**: Strong and defensible practical tool. Can be positioned as a core tool for analysis, reporting packs, reconciliation, and finance/process tracking.
+  * **Positioning Note**: Strong hands-on experience. Safe to position as a core professional tool for finance analysis, reporting, controls, planning, and process tracking.
 
 * **Tool**: Microsoft PowerPoint
-  * **Experience Level**: Core current-role tool.
-  * **Purpose**: Business communication, governance packs, stakeholder alignment, status reporting, decision support, and structured storytelling.
-  * **Capabilities**: Slide creation, visual summaries, process explanation, issue framing, decision support, status reporting, management communication.
-  * **Inputs**: Process notes, analysis outputs, reporting updates, governance topics, project artefacts, meeting conclusions, stakeholder questions.
-  * **Outputs**: Slide decks, governance packs, meeting materials, status updates, structured summaries, decision documents.
-  * **Integration Context**: Used with Excel, Outlook, Teams, SharePoint, reporting materials, and project/governance discussions.
-  * **Domain**: Finance, Operations, IT, Transformation, Governance.
-  * **Transformation Relevance**: Stakeholder communication, change explanation, governance reporting, decision support, business case communication.
+  * **Experience Level**: Core professional tool.
+  * **Purpose**: Executive communication, governance packs, steering materials, product updates, roadmap communication, decision support, and structured storytelling.
+  * **Capabilities**: Slide creation, governance packs, roadmap summaries, risk summaries, status updates, business cases, transformation updates, decision materials.
+  * **Inputs**: Process analysis, product updates, risk registers, business cases, financial summaries, roadmap inputs, stakeholder decisions, governance actions.
+  * **Outputs**: Governance decks, leadership updates, product roadmap slides, decision packs, transformation summaries, stakeholder communication materials.
+  * **Integration Context**: Used with Excel, Teams, Outlook, SharePoint, Jira, Confluence, finance systems updates, product governance forums, and stakeholder meetings.
+  * **Domain**: Product Management, Finance, Transformation, Governance, Leadership Communication.
+  * **Transformation Relevance**: Stakeholder alignment, roadmap communication, decision support, governance reporting, change communication.
   * **Architecture Layer**: Presentation.
-  * **Positioning Note**: Credible as a core communication and governance-support tool.
+  * **Positioning Note**: Strong professional use for governance, communication, and decision support. Avoid overstating as visual design specialization unless relevant.
 
 * **Tool**: Microsoft Outlook
-  * **Experience Level**: Core current-role tool.
-  * **Purpose**: Email communication, approval coordination, stakeholder follow-up, meeting scheduling, escalation handling, and formal decision traceability.
-  * **Capabilities**: Email workflows, approval chains, communication tracking, meeting coordination, document sharing, stakeholder updates, follow-up management.
-  * **Inputs**: Business requests, approvals, attachments, status updates, process clarifications, stakeholder feedback, action requests.
-  * **Outputs**: Email confirmations, approval trails, meeting invitations, communication records, follow-up actions, documented decisions.
-  * **Integration Context**: Used with Teams, SharePoint, Excel, PowerPoint, SAP/reporting governance, Archer-linked workflows, access coordination, and enterprise approval routines.
-  * **Domain**: Operations, Finance, IT, Governance, Business Analysis.
-  * **Transformation Relevance**: Process communication, approval-flow analysis, stakeholder coordination, governance traceability.
+  * **Experience Level**: Core professional tool.
+  * **Purpose**: Formal stakeholder communication, approvals, escalation handling, meeting coordination, decision traceability, and governance follow-up.
+  * **Capabilities**: Email workflows, approval trails, meeting coordination, stakeholder updates, escalation management, decision records, follow-up tracking.
+  * **Inputs**: Business requests, approvals, meeting actions, stakeholder decisions, risk updates, change requests, governance topics, project communications.
+  * **Outputs**: Email confirmations, formal decisions, meeting invites, follow-up actions, escalation records, approval trails.
+  * **Integration Context**: Used with Teams, SharePoint, Jira, Confluence, ServiceNow, SAP-related processes, governance forums, access workflows, and enterprise collaboration routines.
+  * **Domain**: Product Management, Governance, Finance, IT, Operations.
+  * **Transformation Relevance**: Stakeholder coordination, decision traceability, governance transparency, approval-flow support.
   * **Architecture Layer**: Presentation, Process.
-  * **Positioning Note**: Safe to position as a primary tool for approvals, stakeholder coordination, and formal decision traceability.
+  * **Positioning Note**: Core tool for formal coordination, stakeholder management, approvals, and governance communication.
 
-* **Tool**: Microsoft Teams / M365 Meetings Collaboration
-  * **Experience Level**: Core current-role tool.
-  * **Purpose**: Collaboration, recurring governance meetings, stakeholder communication, file sharing, screen sharing, and coordination across business, product, reporting, architecture, and support teams.
-  * **Capabilities**: Meetings, chat, file collaboration, screen sharing, stakeholder coordination, channel-based communication, recurring governance routines.
-  * **Inputs**: Meeting agendas, governance topics, process questions, files, stakeholder comments, action items.
-  * **Outputs**: Meeting discussions, decisions, action points, shared files, alignment notes, governance follow-ups.
-  * **Integration Context**: Used with Outlook, SharePoint, Excel, PowerPoint, SAC/Power BI governance calls, ERP design discussions, and support coordination.
-  * **Domain**: Operations, Finance, IT, Transformation, Product / Technology Management.
-  * **Transformation Relevance**: Stakeholder engagement, remote collaboration, process clarification, change communication, governance coordination.
+* **Tool**: Microsoft Teams / Microsoft 365 Collaboration
+  * **Experience Level**: Core professional tool.
+  * **Purpose**: Meetings, collaboration, governance forums, team coordination, screen sharing, file collaboration, and cross-functional delivery management.
+  * **Capabilities**: Meetings, recurring governance calls, chat, channels, screen sharing, file collaboration, stakeholder workshops, team coordination.
+  * **Inputs**: Meeting agendas, governance actions, process questions, project updates, risk items, product decisions, stakeholder inputs.
+  * **Outputs**: Meeting outcomes, action points, decisions, shared files, governance notes, alignment records.
+  * **Integration Context**: Used with Outlook, SharePoint, PowerPoint, Excel, Jira, Confluence, ServiceNow, reporting tools, and product governance forums.
+  * **Domain**: Product Management, IT, Finance, Transformation, Operations.
+  * **Transformation Relevance**: Cross-functional collaboration, distributed team leadership, governance coordination, change communication.
   * **Architecture Layer**: Presentation.
-  * **Positioning Note**: Credible as a daily collaboration and meeting coordination tool.
+  * **Positioning Note**: Strong daily collaboration and meeting-management tool.
 
 * **Tool**: SharePoint / Microsoft 365 Document Libraries
-  * **Experience Level**: Core current-role / supporting current-role tool.
-  * **Purpose**: Document storage, file sharing, controlled collaboration, project artefact management, and knowledge sharing.
-  * **Capabilities**: File storage, document sharing, access-controlled collaboration, versioned document handling, team-level knowledge organization.
-  * **Inputs**: Excel files, PowerPoint decks, process documentation, reports, project artefacts, templates, meeting materials.
-  * **Outputs**: Shared documents, accessible team files, document libraries, working artefacts, governance materials.
-  * **Integration Context**: Used with Teams, Outlook, Excel, PowerPoint, reporting/governance documentation, and enterprise collaboration workflows.
-  * **Domain**: Operations, Finance, IT, Knowledge Management, Governance.
-  * **Transformation Relevance**: Documentation governance, collaboration, process transparency, knowledge retention.
+  * **Experience Level**: Core professional tool.
+  * **Purpose**: Document storage, document sharing, file governance, collaborative documentation, working artefact management, and knowledge retention.
+  * **Capabilities**: File storage, document libraries, access-controlled sharing, versioned documents, governance packs, working files, team artefacts.
+  * **Inputs**: PowerPoint decks, Excel trackers, process documentation, governance materials, project files, reporting artefacts, decision records.
+  * **Outputs**: Shared repositories, project folders, documentation libraries, governance evidence, working artefact collections.
+  * **Integration Context**: Used with Teams, Outlook, Excel, PowerPoint, Confluence, Jira, reporting and governance routines.
+  * **Domain**: Knowledge Management, Governance, Product Management, Finance, IT.
+  * **Transformation Relevance**: Documentation governance, knowledge retention, stakeholder transparency, collaboration.
   * **Architecture Layer**: Presentation, Data.
-  * **Positioning Note**: Safe to position as practical use of M365 document libraries and shared project artefacts, not SharePoint administration.
+  * **Positioning Note**: Safe to position as hands-on document and collaboration use, not SharePoint administration unless specifically evidenced.
 
-* **Tool**: SAP Reports / SAP Finance Process Context
-  * **Experience Level**: Core current-role domain toolset.
-  * **Purpose**: Finance process support, reporting input, transactional data extraction, reporting governance, operational analysis, and business workflow execution.
-  * **Capabilities**: Use and interpretation of SAP-generated reports, finance outputs, reporting dependencies, SAP-to-Excel workflows, SAP-linked process analysis.
-  * **Inputs**: SAP report outputs, finance data, operational transactions, reporting requirements, process inputs.
-  * **Outputs**: Finance reports, Excel analysis files, reconciliation inputs, process documentation, reporting summaries, governance inputs.
-  * **Integration Context**: SAP outputs are used alongside Excel, SAC, Power BI, Outlook approvals, Teams discussions, and governance routines.
-  * **Domain**: Finance, Operations, Reporting, IT.
-  * **Transformation Relevance**: Finance process analysis, manual reporting reduction, system dependency mapping, reporting governance, automation opportunity identification.
-  * **Architecture Layer**: Application, Data.
-  * **Positioning Note**: Strong role-relevant exposure. Best positioned as business-side SAP reporting and finance process context rather than SAP configuration ownership.
-
-## 2. Current-Role Enterprise Exposure
-
-* **Tool**: SAP ECC
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Core ERP system supporting finance, transactional processing, master data, and enterprise reporting.
-  * **Capabilities**: Business-side exposure to SAP ECC reporting, dependencies, process impacts, finance data flows, and landscape considerations.
-  * **Inputs**: Finance transactions, operational data, reporting parameters, master data, process inputs.
-  * **Outputs**: SAP reports, transaction records, finance data extracts, operational information used in downstream analysis and reporting.
-  * **Integration Context**: SAP ECC outputs and dependencies interact with Excel-based analysis, SAC, Power BI, governance routines, architecture discussions, and business approvals.
-  * **Domain**: Finance, Operations, IT.
-  * **Transformation Relevance**: Core system dependency analysis, reporting workflow understanding, process standardization, ERP landscape awareness.
-  * **Architecture Layer**: Application, Data.
-  * **Positioning Note**: Position as active business-side SAP ECC exposure. Avoid claiming SAP ECC configuration, technical administration, or module ownership unless directly evidenced.
-
-* **Tool**: SAP Analytics Cloud (SAC)
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Enterprise planning, analytics, reporting, management reporting, and planning/reporting governance.
-  * **Capabilities**: Exposure to SAC governance, migration planning, reporting scope discussions, licensing coordination, hierarchy discussions, and management reporting routines.
-  * **Inputs**: SAP data, reporting requirements, planning assumptions, governance inputs, licensing needs, reporting hierarchy information.
-  * **Outputs**: Planning/reporting views, governance actions, reporting scope decisions, licence coordination outcomes, management reporting artefacts.
-  * **Integration Context**: Used in the context of SAP reporting, Power BI, Excel, governance calls, planning/reporting discussions, and enterprise reporting transformation.
-  * **Domain**: Finance, Reporting, IT, Strategy.
-  * **Transformation Relevance**: Reporting modernization, planning process improvement, management reporting governance, analytics transformation.
-  * **Architecture Layer**: Presentation, Data.
-  * **Positioning Note**: Strong current-role exposure. Safe wording: “active involvement in SAC governance, migration planning, licensing coordination, hierarchy topics, and reporting-scope discussions.” Avoid claiming SAC model-building ownership unless directly evidenced.
-
-* **Tool**: Power BI
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Business intelligence, reporting, dashboarding, management reporting, and reporting migration / governance coordination.
-  * **Capabilities**: Exposure to Power BI governance, report migration impact, reporting ownership obligations, action planning, security/role dependencies, and stakeholder coordination.
-  * **Inputs**: Reporting requirements, Power BI report information, ownership data, migration inputs, access/security actions, stakeholder updates.
-  * **Outputs**: Reporting action plans, governance inputs, migration impact clarification, ownership follow-ups, access/security coordination points.
-  * **Integration Context**: Used in relation to SAC, Excel, Azure Data Factory discussions, SailPoint role/security actions, reporting governance, and stakeholder coordination.
-  * **Domain**: Finance, Reporting, IT, Governance.
-  * **Transformation Relevance**: Reporting governance, dashboard landscape rationalization, migration planning, reporting ownership transparency.
-  * **Architecture Layer**: Presentation, Data.
-  * **Positioning Note**: Position as governance / coordination exposure rather than hands-on Power BI development unless report-building evidence exists.
-
-* **Tool**: Archer
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Governance, risk, compliance, assessment tracking, questionnaire handling, findings coordination, and approval workflow support.
-  * **Capabilities**: Exposure to Archer-linked governance activities, questionnaires, access coordination, findings, approval dependencies, compliance assessment, and audit-related follow-up.
-  * **Inputs**: Governance requests, assessment questions, compliance inputs, access requests, finding details, approval information.
-  * **Outputs**: Assessment responses, approval follow-ups, finding coordination, compliance evidence, governance status updates.
-  * **Integration Context**: Used in BISON/NEXUS-related governance, compliance, access, approval, and stakeholder coordination processes.
-  * **Domain**: Compliance, IT, Governance, Risk, Operations.
-  * **Transformation Relevance**: Governance transparency, compliance assessment, risk management, approval coordination, audit readiness.
-  * **Architecture Layer**: Process, Application, Data.
-  * **Positioning Note**: Strong current-role exposure. Safe wording: “active role in Archer-linked governance, compliance assessment, findings, and approval coordination.” Avoid claiming Archer administration or GRC ownership.
-
-* **Tool**: SAP Fieldglass
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: External workforce, statement-of-work, schedule, vendor, and contractor-process coordination.
-  * **Capabilities**: Practical exposure to Fieldglass-based SOW schedules, external workforce processes, vendor-related workflow touchpoints, and schedule/event coordination.
-  * **Inputs**: SOW schedules, contractor/vendor information, workflow notifications, external workforce process inputs.
-  * **Outputs**: Schedule confirmations, workflow follow-ups, vendor/resource coordination inputs, external workforce process updates.
-  * **Integration Context**: Appears in external workforce and SOW-related processes connected to enterprise delivery, access, governance, and resource coordination.
-  * **Domain**: HR, Procurement, Finance, IT, Vendor / Workforce Governance.
-  * **Transformation Relevance**: External workforce governance, SOW process visibility, vendor/resource coordination.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Position as practical exposure to Fieldglass-based SOW / schedule / external workforce processes, not Fieldglass administration.
-
-* **Tool**: CyberArk
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Privileged access management, access approval, secure access workflows, and credential governance.
-  * **Capabilities**: Operational exposure to CyberArk-related access and approval processes, mandatory training, privileged-access workflow awareness, and access-related dependency coordination.
-  * **Inputs**: Access requests, approval requirements, privileged access needs, training/compliance inputs.
-  * **Outputs**: Access approval actions, process awareness, compliance with privileged-access expectations, governance follow-ups.
-  * **Integration Context**: Connected to access processes, BISON incidents, support workflows, SAP/enterprise systems, identity governance, and security controls.
-  * **Domain**: IT Security, Access Governance, Operations.
-  * **Transformation Relevance**: Privileged access risk reduction, access governance, control compliance, secure operations.
-  * **Architecture Layer**: Security, Infrastructure, Process.
-  * **Positioning Note**: Safe wording: “operational exposure to CyberArk-related access and approval processes.” Avoid claiming PAM administration, vault configuration, or security architecture ownership.
-
-* **Tool**: SailPoint
-  * **Experience Level**: Current-role enterprise exposure.
-  * **Purpose**: Identity governance, access / role management dependencies, provisioning-related workflows, and compliance support.
-  * **Capabilities**: Exposure to SailPoint-based access and role-management dependencies, especially in reporting, Power BI security, and governance workflows.
-  * **Inputs**: Access requirements, role/security requests, governance actions, identity-related dependencies.
-  * **Outputs**: Access coordination inputs, role-management follow-ups, security/governance actions, dependency clarification.
-  * **Integration Context**: Relevant to Power BI role/security actions, Archer-linked governance, access workflows, and enterprise identity management.
-  * **Domain**: IT Security, Identity Governance, Reporting Governance.
-  * **Transformation Relevance**: Access governance, role management, reporting security, compliance coordination.
-  * **Architecture Layer**: Process, Security, Infrastructure.
-  * **Positioning Note**: Position as role-adjacent but real current-role exposure. Avoid claiming SailPoint administration or identity governance ownership.
-
-* **Tool**: SAP Solution Manager (SolMan)
-  * **Experience Level**: Light current-role enterprise exposure.
-  * **Purpose**: SAP lifecycle management, documentation repository, process documentation, testing, monitoring, and change/support governance.
-  * **Capabilities**: Business/process exposure to SolMan-held documentation and SAP governance artefacts.
-  * **Inputs**: SAP process documentation, technical documentation, test/governance artefacts, system/process references.
-  * **Outputs**: Referenced documentation, governance artefacts, SAP process/support context.
-  * **Integration Context**: Connected to SAP ECC, SAP governance, documentation processes, change/support routines, and technical/process clarification.
-  * **Domain**: IT, SAP Operations, Governance.
-  * **Transformation Relevance**: SAP process documentation, lifecycle governance, change impact awareness, support traceability.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Use light exposure wording: “business/process exposure to SolMan-held documentation and SAP governance artefacts.” Avoid claiming SolMan administration, configuration, or ALM ownership.
-
-## 3. Role-Adjacent / Awareness-Level Tools
-
-* **Tool**: SAP Fiori
-  * **Experience Level**: Role-adjacent / awareness-level familiarity.
-  * **Purpose**: SAP user interface and application access layer for business transactions, analytics, and role-based user experience.
-  * **Capabilities**: Conceptual familiarity with SAP Fiori as a modern SAP frontend and role-based access experience.
-  * **Inputs**: User actions, SAP application data, role-based access, transactional workflows.
-  * **Outputs**: User-facing SAP screens, transaction interactions, analytical tiles, workflow actions.
-  * **Integration Context**: Interfaces with SAP backend systems and SAP business applications.
-  * **Domain**: Finance, Operations, IT.
-  * **Transformation Relevance**: User experience modernization, SAP usability improvement, process execution.
-  * **Architecture Layer**: Presentation.
-  * **Positioning Note**: Use awareness-level wording unless direct hands-on use is confirmed.
-
-* **Tool**: ServiceNow
-  * **Experience Level**: Role-adjacent exposure.
-  * **Purpose**: IT service management, incident management, service requests, change workflows, support portals, and CMDB-related processes.
-  * **Capabilities**: Exposure to ServiceNow-linked support and access workflows, ticketing concepts, request routing, and enterprise support processes.
-  * **Inputs**: Tickets, service requests, incidents, support requests, change records, configuration references.
-  * **Outputs**: Ticket statuses, approvals, service updates, request confirmations, workflow notifications.
-  * **Integration Context**: Connected to support processes, access workflows, CyberArk guidance, ITSM routines, and enterprise service management.
-  * **Domain**: IT, Operations, Support, Governance.
-  * **Transformation Relevance**: ITSM governance, service transparency, change/request workflow understanding.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Safe wording: “exposure to ServiceNow-linked support and access workflows.” Avoid claiming ServiceNow administration or workflow configuration.
-
-* **Tool**: SAP ChaRM
-  * **Experience Level**: Role-adjacent / awareness-level familiarity.
-  * **Purpose**: SAP change request management, transport governance, release control, and deployment traceability.
-  * **Capabilities**: Awareness of SAP change-governance concepts, including ChaRM, approval flows, transport control, and release traceability.
-  * **Inputs**: Change requests, transport IDs, test evidence, approvals.
-  * **Outputs**: Approved transports, deployment records, audit trails, change documentation.
-  * **Integration Context**: Runs in SAP Solution Manager and supports SAP change/release governance.
-  * **Domain**: IT, SAP Change Management.
-  * **Transformation Relevance**: Change governance, SAP release control, auditability.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Awareness-level only unless direct use exists.
-
-* **Tool**: SAP LeanIX
-  * **Experience Level**: Light exposure / awareness-level familiarity.
-  * **Purpose**: Enterprise architecture management, application portfolio mapping, business capability mapping, and technology landscape transparency.
-  * **Capabilities**: Familiarity with enterprise architecture repository concepts, application inventory, lifecycle information, capability mapping, and portfolio rationalization.
-  * **Inputs**: Application registers, capability models, lifecycle dates, technology metadata.
-  * **Outputs**: Application landscape views, capability maps, risk views, portfolio analysis.
-  * **Integration Context**: Can integrate with CMDB, ITSM, SAP, and architecture repositories.
-  * **Domain**: IT, Strategy, Enterprise Architecture.
-  * **Transformation Relevance**: Application rationalization, business architecture, technology landscape transparency.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Safe wording: “familiar with LeanIX / enterprise architecture repository concepts.” Avoid claiming regular use, repository governance, or application portfolio ownership.
-
-* **Tool**: Workday
-  * **Experience Level**: Awareness-level familiarity.
-  * **Purpose**: Human capital management, organization data, employee profiles, resource planning, and HR workflows.
-  * **Capabilities**: Awareness of Workday as part of enterprise landscape / organization data context.
-  * **Inputs**: Employee profiles, organization structures, HR records, workforce data.
-  * **Outputs**: Org data, workforce reports, employee records, workforce-related information.
-  * **Integration Context**: Can integrate with identity systems, resource planning, finance, and vendor management tools.
-  * **Domain**: HR, Finance, IT.
-  * **Transformation Relevance**: Resource planning, operating model analysis, organization design support.
-  * **Architecture Layer**: Data, Application.
-  * **Positioning Note**: Awareness-level only unless direct Workday use is confirmed.
-
-* **Tool**: Azure / Microsoft Cloud Concepts
-  * **Experience Level**: Role-adjacent awareness / developing.
-  * **Purpose**: Cloud services, application hosting concepts, integration, APIs, reporting/application landscape modernization, and enterprise infrastructure awareness.
-  * **Capabilities**: Awareness of cloud concepts, APIs, application hosting, identity, integration, deployment, and reporting landscape dependencies.
-  * **Inputs**: Cloud configurations, API definitions, application workloads, integration requirements, reporting architecture inputs.
-  * **Outputs**: Cloud services, API endpoints, hosted applications, integration services, monitoring data.
-  * **Integration Context**: Relevant to Power BI / Azure Data Factory context, cloud strategy discussions, APIs, integration, and modernization topics.
-  * **Domain**: IT, Cloud, Integration, Reporting Architecture.
-  * **Transformation Relevance**: Cloud modernization, reporting landscape modernization, API enablement, integration awareness.
-  * **Architecture Layer**: Infrastructure, Integration.
-  * **Positioning Note**: Safe wording: “awareness of cloud and integration concepts relevant to reporting/application landscapes.” Avoid claiming cloud architecture implementation unless backed by project evidence.
-
-* **Tool**: Microsoft Azure API Management
-  * **Experience Level**: Training-based awareness / developing.
-  * **Purpose**: API publishing, gateway management, access control, monitoring, and integration governance.
-  * **Capabilities**: Awareness of API gateways, subscriptions, policies, authentication concepts, monitoring, and API lifecycle management.
-  * **Inputs**: API definitions, backend services, access policies, user subscriptions.
-  * **Outputs**: Managed API endpoints, access-controlled APIs, monitoring logs, API policies.
-  * **Integration Context**: Relevant to enterprise integration, cloud architecture, application modernization, and service exposure.
-  * **Domain**: IT, Integration, Cloud.
-  * **Transformation Relevance**: API governance, integration modernization, secure service exposure.
-  * **Architecture Layer**: Integration, Infrastructure.
-  * **Positioning Note**: Position as training-based knowledge unless direct implementation experience exists.
+* **Tool**: Microsoft Visio
+  * **Experience Level**: Core professional tool / strong hands-on experience.
+  * **Purpose**: Process mapping, workflow design, architecture diagrams, data-flow diagrams, integration views, governance process diagrams, and target-state documentation.
+  * **Capabilities**: Process maps, swimlane diagrams, system context diagrams, data-flow diagrams, integration diagrams, capability/process views, target-state illustrations.
+  * **Inputs**: Stakeholder interviews, process notes, system dependencies, data flows, integration requirements, governance workflows, change processes.
+  * **Outputs**: Process maps, architecture views, data-flow diagrams, integration diagrams, target-state visuals, governance workflow diagrams.
+  * **Integration Context**: Used alongside PowerPoint, Confluence, SharePoint, Jira, Teams, process documentation, architecture discussions, and transformation planning.
+  * **Domain**: Process Architecture, Business Analysis, Product Governance, IT, Finance Transformation.
+  * **Transformation Relevance**: Process standardization, documentation, architecture communication, stakeholder alignment, change impact analysis.
+  * **Architecture Layer**: Presentation, Process, Application, Data.
+  * **Positioning Note**: Strong evidence-based tool. Safe to state extensive experience creating process maps and diagrams.
 
 * **Tool**: Jira
-  * **Experience Level**: Role-adjacent / awareness-level familiarity.
-  * **Purpose**: Agile delivery tracking, backlog management, user stories, sprint planning, and issue tracking.
-  * **Capabilities**: Familiarity with epics, user stories, tasks, bugs, backlogs, boards, sprints, and delivery tracking concepts.
-  * **Inputs**: Requirements, user stories, tasks, bugs, priorities.
-  * **Outputs**: Backlogs, sprint boards, issue statuses, delivery tracking views.
-  * **Integration Context**: Commonly used with Confluence, GitHub, GitLab, product teams, and delivery teams.
-  * **Domain**: IT, Product Management, Delivery.
-  * **Transformation Relevance**: Agile delivery support, requirement tracking, delivery transparency.
+  * **Experience Level**: Core professional tool / hands-on administration and delivery use.
+  * **Purpose**: Project and delivery tracking, backlog management, issue tracking, epics, user stories, testing, project administration, and delivery governance.
+  * **Capabilities**: Project creation, project administration, roles/permissions setup, issue management, epics, user stories, backlog management, testing tracking, delivery boards, workflow coordination.
+  * **Inputs**: Requirements, backlog items, user stories, epics, bugs, test items, delivery tasks, priorities, stakeholder requests.
+  * **Outputs**: Project boards, backlogs, issue statuses, sprint/delivery views, test tracking, delivery reporting, workflow transparency.
+  * **Integration Context**: Used with Confluence, product governance, SDLC, agile delivery, ITSM processes, support models, and cross-functional teams.
+  * **Domain**: Product Management, IT Delivery, Agile, SDLC, Governance.
+  * **Transformation Relevance**: Delivery transparency, backlog governance, prioritization, agile ways of working, product delivery management.
   * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Safe wording: “familiar with agile/Jira concepts.” Avoid claiming backlog ownership unless further evidence exists.
+  * **Positioning Note**: Strong hands-on experience. Safe to position as a delivery, backlog, testing, and project administration tool.
 
 * **Tool**: Confluence
-  * **Experience Level**: Role-adjacent / awareness-level familiarity.
-  * **Purpose**: Knowledge management, documentation, team collaboration, and structured information sharing.
-  * **Capabilities**: Familiarity with wiki pages, documentation spaces, meeting notes, decision records, and knowledge-base concepts.
-  * **Inputs**: Requirements, process documentation, meeting notes, project updates, decision records.
-  * **Outputs**: Knowledge base pages, documentation repositories, team notes, project documentation.
-  * **Integration Context**: Commonly used with Jira, Teams, SharePoint, and product/delivery teams.
-  * **Domain**: IT, Operations, Knowledge Management.
-  * **Transformation Relevance**: Documentation governance, knowledge retention, delivery transparency.
+  * **Experience Level**: Core professional tool / strong hands-on use.
+  * **Purpose**: Documentation, knowledge management, requirements documentation, task management, project notes, decisions, and product/team knowledge bases.
+  * **Capabilities**: Knowledge pages, requirements pages, decision logs, project documentation, meeting notes, process documentation, task tracking, team documentation.
+  * **Inputs**: Requirements, project notes, process documentation, product decisions, meeting outcomes, governance updates, technical inputs.
+  * **Outputs**: Knowledge bases, project pages, decision records, requirements documentation, delivery notes, process repositories.
+  * **Integration Context**: Used with Jira, Teams, SharePoint, product delivery, governance forums, process documentation, and support models.
+  * **Domain**: Product Management, Knowledge Management, IT Delivery, Governance.
+  * **Transformation Relevance**: Documentation maturity, knowledge retention, delivery transparency, governance traceability.
+  * **Architecture Layer**: Presentation, Data, Process.
+  * **Positioning Note**: Strong hands-on experience. Safe to position as a documentation and product/delivery knowledge management tool.
+
+* **Tool**: ServiceNow
+  * **Experience Level**: Core professional tool / direct operational use.
+  * **Purpose**: IT service management, incidents, requests, changes, approvals, CMDB items, support workflows, and operational governance.
+  * **Capabilities**: Incident management, request management, change management, approvals, CMDB item review, service workflows, support process tracking.
+  * **Inputs**: Incidents, service requests, change requests, approval tasks, CMDB items, support updates, operational issues.
+  * **Outputs**: Ticket statuses, approvals, change records, incident resolutions, request confirmations, support workflow records.
+  * **Integration Context**: Used with operational support processes, ITSM, SDLC, change governance, SAP-related processes, access workflows, and product support models.
+  * **Domain**: ITSM, Product Support, Operations, Governance.
+  * **Transformation Relevance**: ITSM maturity, support model implementation, service governance, incident/change transparency.
+  * **Architecture Layer**: Process, Application.
+  * **Positioning Note**: Safe to position as direct user experience with incidents, requests, changes, approvals, and CMDB items. Avoid claiming ServiceNow platform administration unless specifically evidenced.
+
+* **Tool**: Workday
+  * **Experience Level**: Core professional / people-management workflow tool.
+  * **Purpose**: HR workflows, people management, job requests, absence/holiday approvals, team administration, and organizational processes.
+  * **Capabilities**: Job request creation, holiday approval, people-related workflows, organizational data access, employee/team process support.
+  * **Inputs**: Job requests, absence requests, team data, HR workflow actions, organizational information.
+  * **Outputs**: Approved requests, HR workflow actions, team administration records, people-process decisions.
+  * **Integration Context**: Used in current and previous roles for people-management and organizational workflows.
+  * **Domain**: HR, People Management, Operations.
+  * **Transformation Relevance**: Resource governance, team management, operating model support, organizational process execution.
+  * **Architecture Layer**: Process, Application, Data.
+  * **Positioning Note**: Safe to position as direct user experience for job requests, approvals, and people-management workflows, not Workday administration.
+
+## 2. Finance Systems / Product Stack Tools
+
+* **Tool**: Board
+  * **Experience Level**: Finance systems product tool / user and intermediate developer-configurator.
+  * **Purpose**: Planning, budgeting, controlling, reporting, analytics, and finance performance management.
+  * **Capabilities**: User workflows, planning/reporting usage, configuration, maintenance, development support, model/process understanding, governance, platform ownership support.
+  * **Inputs**: Planning data, budgeting inputs, finance assumptions, reporting requirements, master data, workflow rules, user requirements.
+  * **Outputs**: Planning models, reports, workflows, planning screens, budgeting outputs, governance artefacts, user-facing finance processes.
+  * **Integration Context**: Part of finance systems/product stack; interacts with reporting processes, finance users, product governance, data flows, and downstream decision-making.
+  * **Domain**: Finance, Planning, Budgeting, Controlling, Reporting, Product Management.
+  * **Transformation Relevance**: Planning modernization, reporting standardization, finance process improvement, user experience improvement, platform governance.
+  * **Architecture Layer**: Application, Presentation, Data.
+  * **Positioning Note**: Strong tool. Safe wording: user and developer/configurator with ability to configure and maintain Board, while not positioning as expert-level Board architect unless needed and evidenced.
+
+* **Tool**: Power BI
+  * **Experience Level**: Comfortable user / reporting requirement owner.
+  * **Purpose**: Reporting, dashboard consumption, KPI visibility, data visualization, and reporting governance.
+  * **Capabilities**: Report consumption, dashboard review, KPI interpretation, reporting requirements definition, specification of reports to be built by Power BI developers.
+  * **Inputs**: Business questions, KPI requirements, report specifications, source data context, dashboard outputs, reporting governance needs.
+  * **Outputs**: Report feedback, requirements, dashboard usage insights, governance inputs, specification changes, stakeholder decisions.
+  * **Integration Context**: Reports are built to specified requirements by Power BI specialists/developers; used in reporting governance, management reporting, and decision-making.
+  * **Domain**: Reporting, Finance, Product Governance, Analytics.
+  * **Transformation Relevance**: Reporting modernization, KPI transparency, dashboard requirements, business-side BI governance.
   * **Architecture Layer**: Presentation, Data.
-  * **Positioning Note**: Awareness-level unless direct professional use is confirmed.
+  * **Positioning Note**: Safe wording: comfortable Power BI user and reporting requirement owner. Avoid claiming Power BI development, DAX, semantic model ownership, or dashboard build unless directly evidenced.
 
-* **Tool**: Microsoft Visio / Lucidchart
-  * **Experience Level**: Possible supporting tool / role-adjacent familiarity.
-  * **Purpose**: Process mapping, workflow visualization, architecture diagrams, and structured visual documentation.
-  * **Capabilities**: Familiarity with process diagrams, flowcharts, stakeholder maps, system-context diagrams, and workflow visualization.
-  * **Inputs**: Process notes, system context, stakeholder information, workflow descriptions.
-  * **Outputs**: Process maps, diagrams, visual documentation, flowcharts.
-  * **Integration Context**: Relevant to architecture/process discussions, PowerPoint, SharePoint, Teams, and process documentation.
-  * **Domain**: Operations, IT, Business Analysis, Architecture.
-  * **Transformation Relevance**: Process communication, as-is/to-be documentation, stakeholder alignment.
-  * **Architecture Layer**: Presentation, Process.
-  * **Positioning Note**: Use “familiar with process and architecture diagramming tools” unless direct deliverables can be evidenced.
+* **Tool**: SAP ERP / SAP ECC
+  * **Experience Level**: Finance systems exposure / architecture and governance awareness.
+  * **Purpose**: Enterprise resource planning, finance transactions, reporting, master data, and finance process execution.
+  * **Capabilities**: Awareness of SAP ERP/SAP ECC process role, reporting outputs, data dependencies, finance process impact, architecture context, governance implications.
+  * **Inputs**: Finance transactions, master data, reporting parameters, process inputs, transactional records.
+  * **Outputs**: SAP reports, transaction records, finance extracts, master data outputs, downstream reporting inputs.
+  * **Integration Context**: Part of finance systems landscape owned by the product/team context; interacts with SAP BW, SAP SAC, SAP FIM, SAP FC, Board, Excel, and reporting/governance processes.
+  * **Domain**: Finance, ERP, Reporting, Product Governance.
+  * **Transformation Relevance**: Finance process dependency analysis, reporting governance, ERP landscape awareness, system impact analysis.
+  * **Architecture Layer**: Application, Data.
+  * **Positioning Note**: Use “SAP ERP / SAP ECC awareness through finance systems ownership and architecture/data-flow discussions.” Avoid claiming SAP configuration unless supported by a specific example.
 
-* **Tool**: PowerShell
-  * **Experience Level**: Awareness-level familiarity.
-  * **Purpose**: Windows automation, scripting, administration, and task execution.
-  * **Capabilities**: Basic awareness of shell scripting, command execution, file operations, and administrative automation concepts.
-  * **Inputs**: Commands, scripts, system files, configuration inputs.
-  * **Outputs**: Script results, automation logs, system changes.
-  * **Integration Context**: Relevant to Windows environments, automation, IT operations, and local development tasks.
-  * **Domain**: IT, Automation.
-  * **Transformation Relevance**: Administrative automation, repeatable task execution.
-  * **Architecture Layer**: Process, Infrastructure.
-  * **Positioning Note**: Keep as awareness-level unless direct scripting examples exist.
-
-* **Tool**: Veeva Vault
-  * **Experience Level**: Awareness-level familiarity.
-  * **Purpose**: Regulated document management, controlled content, audit trails, and compliance workflows.
-  * **Capabilities**: Awareness of document versioning, controlled approvals, electronic signatures, audit trails, and regulated records.
-  * **Inputs**: Policies, SOPs, controlled documents, regulated content.
-  * **Outputs**: Approved documents, audit histories, signed records, compliance evidence.
-  * **Integration Context**: Can integrate with SharePoint, SAP, Salesforce, and regulated business processes.
-  * **Domain**: Compliance, Operations, IT.
-  * **Transformation Relevance**: Controlled documentation, auditability, compliance governance.
+* **Tool**: SAP BW
+  * **Experience Level**: Finance systems architecture/data-flow/governance awareness through team ownership.
+  * **Purpose**: Data warehousing, reporting data flows, finance data structures, and analytical reporting support.
+  * **Capabilities**: Awareness of SAP BW as part of finance reporting/data landscape, data-flow understanding, governance awareness, impact analysis, product/team ownership context.
+  * **Inputs**: SAP data, finance data, reporting data, transformation logic, master data, extraction flows.
+  * **Outputs**: Reporting datasets, data structures, analytical inputs, downstream reporting feeds.
+  * **Integration Context**: Part of solution landscape owned by the team; connects with SAP ERP/ECC, SAP SAC, SAP FIM, SAP FC, Board, Power BI, and reporting processes.
+  * **Domain**: Finance, Reporting, Data, Product Governance.
+  * **Transformation Relevance**: Reporting data lineage, architecture awareness, impact analysis, data-flow governance.
   * **Architecture Layer**: Data, Application.
-  * **Positioning Note**: Awareness-level only. Do not emphasize unless relevant to a specific role.
+  * **Positioning Note**: Safe wording: familiar with SAP BW architecture, data flow, and governance through team ownership. Do not claim SAP BW development or configuration.
 
-## 4. Developing / Personal Technical Capability
+* **Tool**: SAP Analytics Cloud (SAC)
+  * **Experience Level**: Finance systems product exposure / architecture, data-flow, governance, and user awareness.
+  * **Purpose**: Planning, analytics, dashboarding, management reporting, and finance reporting governance.
+  * **Capabilities**: Awareness of SAC as part of finance reporting/planning stack, reporting scope, hierarchy dependencies, data-flow context, governance, user/reporting requirements.
+  * **Inputs**: SAP data, planning assumptions, hierarchy data, reporting requirements, management reporting needs.
+  * **Outputs**: Reports, dashboards, planning views, management reporting outputs, governance inputs.
+  * **Integration Context**: Part of finance systems solution landscape; interacts with SAP ERP/ECC, SAP BW, Board, Power BI, Excel, and reporting governance.
+  * **Domain**: Finance, Reporting, Planning, Analytics.
+  * **Transformation Relevance**: Reporting modernization, planning governance, management reporting, analytics transformation.
+  * **Architecture Layer**: Presentation, Data, Application.
+  * **Positioning Note**: Safe wording: familiar with SAC as part of team-owned reporting/planning solution, including architecture, data flow, governance, and user impact. Avoid claiming SAC model development unless specifically evidenced.
+
+* **Tool**: SAP FC
+  * **Experience Level**: Finance systems architecture/data-flow/governance awareness through team ownership.
+  * **Purpose**: Financial consolidation and close-related finance system support.
+  * **Capabilities**: Awareness of SAP FC role in finance solution landscape, data dependencies, governance, reporting/control implications, and product/team ownership context.
+  * **Inputs**: Consolidation data, finance close data, reporting inputs, group finance data, process requirements.
+  * **Outputs**: Consolidation outputs, reporting inputs, financial control artefacts, downstream finance data.
+  * **Integration Context**: Part of solution landscape owned by the team; connects with SAP finance systems, SAP BW, SAP FIM, reporting processes, Board, and governance routines.
+  * **Domain**: Finance, Consolidation, Reporting, Governance.
+  * **Transformation Relevance**: Finance close process awareness, reporting dependency analysis, data-flow governance, application landscape understanding.
+  * **Architecture Layer**: Application, Data.
+  * **Positioning Note**: Safe wording: familiar with SAP FC architecture/data-flow/governance because it is part of the solution landscape owned by the team. Avoid claiming configuration.
+
+* **Tool**: SAP FIM
+  * **Experience Level**: Finance systems architecture/data-flow/governance awareness through team ownership.
+  * **Purpose**: Finance data integration, transformation, and movement across finance systems.
+  * **Capabilities**: Awareness of SAP FIM role in data flows, integration dependencies, transformation logic, governance, and reporting architecture.
+  * **Inputs**: Source-system data, finance data, mapping rules, transformation logic, reporting requirements.
+  * **Outputs**: Integrated/transformed finance data, downstream reporting feeds, data movement outputs.
+  * **Integration Context**: Part of finance systems solution landscape; supports data movement between SAP/finance systems, reporting platforms, Board, SAP BW, SAP FC, and downstream reporting.
+  * **Domain**: Finance, Data Integration, Reporting, Product Governance.
+  * **Transformation Relevance**: Data-flow governance, integration awareness, reporting architecture, system dependency analysis.
+  * **Architecture Layer**: Integration, Data, Application.
+  * **Positioning Note**: Safe wording: familiar with SAP FIM data-flow, architecture, and governance through team ownership. Avoid claiming technical configuration.
+
+* **Tool**: Azure
+  * **Experience Level**: Practical service ownership/use plus cloud architecture awareness.
+  * **Purpose**: Cloud infrastructure, hosting, networking, gateways, virtual machines, integration support, and enterprise technology services.
+  * **Capabilities**: Practical use and ownership of selected Azure services, including virtual machines and gateways; broader familiarity with Azure services, cloud concepts, and infrastructure dependencies.
+  * **Inputs**: Cloud service configurations, VM requirements, gateway requirements, access needs, infrastructure dependencies, application hosting needs.
+  * **Outputs**: Cloud service availability, infrastructure support, hosted workloads, connectivity, gateway-enabled access, operational service outcomes.
+  * **Integration Context**: Used as part of finance systems/product landscape and enterprise technology stack; relevant to application hosting, connectivity, support, access, and architecture discussions.
+  * **Domain**: Cloud, Infrastructure, IT, Product Governance.
+  * **Transformation Relevance**: Cloud-enabled modernization, infrastructure governance, application support, service reliability, integration enablement.
+  * **Architecture Layer**: Infrastructure, Integration.
+  * **Positioning Note**: Stronger than awareness. Safe wording: practical Azure service ownership/use for selected services such as virtual machines and gateways, with broader cloud architecture awareness. Avoid claiming cloud architect unless targeting that role and supported by examples.
+
+* **Tool**: Oracle ERP
+  * **Experience Level**: Prior professional finance-user and project exposure.
+  * **Purpose**: ERP finance process execution, reporting, mappings, and finance/HR module rollout support.
+  * **Capabilities**: Finance user activity, journal/transaction entries, report running, collaboration with technical teams on report configuration and mappings.
+  * **Inputs**: Finance entries, reporting requirements, mapping requirements, HR/finance module data, process requirements.
+  * **Outputs**: Finance transactions, reports, mapping clarifications, implementation support inputs, process feedback.
+  * **Integration Context**: Used in prior professional context during Oracle introduction/rollout and report/mapping configuration support.
+  * **Domain**: Finance, ERP, Reporting, HR/Finance Transformation.
+  * **Transformation Relevance**: ERP rollout support, finance process transition, reporting/mapping configuration support, user acceptance and business-side validation.
+  * **Architecture Layer**: Application, Data.
+  * **Positioning Note**: Safe wording: prior finance-user and business-side project exposure to Oracle ERP introduction, reporting, and mappings. Avoid claiming Oracle technical configuration.
+
+## 3. Governance, Access, Compliance, Workforce, and Controlled Documentation Tools
+
+* **Tool**: Archer
+  * **Experience Level**: Current-role workflow user.
+  * **Purpose**: Governance, risk, compliance, assessments, findings, approvals, evidence, and workflow tracking.
+  * **Capabilities**: Workflow participation, assessment inputs, approvals, findings review, evidence submission, governance tracking, compliance follow-up.
+  * **Inputs**: Assessment requests, governance questions, evidence, findings, approval tasks, risk/control information.
+  * **Outputs**: Completed workflow steps, approvals, evidence submissions, finding updates, governance responses.
+  * **Integration Context**: Used in governance, compliance, product risk, control, audit, and assessment workflows.
+  * **Domain**: Governance, Risk, Compliance, Product Governance.
+  * **Transformation Relevance**: Risk visibility, compliance evidence, audit readiness, governance traceability.
+  * **Architecture Layer**: Process, Application, Data.
+  * **Positioning Note**: Safe wording: regular workflow user for Archer-linked governance, compliance, assessments, approvals, findings, and evidence. Avoid claiming Archer administration or GRC platform ownership.
+
+* **Tool**: SailPoint
+  * **Experience Level**: Current-role workflow user.
+  * **Purpose**: Identity governance, access requests, approvals, role reviews, certification campaigns, and access-control processes.
+  * **Capabilities**: Access requests, approvals, role reviews, certifications, access validation, identity-governance workflow participation.
+  * **Inputs**: Access requests, user roles, entitlement reviews, certification tasks, approval requests.
+  * **Outputs**: Approved/rejected access requests, certification responses, role review actions, access governance records.
+  * **Integration Context**: Used with access governance, identity management, reporting/security processes, compliance controls, and application access workflows.
+  * **Domain**: Identity Governance, Access Management, Compliance, IT Security.
+  * **Transformation Relevance**: Access control, compliance, role governance, security process maturity.
+  * **Architecture Layer**: Process, Security, Infrastructure.
+  * **Positioning Note**: Safe wording: regular user for access requests, approvals, role reviews, and certifications. Avoid claiming SailPoint configuration, connector setup, provisioning design, or identity governance architecture.
+
+* **Tool**: SAP Fieldglass
+  * **Experience Level**: Current-role workflow user.
+  * **Purpose**: External workforce, SOWs, contractor/vendor schedules, approvals, timesheets, and workforce governance.
+  * **Capabilities**: SOW workflow participation, contractor/vendor schedule review, approvals, timesheet-related workflow use, external workforce process coordination.
+  * **Inputs**: SOW records, contractor/vendor schedules, approval tasks, timesheet records, workforce process updates.
+  * **Outputs**: Approvals, schedule confirmations, workflow actions, contractor/vendor process updates, timesheet-related decisions.
+  * **Integration Context**: Used in vendor delivery, external workforce coordination, SOW governance, contractor management, and service-delivery support.
+  * **Domain**: Vendor Management, Workforce Governance, Procurement, Product Delivery.
+  * **Transformation Relevance**: Vendor delivery governance, external workforce management, SOW transparency, resource coordination.
+  * **Architecture Layer**: Process, Application.
+  * **Positioning Note**: Safe wording: regular user for SOWs, contractor/vendor schedules, approvals, and timesheets. Avoid claiming Fieldglass configuration or administration.
+
+* **Tool**: SAP Solution Manager
+  * **Experience Level**: Current-role user / documentation and change-record interaction.
+  * **Purpose**: SAP documentation, change records, process artefacts, approvals/sign-offs, governance documentation, and lifecycle information.
+  * **Capabilities**: Accessing, viewing, and signing documentation; reviewing change records; using SAP governance artefacts; interacting with process/change documentation.
+  * **Inputs**: Documentation records, change records, sign-off tasks, process artefacts, governance information.
+  * **Outputs**: Sign-offs, review comments, documentation access, change-record actions, governance evidence.
+  * **Integration Context**: Used in SAP governance, change management, controlled documentation, process evidence, and application lifecycle contexts.
+  * **Domain**: SAP Governance, IT Change, Documentation, Compliance.
+  * **Transformation Relevance**: Change traceability, documentation governance, lifecycle control, audit readiness.
+  * **Architecture Layer**: Process, Application, Data.
+  * **Positioning Note**: Safe wording: user exposure to SolMan documentation and change records. Avoid claiming SolMan configuration or SAP ALM administration.
+
+* **Tool**: CyberArk
+  * **Experience Level**: Current-role workflow user.
+  * **Purpose**: Privileged access, secure password/session workflows, access approvals, compliance, and privileged access governance.
+  * **Capabilities**: Access approvals, privileged access requests, password/session workflows, training/compliance participation, secure access process execution.
+  * **Inputs**: Privileged access requests, approval tasks, password/session access needs, compliance/training requirements.
+  * **Outputs**: Access approvals, session/password workflow outcomes, compliance actions, secure access records.
+  * **Integration Context**: Used in privileged access management, security controls, application access, compliance, and operational support workflows.
+  * **Domain**: IT Security, Access Governance, Compliance, Operations.
+  * **Transformation Relevance**: Privileged access control, security governance, compliance, operational risk reduction.
+  * **Architecture Layer**: Security, Process, Infrastructure.
+  * **Positioning Note**: Safe wording: regular user for access approvals, privileged access requests, password/session workflows, and compliance/training. Avoid claiming CyberArk administration, safe/account/platform configuration, or PAM architecture.
+
+* **Tool**: Veeva / Veeva Vault
+  * **Experience Level**: Current-role document/workflow user.
+  * **Purpose**: Controlled documentation, approvals, evidence, audit trails, repository access, and regulated document workflows.
+  * **Capabilities**: Controlled document access, workflow participation, approvals, evidence handling, audit trail review, repository use.
+  * **Inputs**: Controlled documents, approval tasks, evidence, workflow records, audit information.
+  * **Outputs**: Approved documents, workflow actions, evidence submissions, audit trail visibility, repository records.
+  * **Integration Context**: Used in controlled documentation, compliance, governance, evidence, and repository workflows.
+  * **Domain**: Compliance, Documentation Governance, Operations, IT.
+  * **Transformation Relevance**: Controlled documentation, auditability, compliance governance, evidence management.
+  * **Architecture Layer**: Data, Application, Process.
+  * **Positioning Note**: Safe wording: document/workflow user for controlled documents, approvals, evidence, audit trails, and repository access. Avoid claiming Veeva administration or lifecycle/workflow configuration.
+
+* **Tool**: SAP ChaRM
+  * **Experience Level**: Current-role change approver / direct workflow interaction.
+  * **Purpose**: SAP change request management, transport governance, release control, approvals, and change traceability.
+  * **Capabilities**: Direct interaction with SAP change workflows as change approver, review of change context, approval/rejection decisions, change governance participation.
+  * **Inputs**: Change requests, approval tasks, release information, change documentation, impact information.
+  * **Outputs**: Approved/rejected changes, governance decisions, change records, release workflow actions.
+  * **Integration Context**: Used in SAP change and release governance, often connected with SAP Solution Manager and broader IT change controls.
+  * **Domain**: SAP Change Management, IT Governance, Release Governance.
+  * **Transformation Relevance**: Change control, release governance, auditability, operational risk reduction.
+  * **Architecture Layer**: Process, Application.
+  * **Positioning Note**: Safe wording: direct interaction with ChaRM as SAP change approver. Avoid claiming ChaRM configuration or transport administration.
+
+* **Tool**: SAP LeanIX
+  * **Experience Level**: Light hands-on use / enterprise architecture repository contributor-reviewer.
+  * **Purpose**: Application portfolio, business capability mapping, enterprise architecture repository, application-to-capability relationships, and landscape transparency.
+  * **Capabilities**: Providing input for entrusted capabilities, checking mappings of applications, reviewing application/capability relationships, light repository interaction.
+  * **Inputs**: Application information, capability information, ownership inputs, mapping feedback, architecture repository records.
+  * **Outputs**: Mapping corrections, capability inputs, application relationship feedback, repository updates or review comments.
+  * **Integration Context**: Used in enterprise architecture, application portfolio, capability mapping, and application landscape governance.
+  * **Domain**: Enterprise Architecture, Product Governance, IT Strategy.
+  * **Transformation Relevance**: Application rationalization, capability alignment, technology landscape transparency, product/application governance.
+  * **Architecture Layer**: Process, Application.
+  * **Positioning Note**: Safe wording: light hands-on LeanIX use for capability input and application mapping review. Avoid claiming full LeanIX repository ownership or enterprise architecture governance.
+
+## 4. Architecture, Process, and Modelling Tools
+
+* **Tool**: Lucidchart
+  * **Experience Level**: Training/free-trial use; comfortable but not daily tooling.
+  * **Purpose**: Diagramming, process maps, architecture views, and workflow visualization.
+  * **Capabilities**: Process modelling, flow diagrams, visual documentation, system/process diagrams.
+  * **Inputs**: Process notes, workflow steps, architecture concepts, system relationships.
+  * **Outputs**: Diagrams, process maps, workflow visuals.
+  * **Integration Context**: Explored through trial/training rather than daily enterprise workflow.
+  * **Domain**: Process Mapping, Business Analysis, Architecture.
+  * **Transformation Relevance**: Process documentation, architecture communication, stakeholder alignment.
+  * **Architecture Layer**: Presentation, Process.
+  * **Positioning Note**: Safe wording: comfortable using Lucidchart for diagram creation based on training/trial use, but Visio is the primary proven diagramming tool.
+
+* **Tool**: Camunda Modeler
+  * **Experience Level**: Training/free-trial use; comfortable for BPMN creation but not daily tooling.
+  * **Purpose**: BPMN process modelling, workflow design, and process automation design.
+  * **Capabilities**: BPMN diagrams, process flows, events, gateways, tasks, swimlanes, decision points.
+  * **Inputs**: Process notes, business rules, workflow descriptions, automation concepts.
+  * **Outputs**: BPMN diagrams, process models, workflow documentation.
+  * **Integration Context**: Used during training/free trial and learning, not as a daily professional tool.
+  * **Domain**: Process Modelling, Workflow Design, Automation.
+  * **Transformation Relevance**: BPMN documentation, workflow standardization, automation design.
+  * **Architecture Layer**: Process.
+  * **Positioning Note**: Safe wording: comfortable with Camunda/BPMN through training and experimentation. Avoid claiming enterprise Camunda implementation.
+
+* **Tool**: Bizagi Modeler
+  * **Experience Level**: Training/free-trial use; comfortable for BPMN creation but not daily tooling.
+  * **Purpose**: BPMN process modelling, workflow documentation, and process design.
+  * **Capabilities**: BPMN diagrams, workflow maps, process documentation, decision logic, swimlanes.
+  * **Inputs**: Process notes, workflow descriptions, stakeholder inputs, business rules.
+  * **Outputs**: BPMN diagrams, process models, workflow documentation.
+  * **Integration Context**: Used during training/free trial and learning, not as a daily professional tool.
+  * **Domain**: Process Modelling, Business Analysis, Workflow Design.
+  * **Transformation Relevance**: Process standardization, workflow clarity, automation preparation.
+  * **Architecture Layer**: Process.
+  * **Positioning Note**: Safe wording: comfortable with Bizagi/BPMN through training and experimentation. Avoid claiming production BPMN engine or workflow automation ownership.
+
+## 5. Developing / Personal Technical Capability
 
 * **Tool**: Python
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: Business automation, data processing, application prototyping, workflow scripting, and AI-enabled tool development.
-  * **Capabilities**: CSV processing, data loading, basic automation, object-oriented programming, desktop application prototyping, API integration, task scheduling, structured application design.
-  * **Inputs**: CSV files, Excel exports, JSON, user inputs, database records, API responses.
-  * **Outputs**: Automation scripts, desktop app prototypes, processed data, SQLite records, logs, structured outputs.
-  * **Integration Context**: Used with SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, and IDEs in learning/personal development contexts.
-  * **Domain**: IT, Finance, Operations, Automation.
-  * **Transformation Relevance**: Operational automation, process improvement, lightweight internal tool development, AI-enabled productivity.
-  * **Architecture Layer**: Process, Data, Integration.
-  * **Positioning Note**: Valuable developing capability, but should not be presented as a current-role enterprise tool unless role evidence exists.
-
-* **Tool**: pandas
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: Data loading, transformation, analysis, CSV/Excel processing, and automation support.
-  * **Capabilities**: Reading structured files, cleaning data, transforming columns, preparing data for database loading, supporting analysis workflows.
-  * **Inputs**: CSV files, Excel files, tabular datasets.
-  * **Outputs**: Cleaned datasets, transformed dataframes, export files, prepared data for SQLite or analysis.
-  * **Integration Context**: Used with Python, SQLite, SQLAlchemy, Excel exports, and automation scripts in project/learning contexts.
-  * **Domain**: Data, Finance, Operations, Automation.
-  * **Transformation Relevance**: Manual reporting reduction, data preparation automation, operational analysis.
-  * **Architecture Layer**: Data, Process.
-  * **Positioning Note**: Position as developing hands-on data-processing capability, not core current-role tooling.
+  * **Experience Level**: Developing / personal projects.
+  * **Purpose**: Automation, data processing, application prototyping, scripting, AI integration, and personal technical development.
+  * **Capabilities**: CSV processing, data loading, basic automation, object-oriented programming, desktop app prototyping, API integration, structured application design.
+  * **Inputs**: CSV files, Excel exports, JSON, user inputs, local databases, API responses.
+  * **Outputs**: Scripts, prototypes, processed data, small applications, automation experiments.
+  * **Integration Context**: Used in personal projects and learning, including SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, and IDEs.
+  * **Domain**: Automation, Data, Application Development, AI Experimentation.
+  * **Transformation Relevance**: Personal capability growth toward automation, AI-enabled tooling, and internal tool prototyping.
+  * **Architecture Layer**: Process, Data, Integration, Application.
+  * **Positioning Note**: Keep separate from core enterprise role tooling. Safe wording: developing Python capability through personal projects and learning.
 
 * **Tool**: SQL
-  * **Experience Level**: Developing / personal technical capability.
-  * **Purpose**: Querying, structuring, filtering, joining, and managing relational data.
-  * **Capabilities**: Basic queries, filtering, table relationships, joins, schema awareness, database-backed application logic.
-  * **Inputs**: Relational tables, business data, structured records, application data.
-  * **Outputs**: Query results, structured datasets, database-backed application views, reports.
-  * **Integration Context**: Used or learned alongside SQLite, SQLAlchemy, Python, Excel, and reporting concepts.
-  * **Domain**: Data, IT, Finance, Operations.
-  * **Transformation Relevance**: Data analysis, reporting support, process automation, structured application development.
+  * **Experience Level**: Developing / personal and job-support use.
+  * **Purpose**: Data querying, structured analysis, relational data understanding, and support for reporting/application logic.
+  * **Capabilities**: Queries, filtering, joins, table relationships, schema understanding, relational data concepts.
+  * **Inputs**: Relational tables, structured datasets, database records, reporting data.
+  * **Outputs**: Query results, structured analysis, data extracts, learning/project outputs.
+  * **Integration Context**: Used in learning/personal projects and occasional job-support needs; connected to SQLite, Python, reporting concepts, and database-backed applications.
+  * **Domain**: Data, Reporting, Automation, Application Development.
+  * **Transformation Relevance**: Data literacy, reporting understanding, automation readiness, structured data analysis.
   * **Architecture Layer**: Data.
-  * **Positioning Note**: Position as developing SQL capability for data querying and structured analysis. Avoid production database administration or enterprise data engineering claims.
+  * **Positioning Note**: Safe wording: developing SQL capability through learning, personal projects, and job-support needs. Avoid claiming production DBA or enterprise data engineering ownership.
+
+* **Tool**: pandas / NumPy
+  * **Experience Level**: Developing / learning and personal projects.
+  * **Purpose**: Data processing, analysis, transformation, and tabular data handling in Python.
+  * **Capabilities**: Reading datasets, cleaning data, transforming columns, basic analysis, preparing data for reporting or database loading.
+  * **Inputs**: CSV files, Excel files, tabular datasets.
+  * **Outputs**: Cleaned datasets, transformed dataframes, analysis outputs, prepared files.
+  * **Integration Context**: Used with Python, SQLite, SQLAlchemy, Excel exports, and automation experiments.
+  * **Domain**: Data Analysis, Automation, Learning.
+  * **Transformation Relevance**: Data preparation, automation prototyping, analytical capability development.
+  * **Architecture Layer**: Data, Process.
+  * **Positioning Note**: Developing data-analysis capability in the Python ecosystem.
 
 * **Tool**: SQLite
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: Lightweight relational database for local applications, prototypes, and structured data storage.
-  * **Capabilities**: Local database storage, table design, CRUD operations, application persistence, simple relational data handling.
+  * **Experience Level**: Developing / personal projects.
+  * **Purpose**: Lightweight database for local applications, prototypes, and structured data storage.
+  * **Capabilities**: Local database storage, table design, CRUD operations, queryable records, application persistence.
   * **Inputs**: Application records, CSV-loaded data, user inputs, structured entities.
-  * **Outputs**: Local database files, stored application records, queryable datasets.
+  * **Outputs**: Local database files, stored records, query results, prototype data stores.
   * **Integration Context**: Used with Python, SQLAlchemy, pandas, and desktop application prototypes.
-  * **Domain**: IT, Automation, Data.
-  * **Transformation Relevance**: Lightweight internal tools, prototype databases, automation support.
+  * **Domain**: Data, Application Development, Automation.
+  * **Transformation Relevance**: Lightweight internal tool prototyping, data persistence, automation support.
   * **Architecture Layer**: Data, Application.
-  * **Positioning Note**: Project/developing tool rather than current enterprise role tooling.
+  * **Positioning Note**: Personal project capability, not core enterprise database delivery.
 
 * **Tool**: SQLAlchemy
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: Python ORM and database abstraction layer for application development.
-  * **Capabilities**: Object-relational mapping, database model definition, CRUD operations, structured application persistence.
+  * **Experience Level**: Developing / personal projects.
+  * **Purpose**: Python ORM and database abstraction for application development.
+  * **Capabilities**: Object-relational mapping, database model definition, CRUD operations, application persistence.
   * **Inputs**: Python models, database schemas, application records.
   * **Outputs**: Database tables, persisted records, query results, application data objects.
-  * **Integration Context**: Used with Python, SQLite, and modular application architecture.
-  * **Domain**: IT, Application Development, Data.
-  * **Transformation Relevance**: Internal tool prototyping, business application development, structured data handling.
+  * **Integration Context**: Used with Python, SQLite, and modular application architecture in personal projects.
+  * **Domain**: Application Development, Data.
+  * **Transformation Relevance**: Internal tool prototyping, structured application design, database-backed workflows.
   * **Architecture Layer**: Application, Data.
-  * **Positioning Note**: Developing ORM/database skill through personal projects and prototypes.
+  * **Positioning Note**: Developing ORM/database skill through personal projects.
 
 * **Tool**: Tkinter / ttkbootstrap
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: Python desktop GUI development for lightweight business applications.
-  * **Capabilities**: Form creation, windows, buttons, tables, user input screens, desktop app interface design, basic UI workflows.
-  * **Inputs**: User inputs, forms, application events, database records.
-  * **Outputs**: Desktop application screens, user interactions, stored records, workflow actions.
+  * **Experience Level**: Developing / personal projects.
+  * **Purpose**: Python desktop GUI development for lightweight business application prototypes.
+  * **Capabilities**: Forms, windows, buttons, tables, user input screens, simple desktop workflows.
+  * **Inputs**: User inputs, forms, database records, application events.
+  * **Outputs**: Desktop application screens, user interactions, stored records, prototype workflows.
   * **Integration Context**: Used with Python, SQLite, SQLAlchemy, pandas, and modular application architecture.
-  * **Domain**: IT, Operations, Small Business Applications.
-  * **Transformation Relevance**: Internal tool prototyping, business workflow support, manual process digitization.
+  * **Domain**: Application Development, Automation, Small Business Tools.
+  * **Transformation Relevance**: Manual process digitization, lightweight internal tool prototyping, user-facing automation concepts.
   * **Architecture Layer**: Presentation, Application.
-  * **Positioning Note**: Prototype GUI development capability, not core enterprise role tooling.
+  * **Positioning Note**: Personal prototype GUI development capability, not core enterprise role tooling.
 
 * **Tool**: OpenAI API
-  * **Experience Level**: Developing / hands-on personal project experience.
-  * **Purpose**: AI integration for chatbot functionality, automation support, text processing, and intelligent application features.
+  * **Experience Level**: Developing / personal projects and training.
+  * **Purpose**: AI integration, chatbot functionality, text processing, intelligent application features, and AI-enabled workflow experimentation.
   * **Capabilities**: API-based AI interaction, prompt design, chatbot integration, structured text generation, AI-assisted workflows.
   * **Inputs**: User prompts, application context, business text, structured instructions.
-  * **Outputs**: AI-generated responses, draft text, structured outputs, chatbot messages.
-  * **Integration Context**: Used with Python-based applications and automation prototypes.
-  * **Domain**: IT, Automation, Business Analysis, Digital Enablement.
-  * **Transformation Relevance**: AI-enabled process support, documentation acceleration, chatbot prototyping, productivity improvement.
+  * **Outputs**: AI-generated responses, structured outputs, chatbot messages, draft text.
+  * **Integration Context**: Used in personal Python-based applications, learning, and experimentation.
+  * **Domain**: AI, Automation, Application Development.
+  * **Transformation Relevance**: AI-enabled productivity, chatbot prototyping, document automation, intelligent workflow support.
   * **Architecture Layer**: Integration, Application.
-  * **Positioning Note**: Developing AI integration capability through prototypes and experimentation; not current enterprise role tooling unless explicitly evidenced.
+  * **Positioning Note**: Training/personal project capability. Avoid claiming enterprise AI implementation unless supported by specific professional examples.
 
-* **Tool**: ChatGPT / GPT Models
-  * **Experience Level**: Supporting productivity tool / practical personal use.
-  * **Purpose**: Drafting, analysis support, documentation refinement, learning, brainstorming, coding support, and capability mapping.
-  * **Capabilities**: Text structuring, summarization, requirements drafting, document review, code explanation, prompt-based analysis, learning support.
+* **Tool**: ChatGPT / Copilot / GPT Models
+  * **Experience Level**: Approved AI-assisted work method plus personal productivity use.
+  * **Purpose**: Drafting, analysis, summarization, documentation refinement, learning, coding support, research support, and structured thinking.
+  * **Capabilities**: Text structuring, summarization, requirements drafting, document review, code explanation, prompt-based analysis, learning support, productivity assistance.
   * **Inputs**: Prompts, process notes, draft documents, code snippets, business questions, learning goals.
-  * **Outputs**: Structured text, draft documentation, analysis support, learning explanations, code examples, process improvement ideas.
-  * **Integration Context**: Used alongside business analysis work, personal learning, Python projects, documentation refinement, and capability development.
-  * **Domain**: IT, Operations, Finance, Business Analysis.
-  * **Transformation Relevance**: AI-assisted productivity, documentation acceleration, analysis support, automation ideation.
+  * **Outputs**: Draft documentation, summaries, structured analysis, learning outputs, code examples, refinement suggestions.
+  * **Integration Context**: Used as approved AI-assisted work method and for personal learning/productivity, with human validation.
+  * **Domain**: AI-Assisted Productivity, Business Analysis, Documentation, Learning.
+  * **Transformation Relevance**: Productivity improvement, documentation acceleration, analysis support, AI-enabled ways of working.
   * **Architecture Layer**: Application, Integration.
-  * **Positioning Note**: Position as an AI-enabled working method rather than a core enterprise system. Mention human validation and judgement.
+  * **Positioning Note**: Safe wording: uses approved AI tools for drafting, analysis, documentation, summarization, and learning with human validation. Avoid implying uncontrolled use of confidential data or autonomous AI decision-making.
 
 * **Tool**: Developer AI Assistants
-  * **Experience Level**: Developing / practical experimentation.
-  * **Purpose**: AI-assisted coding, code explanation, refactoring support, learning, debugging, and development productivity.
+  * **Experience Level**: Developing / learning and experimentation.
+  * **Purpose**: AI-assisted coding, code explanation, refactoring support, debugging, and technical learning.
   * **Capabilities**: Code generation, code review support, debugging suggestions, workspace reasoning, explanation of technical concepts.
   * **Inputs**: Source code, prompts, error messages, project context, development tasks.
-  * **Outputs**: Code suggestions, explanations, draft implementations, refactoring ideas, debugging guidance.
+  * **Outputs**: Code suggestions, explanations, draft implementations, debugging guidance, refactoring ideas.
   * **Integration Context**: Used or explored with IDEs, Python projects, Git/GitHub, and local development workflows.
-  * **Domain**: IT, Application Development, Automation.
-  * **Transformation Relevance**: AI-assisted development velocity, faster prototyping, technical learning acceleration.
+  * **Domain**: Application Development, Automation, Learning.
+  * **Transformation Relevance**: Faster prototyping, technical learning acceleration, AI-assisted development capability.
   * **Architecture Layer**: Presentation, Application, Integration.
-  * **Positioning Note**: Keep as experimental/developing unless used in current enterprise delivery.
+  * **Positioning Note**: Developing/experimental capability rather than core enterprise delivery tool.
 
-* **Tool**: VS Code / Cursor / PyCharm
-  * **Experience Level**: Developing / hands-on personal project use.
-  * **Purpose**: Code editing, Python development, application prototyping, debugging, and project organization.
-  * **Capabilities**: Code editing, terminal use, project navigation, Python environment management, debugging support, extension-based development.
+* **Tool**: VS Code / PyCharm / Cursor
+  * **Experience Level**: Developing / personal and job-support technical use.
+  * **Purpose**: Code editing, Python development, debugging, project organization, and technical experimentation.
+  * **Capabilities**: Code editing, terminal use, project navigation, Python environment management, debugging, extension-based development.
   * **Inputs**: Python files, project folders, configuration files, terminal commands, source code.
-  * **Outputs**: Application code, scripts, project structures, debugging output, local execution results.
-  * **Integration Context**: Used with Python, Git/GitHub, SQLite, SQLAlchemy, pandas, Tkinter, and AI coding assistants.
-  * **Domain**: IT, Application Development, Automation.
-  * **Transformation Relevance**: Internal tool prototyping, automation development, AI-assisted coding.
+  * **Outputs**: Scripts, application code, project structures, debugging output, local execution results.
+  * **Integration Context**: Used with Python, Git/GitHub, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, and AI coding assistants.
+  * **Domain**: Application Development, Automation, Learning.
+  * **Transformation Relevance**: Personal technical capability, automation prototyping, AI-assisted coding.
   * **Architecture Layer**: Presentation, Application.
-  * **Positioning Note**: Used for personal/developing technical projects, not primary current-role tooling.
+  * **Positioning Note**: Safe wording: used for personal and job-support technical work, not primary enterprise software delivery unless examples are provided.
 
 * **Tool**: Git / GitHub
-  * **Experience Level**: Developing / hands-on personal project use.
-  * **Purpose**: Version control, code backup, project history, branching, and repository management for development projects.
-  * **Capabilities**: Basic version control, commits, repositories, project organization, change tracking.
+  * **Experience Level**: Developing / personal and job-support technical use.
+  * **Purpose**: Version control, repository management, project history, code backup, and technical project organization.
+  * **Capabilities**: Commits, repositories, change tracking, project organization, basic branching, version history.
   * **Inputs**: Source code, project files, documentation, configuration files.
-  * **Outputs**: Versioned repositories, commit history, tracked project changes.
-  * **Integration Context**: Used with Python projects, IDEs, AI coding assistants, and local development workflows.
-  * **Domain**: IT, Application Development.
-  * **Transformation Relevance**: Development discipline, source control, reproducible automation projects.
+  * **Outputs**: Versioned repositories, commit history, tracked changes, organized project assets.
+  * **Integration Context**: Used with Python projects, IDEs, personal automation, learning, and job-support technical needs.
+  * **Domain**: Application Development, Automation, Learning.
+  * **Transformation Relevance**: Development discipline, reproducibility, source control, technical project maturity.
   * **Architecture Layer**: Integration, Application.
-  * **Positioning Note**: Developing version-control capability through technical side projects. Avoid enterprise DevOps claims unless evidenced.
-
-* **Tool**: GitLab
-  * **Experience Level**: Awareness-level familiarity.
-  * **Purpose**: Repository hosting, collaboration, DevOps workflows, and CI/CD pipelines.
-  * **Capabilities**: Awareness of repositories, merge requests, pipeline concepts, and team-based software delivery.
-  * **Inputs**: Source code, configuration files, pipeline definitions.
-  * **Outputs**: Repositories, merge requests, pipeline results, deployment artifacts.
-  * **Integration Context**: Commonly used with Jira, CI/CD workflows, and development teams.
-  * **Domain**: IT, DevOps.
-  * **Transformation Relevance**: Software delivery governance, DevOps maturity, delivery traceability.
-  * **Architecture Layer**: Integration, Infrastructure.
-  * **Positioning Note**: Awareness only unless directly used in projects.
-
-* **Tool**: bcrypt
-  * **Experience Level**: Developing / hands-on personal project use.
-  * **Purpose**: Password hashing and basic authentication support in application prototypes.
-  * **Capabilities**: Password hashing, credential protection, authentication-related utility use.
-  * **Inputs**: User passwords, authentication data.
-  * **Outputs**: Hashed passwords, verification results.
-  * **Integration Context**: Used in Python application prototypes with user management or login features.
-  * **Domain**: IT, Application Development, Security Basics.
-  * **Transformation Relevance**: Secure internal tool prototyping, basic application security awareness.
-  * **Architecture Layer**: Application, Security.
-  * **Positioning Note**: Project-level security utility exposure; not identity/security architecture.
+  * **Positioning Note**: Developing practical capability. Avoid claiming enterprise DevOps ownership unless evidenced.
 
 * **Tool**: APScheduler
-  * **Experience Level**: Developing / hands-on or planned personal project use.
+  * **Experience Level**: Developing / personal projects.
   * **Purpose**: Task scheduling in Python applications and automation workflows.
-  * **Capabilities**: Scheduled jobs, recurring tasks, background automation, timed execution.
+  * **Capabilities**: Scheduled jobs, recurring tasks, timed execution, background automation.
   * **Inputs**: Scheduled functions, timing rules, job definitions.
-  * **Outputs**: Automated task execution, scheduled updates, background process logs.
+  * **Outputs**: Automated task execution, scheduled updates, background logs.
   * **Integration Context**: Used or planned within Python-based business application prototypes.
-  * **Domain**: IT, Automation.
+  * **Domain**: Automation, Application Development.
   * **Transformation Relevance**: Workflow automation, recurring task execution, operational efficiency.
   * **Architecture Layer**: Process, Application.
   * **Positioning Note**: Prototype-level automation/scheduling exposure.
 
-* **Tool**: Camunda Modeler / Bizagi Modeler
-  * **Experience Level**: Developing / awareness-level familiarity.
-  * **Purpose**: BPMN-based process modelling and workflow documentation.
-  * **Capabilities**: Awareness of BPMN 2.0 concepts, process flow modelling, events, gateways, tasks, swimlanes, and decision logic.
-  * **Inputs**: Process notes, stakeholder interviews, as-is workflows, business rules.
-  * **Outputs**: BPMN diagrams, process maps, workflow documentation.
-  * **Integration Context**: Relevant to process documentation, automation design, and workflow standardization.
-  * **Domain**: Operations, IT, Process Improvement.
-  * **Transformation Relevance**: Process standardization, automation opportunity design, workflow clarity.
-  * **Architecture Layer**: Process.
-  * **Positioning Note**: Keep as BPMN/process-modelling familiarity unless direct BPMN deliverables are available.
+* **Tool**: bcrypt
+  * **Experience Level**: Developing / personal projects.
+  * **Purpose**: Password hashing and basic authentication support in application prototypes.
+  * **Capabilities**: Password hashing, credential protection, authentication utility use.
+  * **Inputs**: User passwords, authentication data.
+  * **Outputs**: Hashed passwords, verification results.
+  * **Integration Context**: Used in Python application prototypes with user management or login features.
+  * **Domain**: Application Development, Security Basics.
+  * **Transformation Relevance**: Secure internal tool prototyping, basic application security awareness.
+  * **Architecture Layer**: Application, Security.
+  * **Positioning Note**: Basic project-level security utility exposure, not identity/security architecture.
 
-* **Tool**: Aha!
-  * **Experience Level**: Awareness-level familiarity.
-  * **Purpose**: Product roadmapping, strategy mapping, prioritization, and release planning.
-  * **Capabilities**: Awareness of product goals, initiatives, features, roadmaps, prioritization, and release planning.
-  * **Inputs**: Product ideas, requirements, strategic goals, capacity inputs.
-  * **Outputs**: Product roadmaps, prioritization views, release plans.
-  * **Integration Context**: Commonly integrates with Jira, Azure DevOps, Confluence, and product delivery workflows.
-  * **Domain**: Product Management, Strategy.
-  * **Transformation Relevance**: Product planning, roadmap visibility, prioritization governance.
-  * **Architecture Layer**: Process, Application.
-  * **Positioning Note**: Awareness of product-roadmapping platforms only unless directly used.
+## 6. Training / Awareness-Level Tools and Concepts
 
-## 5. Tools Not to Emphasize for Current Role
+* **Tool**: SAP S/4HANA
+  * **Experience Level**: Training / certification awareness.
+  * **Purpose**: Modern SAP ERP platform and future-facing SAP finance/process architecture.
+  * **Capabilities**: Conceptual awareness through training/certification and SAP ecosystem learning.
+  * **Inputs**: Learning materials, SAP process concepts, architecture concepts.
+  * **Outputs**: SAP S/4HANA awareness, terminology familiarity, process understanding.
+  * **Integration Context**: Relevant to SAP finance systems, ERP modernization, and SAP learning path.
+  * **Domain**: SAP, Finance Systems, ERP.
+  * **Transformation Relevance**: SAP modernization awareness, ERP landscape understanding.
+  * **Architecture Layer**: Application, Data.
+  * **Positioning Note**: Do not position as current work context or implementation ownership unless that changes.
 
-* **Tool**: Slack
-  * **Experience Level**: General awareness only.
-  * **Purpose**: Team communication, messaging, notifications, and collaboration.
-  * **Capabilities**: General familiarity with collaboration platforms.
-  * **Inputs**: Messages, notifications, files, links, team updates.
-  * **Outputs**: Conversations, alerts, shared documents, action discussions.
-  * **Integration Context**: Commonly integrates with Jira, GitHub, CI/CD tools, and collaboration workflows.
-  * **Domain**: IT, Operations, Product Teams.
-  * **Transformation Relevance**: Team collaboration, delivery communication, workflow notification.
-  * **Architecture Layer**: Presentation.
-  * **Positioning Note**: Do not emphasize for current role unless direct use exists. Microsoft 365 is the stronger current-role collaboration narrative.
+* **Tool**: SAP BTP
+  * **Experience Level**: Learning / certification awareness.
+  * **Purpose**: SAP Business Technology Platform concepts, integration, extension, application development, and SAP ecosystem services.
+  * **Capabilities**: Conceptual understanding of SAP BTP capabilities and role in SAP architecture.
+  * **Inputs**: Learning materials, SAP architecture concepts, integration examples.
+  * **Outputs**: Platform awareness, SAP architecture context, conceptual understanding.
+  * **Integration Context**: Relevant to SAP ecosystem learning and future architecture discussions.
+  * **Domain**: SAP, Integration, Cloud, Architecture.
+  * **Transformation Relevance**: SAP extension/integration awareness, future-state SAP architecture understanding.
+  * **Architecture Layer**: Integration, Application, Infrastructure.
+  * **Positioning Note**: Learning topic only, not current professional delivery unless specifically evidenced.
 
-* **Tool**: Zoom / Google Meet
-  * **Experience Level**: General remote-meeting familiarity.
-  * **Purpose**: Video meetings, remote collaboration, stakeholder discussions, and screen sharing.
-  * **Capabilities**: Video calls, screen sharing, meeting participation, remote workshops, stakeholder communication.
-  * **Inputs**: Meeting invitations, agendas, participant discussions, shared screens.
-  * **Outputs**: Meeting outcomes, alignment, action items, decisions.
-  * **Integration Context**: Used generally in remote collaboration environments.
-  * **Domain**: Operations, IT, Finance, Business Analysis.
-  * **Transformation Relevance**: Remote stakeholder collaboration, process workshops, change communication.
-  * **Architecture Layer**: Presentation.
-  * **Positioning Note**: Do not emphasize for current role. Microsoft Teams / M365 meetings are the stronger evidence-based positioning.
+* **Tool**: SAP Enterprise Architecture Framework / SAP EAF
+  * **Experience Level**: Learning / certification awareness.
+  * **Purpose**: SAP-oriented enterprise architecture concepts, capability mapping, solution architecture, and transformation planning.
+  * **Capabilities**: Conceptual awareness of architecture methods, SAP solution landscapes, target-state thinking, and transformation alignment.
+  * **Inputs**: Learning materials, SAP architecture concepts, case studies, framework examples.
+  * **Outputs**: Architecture vocabulary, conceptual understanding, future-role readiness.
+  * **Integration Context**: Supports development toward business/enterprise architecture capability.
+  * **Domain**: Enterprise Architecture, SAP, Transformation.
+  * **Transformation Relevance**: Architecture awareness, transformation planning, capability-based thinking.
+  * **Architecture Layer**: Process, Application, Data, Infrastructure.
+  * **Positioning Note**: Keep as learning/certification topic. Avoid claiming established enterprise architect role.
 
-## 6. Summary by Evidence Level
+* **Tool**: Azure API Management
+  * **Experience Level**: Training-based awareness / developing.
+  * **Purpose**: API gateway management, API publishing, access control, monitoring, and integration governance.
+  * **Capabilities**: Awareness of API gateways, subscriptions, policies, authentication concepts, monitoring, and API lifecycle management.
+  * **Inputs**: API definitions, backend services, access policies, user subscriptions.
+  * **Outputs**: Managed API endpoints, access-controlled APIs, monitoring logs, API policies.
+  * **Integration Context**: Relevant to Azure, enterprise integration, application modernization, and service exposure.
+  * **Domain**: Cloud, Integration, API Management.
+  * **Transformation Relevance**: API governance, secure integration, application modernization.
+  * **Architecture Layer**: Integration, Infrastructure.
+  * **Positioning Note**: Training-based awareness unless direct implementation examples exist.
 
-* **Core Current-Role Tools**
+## 7. Summary by Evidence Level
+
+* **Core Professional Tools**
   * Microsoft Excel
   * Microsoft PowerPoint
   * Microsoft Outlook
-  * Microsoft Teams / M365 meetings collaboration
+  * Microsoft Teams / Microsoft 365
   * SharePoint / Microsoft 365 document libraries
-  * SAP reports / SAP finance-process context
-
-* **Current-Role Enterprise Exposure**
-  * SAP ECC
-  * SAP Analytics Cloud (SAC)
-  * Power BI
-  * Archer
-  * SAP Fieldglass
-  * CyberArk
-  * SailPoint
-  * SAP Solution Manager / SolMan
-
-* **Role-Adjacent / Awareness-Level Tools**
-  * SAP Fiori
-  * ServiceNow
-  * SAP ChaRM
-  * SAP LeanIX
-  * Workday
-  * Azure / Microsoft cloud concepts
-  * Azure API Management
+  * Microsoft Visio
   * Jira
   * Confluence
-  * Microsoft Visio / Lucidchart
-  * PowerShell
-  * Veeva Vault
+  * ServiceNow
+  * Workday
+
+* **Finance Systems / Product Stack Tools**
+  * Board
+  * Power BI
+  * SAP ERP / SAP ECC
+  * SAP BW
+  * SAP Analytics Cloud
+  * SAP FC
+  * SAP FIM
+  * Azure
+  * Oracle ERP
+
+* **Governance, Access, Compliance, Workforce, and Controlled Documentation Tools**
+  * Archer
+  * SailPoint
+  * SAP Fieldglass
+  * SAP Solution Manager
+  * CyberArk
+  * Veeva / Veeva Vault
+  * SAP ChaRM
+  * SAP LeanIX
+
+* **Architecture, Process, and Modelling Tools**
+  * Microsoft Visio
+  * Lucidchart
+  * Camunda Modeler
+  * Bizagi Modeler
 
 * **Developing / Personal Technical Capability**
   * Python
-  * pandas
   * SQL
+  * pandas / NumPy
   * SQLite
   * SQLAlchemy
   * Tkinter / ttkbootstrap
   * OpenAI API
-  * ChatGPT / GPT models
+  * ChatGPT / Copilot / GPT models
   * Developer AI assistants
-  * VS Code / Cursor / PyCharm
+  * VS Code / PyCharm / Cursor
   * Git / GitHub
-  * GitLab
-  * bcrypt
   * APScheduler
-  * Camunda Modeler / Bizagi Modeler
-  * Aha!
+  * bcrypt
 
-* **Do Not Emphasize for Current Role**
-  * Slack
-  * Zoom / Google Meet
+* **Training / Awareness-Level Tools and Concepts**
+  * SAP S/4HANA
+  * SAP BTP
+  * SAP Enterprise Architecture Framework / SAP EAF
+  * Azure API Management
 
-## 7. Recommended CV Tool Wording
+## 8. Recommended CV Tool Wording
 
-* **Current Role Tools**
-  * Microsoft Excel, PowerPoint, Outlook, Teams, SharePoint / M365, SAP report-driven finance workflows, SAP ECC, SAP Analytics Cloud, Power BI, Archer, SAP Fieldglass, CyberArk, SailPoint, SAP Solution Manager.
+* **Current Professional Tooling**
+  * Microsoft 365, Excel, PowerPoint, Teams, Outlook, SharePoint, Visio, Jira, Confluence, ServiceNow, Workday.
 
-* **Suggested Current-Role Phrase**
-  * Practical experience with Microsoft 365 collaboration tools, SAP-report-driven finance workflows, SAP ECC reporting context, SAP Analytics Cloud governance, Power BI reporting coordination, Archer-linked compliance workflows, Fieldglass SOW/external workforce processes, CyberArk access approvals, SailPoint access dependencies, and SolMan-held SAP documentation artefacts.
+* **Finance Systems and Product Stack**
+  * Board, SAP ERP / SAP ECC, SAP BW, SAP Analytics Cloud, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP.
 
-* **Developing Technical Tools**
-  * Python, SQL, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, VS Code/Cursor/PyCharm.
+* **Governance, Access, Compliance and Workforce Tools**
+  * Archer, SailPoint, Fieldglass, SAP Solution Manager, CyberArk, Veeva Vault, SAP ChaRM, SAP LeanIX.
 
-* **Suggested Developing-Capability Phrase**
-  * Developing hands-on technical capability through Python automation, SQL and SQLite-based data handling, desktop application prototyping, OpenAI API integration, and AI-assisted business analysis.
+* **Developing Technical Capability**
+  * Python, SQL, pandas, SQLite, SQLAlchemy, Tkinter, OpenAI API, Git/GitHub, VS Code/PyCharm/Cursor, AI coding assistants.
 
-* **Awareness-Level Enterprise Tools and Concepts**
-  * SAP Fiori, ServiceNow, SAP ChaRM, SAP LeanIX, Workday, Azure / cloud concepts, Azure API Management, Jira, Confluence, Visio / Lucidchart, PowerShell, Veeva Vault.
-
-* **Suggested Awareness-Level Phrase**
-  * Familiar with enterprise tool categories supporting SAP landscapes, IT service management, enterprise architecture, change governance, BI, identity governance, risk management, vendor/workforce governance, and controlled documentation.
-
-## 8. Realistic Positioning Statement
-
-Current role experience is strongest around product / technology management and reporting-governance coordination using Microsoft 365 collaboration tools, SAP reporting and planning ecosystem tools, SAP Analytics Cloud, Power BI governance context, Archer-linked compliance workflows, and workforce/access-process exposure through Fieldglass, CyberArk, SailPoint, and SAP Solution Manager documentation processes.
-
-This is complemented by developing personal technical capability in Python automation, SQL, SQLite, SQLAlchemy, pandas, desktop application prototyping, OpenAI API integration, and AI-assisted documentation or analysis.
+* **Suggested Short CV Phrase**
+  * Tools: Microsoft 365, Excel, PowerPoint, Visio, Jira, Confluence, ServiceNow, Workday, Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP, Archer, SailPoint, Fieldglass, CyberArk, Veeva Vault, SAP Solution Manager, SAP ChaRM, SAP LeanIX. Developing hands-on capability in Python, SQL, OpenAI API, Git/GitHub, and AI-assisted automation tooling.
 
 ## 9. Positioning Cautions
 
-* Do not present awareness-level tools as hands-on tools unless there is direct work evidence.
-* Avoid claiming SAP configuration, SAP architecture, ServiceNow administration, LeanIX repository ownership, Azure cloud architecture, identity governance implementation, GRC ownership, or Fieldglass administration unless directly supported by employment history.
-* Use “current-role exposure” for tools involved in your work context but not technically administered by you.
-* Use “business-side exposure” for SAP ECC, SAP reporting, SAC, Power BI, and SolMan where the role is about reporting, governance, coordination, process impact, or documentation rather than configuration.
-* Use “operational exposure” for CyberArk, SailPoint, Fieldglass, and Archer where the work involves access, approvals, governance, questionnaires, findings, SOW schedules, or dependency coordination.
-* Use “developing / personal technical capability” for Python, SQL, OpenAI API, Git, IDEs, and related technical tools.
-* Use “familiar with” or “aware of” for tools that appear in the wider enterprise landscape but are not part of direct tool usage or ownership.
+* Do not imply technical administration where the real experience is workflow/user exposure.
+* Use “workflow user,” “approver,” “reviewer,” “product owner,” “governance owner,” or “business-side owner” where appropriate.
+* For Archer, SailPoint, Fieldglass, CyberArk, Veeva, and SolMan, position experience as user/workflow/governance exposure unless specific configuration examples exist.
+* For SAP BW, SAP FIM, SAP FC, SAP SAC, and SAP ECC, position experience as architecture, data-flow, governance, and product/team ownership awareness unless hands-on configuration is evidenced.
+* For Board, it is fair to state user and developer/configurator capability, but avoid expert-level positioning unless targeting a Board-specific role.
+* For Azure, it is fair to state practical ownership/use of selected services such as virtual machines and gateways, plus broader cloud awareness.
+* For Power BI, position as comfortable user and reporting requirement owner, not report developer unless specific report-building examples are provided.
+* For Jira and Confluence, it is fair to state strong hands-on use, including Jira project administration and Confluence documentation/knowledge management.
+* For Visio, it is fair to state extensive process mapping and diagramming experience.
+* Keep Python, SQL, OpenAI API, Git/GitHub, and related development tools as developing/personal/project capability unless professional delivery examples are added.
+* Keep SAP S/4HANA, SAP BTP, SAP EAF, and Azure API Management as learning/training topics unless they become part of active delivery.
+
+## 10. Realistic Tool Narrative
+
+The realistic tool narrative is:
+
+* Strong professional use of Microsoft 365, Excel, PowerPoint, Visio, Jira, Confluence, ServiceNow, and Workday for product governance, finance systems management, process documentation, ITSM, delivery tracking, stakeholder communication, and people-management workflows.
+* Strong finance systems/product exposure across Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, and Oracle ERP, with direct Board configuration capability and broader architecture/data-flow/governance awareness across SAP and reporting platforms.
+* Regular workflow-user exposure to Archer, SailPoint, Fieldglass, CyberArk, Veeva, SAP Solution Manager, SAP ChaRM, and SAP LeanIX in governance, access, compliance, change, documentation, workforce, and application mapping contexts.
+* Developing personal technical capability in Python, SQL, OpenAI API, Git/GitHub, and AI-assisted automation tooling.

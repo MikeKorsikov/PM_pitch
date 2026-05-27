@@ -24,7 +24,7 @@ D:\PYTHON\PM_pitch
 │   │       ai_governance_and_controls.md (updated 2026-05-27)
 │   │       anomaly_detection.md (updated 2026-05-27)
 │   │       intelligent_document_processing.md (updated 2026-05-27)
-│   │       knowledge_assistant.md (updated 2026-05-26)
+│   │       knowledge_assistant.md (updated 2026-05-27)
 │   │       process_mining_and_insights.md (updated 2026-05-27)
 │   │       workflow_automation.md (updated 2026-05-27)
 │   │       

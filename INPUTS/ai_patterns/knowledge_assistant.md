@@ -1,4 +1,4 @@
-# Knowledge Assistant AI Pattern
+# Knowledge Assistant Pattern
 
 ## Purpose
 Use AI to help users find, interpret, summarize, and reuse organizational knowledge across documents, systems, processes, and historical records.

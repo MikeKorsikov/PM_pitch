@@ -10,34 +10,101 @@ case_config:
   priority_level: ""
   effort_tier: "Tier 2A"
   target_output_type: "application"
-  workflow_status: "initialized"
-  evidence_confidence_score: ""
+  workflow_status: "materials_drafted"
+  evidence_confidence_score: "medium"
   external_output_approved: false
-  target_stakeholders: []
-  known_technologies: []
-  suspected_pain_points: []
-  selected_value_models: []
-  personal_strengths_to_emphasize: []
+  target_stakeholders:
+    - "R&D leaders and business owners"
+    - "Enterprise AI and technology teams"
+    - "Clinical operations users"
+    - "Vendors and delivery partners"
+    - "Portfolio and functional leaders"
+  known_technologies:
+    - "AI-native development tools"
+    - "Claude Code"
+    - "Codex"
+    - "workflow automation"
+    - "data and analytics platforms"
+    - "clinical operations technology"
+  suspected_pain_points:
+    - "slow_change"
+    - "poor_e2e_visibility"
+    - "fragmented_governance"
+    - "compliance_audit_complexity"
+    - "knowledge_risk"
+  selected_value_models:
+    - "ai_adoption_value"
+    - "operational_efficiency"
+    - "governance_maturity"
+  personal_strengths_to_emphasize:
+    - "process discovery and workflow analysis"
+    - "business capability and technology capability mapping"
+    - "stakeholder, vendor, and cross-functional coordination"
+    - "AI-assisted delivery using tools such as Codex, Claude Code, and Microsoft Copilot"
+    - "governance, standardization, and controlled documentation mindset"
+    - "value framing using time saved, quality improvement, risk reduction, and adoption"
   role_fit:
-    score: null
-    qualification_level: ""
-    recommendation: ""
-    key_strength_matches: []
-    acceptable_gaps: []
-    red_flag_gaps: []
-    overqualification_signals: []
+    score: 68
+    qualification_level: "stretch"
+    recommendation: "proceed_with_caution"
+    key_strength_matches:
+      - "Strong match to workflow scanning, bottleneck identification, and process improvement."
+      - "Strong match to AI-native tooling interest and practical use of Codex / Claude-style tools."
+      - "Strong match to stakeholder, vendor, and cross-functional delivery coordination."
+      - "Moderate-to-strong match to proof-of-value, governance, and transformation framing."
+    acceptable_gaps:
+      - "Direct clinical operations experience must be clarified or bridged through adjacent pharma, regulated-process, or transformation evidence."
+      - "Hands-on rapid prototyping depth should be evidenced with concrete examples."
+      - "Applied AI delivery experience should be positioned practically, not overstated."
+    red_flag_gaps:
+      - "Captured job description is for AI Acceleration Lead, while the case target role is Enterprise Architect."
+      - "Job requires clinical operations / clinical development experience; this is not yet validated in user inputs."
+      - "Job asks for pharma strategy, applied AI/technology, transformation, or programme delivery experience; the exact evidence level needs user validation."
+    overqualification_signals:
+      - "The role may be narrower and more hands-on pilot-delivery focused than an Enterprise Architect target."
+      - "Enterprise architecture positioning may need to be translated into AI acceleration and clinical operations value language."
     user_decision: "pending"
   do_not_claim:
     - "Do not claim GSK uses a specific platform unless it appears in a job description or public source."
     - "Do not imply internal knowledge of GSK's architecture."
     - "Do not present pain point hypotheses as confirmed facts."
     - "Do not state personal experience claims unless validated by the user."
-  hypotheses: []
+  hypotheses:
+    - name: "slow_change"
+      evidence_level: "inferred"
+      confidence: "medium"
+      user_approved: false
+    - name: "poor_e2e_visibility"
+      evidence_level: "inferred"
+      confidence: "medium"
+      user_approved: false
+    - name: "fragmented_governance"
+      evidence_level: "inferred"
+      confidence: "medium"
+      user_approved: false
+    - name: "compliance_audit_complexity"
+      evidence_level: "inferred"
+      confidence: "medium"
+      user_approved: false
+    - name: "knowledge_risk"
+      evidence_level: "speculative"
+      confidence: "low"
+      user_approved: false
   output_folder: "OUTPUTS/cases/gsk_enterprise_architect_2026/"
-  evidence_sources: []
+  evidence_sources:
+    - "OUTPUTS/cases/gsk_enterprise_architect_2026/job_description.md"
+    - "https://gsk.wd5.myworkdayjobs.com/en-US/GSKCareers/job/AI-Acceleration-Lead_440001"
+    - "https://www.gsk.com/en-gb/innovation/technologies/"
+    - "https://www.gsk.com/en-gb/careers/featured-careers/a-career-in-data/"
+    - "https://www.gsk.com/en-gb/investors/financial-reports/annual-report-2025/"
+    - "INPUTS/industry_patterns/pharma.md"
   open_questions:
-    - "Is there a specific GSK Enterprise Architect job description to use?"
+    - "Should the target role be renamed from Enterprise Architect to AI Acceleration Lead for this case?"
     - "Which geography or market is the role targeting?"
+    - "Can the user evidence direct clinical operations or clinical development experience?"
+    - "Can the user evidence hands-on AI prototyping using Codex, Claude Code, or similar tools?"
+    - "Can the user evidence pharma, regulated-process, GxP, quality, clinical, or life-sciences transformation experience?"
     - "Should the case remain Tier 2A application-focused or move to Tier 2B interview preparation later?"
   user_decisions:
     - "Initial case created for GSK Enterprise Architect application preparation."
+    - "Agent role-fit recommendation: proceed_with_caution; user go / no-go decision remains pending."

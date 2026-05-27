@@ -1,68 +1,111 @@
-# Strategic Campaign checklist for case 1
+# Case Execution Checklist
 
-👉 Phase 1: Intelligence & Scoping (The "Discovery" Phase)
-Before creating materials, you must validate that you are solving a real, high-priority business problem.
+Use this checklist to run a target case without overproducing. Start lightweight, deepen only when the opportunity justifies it.
 
-[ ] Analyze Public Record: Read the last 2 years of annual reports, investor presentations, and major press releases to identify a recurring theme (e.g., "Digital Transformation lag," "Integration of recently acquired assets," or "Cost optimization in operations").
+## 1. Case Initialization
 
-[ ] Identify the "North Star" Pain: Define the specific business capability that is underperforming (e.g., "The finance function’s ability to forecast is hampered by siloed data").
+- [ ] `case_id` is defined
+- [ ] `company_name` is defined
+- [ ] `target_role` is defined
+- [ ] `industry` is selected
+- [ ] `case_type` is selected
+- [ ] `effort_tier` is selected
+- [ ] `target_output_type` is selected
+- [ ] `workflow_status` is set
+- [ ] Output folder path is defined
 
-[ ] Verify the Hypothesis: Search for at least two independent sources (e.g., industry analyst reports like Gartner or Forrester, or peer-reviewed articles) that confirm the "Pain" you identified is a known industry bottleneck. This gives you external validation to cite during your interview.
+Minimum viable config is enough to start. Do not wait for all optional fields.
 
-[ ] Define the Scope: Limit your study to one business process or one technical domain (e.g., "Order-to-Cash process automation") to ensure the materials remain sharp and focused.
+## 2. Scope and Effort Control
 
-👉 Phase 2: Material Preparation (The "Architectural Blueprint")
-Use the "Skeleton" we developed previously to build your reference guide.
+- [ ] Tier 0, 1, 2A, 2B, or 3 is selected
+- [ ] Selected tier matches opportunity value
+- [ ] Target output type is clear
+- [ ] Only required phases are planned
+- [ ] Deep work trigger exists before detailed analysis
+- [ ] Stop/archive criteria have been considered
 
-[ ] Develop Business Architecture Deck: Create slides for Business Capabilities and the Process Flow (BPMN).
+Default guidance:
 
-[ ] Develop Solution Architecture Deck:
+| Tier | Default Scope |
+|---|---|
+| Tier 0 | Research only |
+| Tier 1 | Outreach only |
+| Tier 2A | Application package |
+| Tier 2B | Interview preparation |
+| Tier 3 | Strategic deep-dive |
 
-[ ] Create the Value Flow Diagram (Connecting Business Goals to Solution Components).
+## 3. Evidence Quality
 
-[ ] Develop the Data and Integration Flow (Show where the data exists today vs. where it needs to go).
+- [ ] Public evidence sources are captured
+- [ ] Job description or role source is captured if available
+- [ ] Company claims are source-backed
+- [ ] Evidence confidence is labeled: `high`, `medium`, or `low`
+- [ ] Open questions are documented
+- [ ] Unsupported claims are added to `do_not_claim`
 
-[ ] Add the Governance and Risk Slide (Show you have considered SOX, PII, and security from the start).
+## 4. Hypothesis Discipline
 
-[ ] Build the Migration & Execution Plan: - [ ] Define the phases (As-Is -> To-Be).
+- [ ] Pain points are labeled as `evidenced`, `inferred`, or `speculative`
+- [ ] Speculative points are framed as questions or hypotheses
+- [ ] User has approved the pain points used in materials
+- [ ] Hypotheses are not presented as company facts
+- [ ] AI recommendations are tied to real pain points or role context
 
-[ ] Draft a high-level RACI Matrix (Who is accountable/responsible).
+## 5. Reasoning Chain Check
 
-[ ] Quantify the Value:
+- [ ] Industry pattern selected
+- [ ] Relevant pain point patterns selected
+- [ ] Business capabilities mapped where useful
+- [ ] Technology capabilities mapped where useful
+- [ ] AI patterns selected only where relevant
+- [ ] Value models selected only if needed for the output
+- [ ] Personal strengths are connected to role requirements
 
-[ ] Create a simplified TCO/ROI Calculator (Use Excel to show projected savings or efficiency gains).
+## 6. Material Readiness
 
-👉 Phase 3: The Campaign (Execution & Outreach)
-This is how you get your expertise in front of the right eyes.
+- [ ] Material matches `target_output_type`
+- [ ] Material matches intended audience
+- [ ] Material is concise enough for the selected tier
+- [ ] Business value is clear
+- [ ] Architecture detail is appropriate for the audience
+- [ ] Governance, risk, and security implications are considered
+- [ ] Evidence and hypotheses are clearly separated
 
-[ ] Draft the LinkedIn "Thought Leadership" Piece: - [ ] Focus on the industry challenge, not the company's failures.
+## 7. Human Validation
 
-[ ] Self-Correction: Ensure you don't name the company if you are being critical of their tech stack.
+- [ ] User confirmed whether to continue
+- [ ] User validated role fit
+- [ ] User validated personal claims
+- [ ] User validated selected pain points
+- [ ] User approved final positioning
+- [ ] User approved external-facing wording
 
-[ ] Refine the "Pitch" Message: Create a 3-sentence outreach email:
+## 8. External Output Approval
 
-Acknowledge a specific recent move by the company.
+- [ ] `external_output_approved = true`
+- [ ] Outreach message is approved
+- [ ] Application materials are approved
+- [ ] Follow-up message is approved
+- [ ] No `do_not_claim` items appear in final material
+- [ ] Final output is marked `Approved for External Use`
 
-Offer your architectural perspective on how that move aligns with current industry challenges.
+Do not send, apply, publish, or mark `outreach_ready` without user approval.
 
-Ask if they are open to seeing a high-level architectural view on how to optimize this transition.
+## 9. Stop or Archive Decision
 
-[ ] Prepare the Portfolio Assets: Host your materials in a professional, clean format (e.g., a PDF on a personal webpage or a clean Notion link) to make it easy to attach to job applications.
+- [ ] Role fit is strong enough to continue
+- [ ] Evidence is sufficient for the selected output
+- [ ] Opportunity value justifies additional work
+- [ ] Case improves interview probability, positioning quality, or reusable learning
+- [ ] If not, pause or archive the case
 
-[ ] The "Soft Launch": Share your LinkedIn article or your pitch email with 1-2 trusted mentors or peers in the architecture space first to see if your technical argument holds water before sending it to a decision-maker at your "Dream Target."
+## 10. Retrospective
 
-👉 Phase 4: Outreach & Application
-[ ] Identify the Target: Find the specific Head of Enterprise Architecture, CTO, or VP of Finance on LinkedIn.
-
-[ ] Send Personalized Outreach: Connect with them and offer to share the materials.
-
-[ ] Apply & Package: When applying for a vacancy, attach your "Reference Case Study" as a supplementary file AND tailored CV.
-
-[ ] Label it: "[Company Name] Transformation - Architectural Perspective by [Your Name]."
-
-👉 Expert Tips for your Case Study
-The "Consultant" Mindset: When creating these materials, assume the role of an external consultant who has been hired to fix the problem. This will help you keep the tone objective, professional, and solution-oriented.
-
-Visuals over Text: Since you are good at Lucidchart/Visio/BPMN, use these as your primary visual anchors. Complex diagrams are the "universal language" of architects.
-
-Governance as a Selling Point: Most architects focus on the "cool tech." By focusing on the "boring" but critical parts—Governance, TCO, and Risk/Security—you demonstrate senior-level maturity that hiring managers for high-stakes roles are actively hunting for.
+- [ ] Outcome is captured
+- [ ] Useful evidence is recorded
+- [ ] Strong and weak hypotheses are noted
+- [ ] Reusable phrases or materials are identified
+- [ ] Lessons learned are captured
+- [ ] Reusable insights are separated from company-specific details
+- [ ] `workflow_status` is updated

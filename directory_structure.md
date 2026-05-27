@@ -67,9 +67,9 @@ D:\PYTHON\PM_pitch
 │   │       zombie_data.md (updated 2026-05-27)
 │   │       
 │   ├───templates (HOW to turn reasoning into materials)
-│   │       0_Checklist.md (updated 2026-05-24)
-│   │       1_Target_profile.md (updated 2026-05-24)
-│   │       2_Materials.md (updated 2026-05-24)
+│   │       0_Checklist.md (updated 2026-05-27)
+│   │       1_Target_profile.md (updated 2026-05-27)
+│   │       2_Materials.md (updated 2026-05-27)
 │   │       
 │   └───value_models
 │           ai_adoption_value.md (updated 2026-05-27)
@@ -81,7 +81,19 @@ D:\PYTHON\PM_pitch
 │   └───cases
 │       ├───Case_1
 │       ├───Case_2
-│       └───Case_3
+│       ├───Case_3
+│       └───gsk_enterprise_architect_2026
+│               0_case_config.yaml (updated 2026-05-27)
+│               1_company_research.md (updated 2026-05-27)
+│               2_role_analysis.md (updated 2026-05-27)
+│               3_pain_point_hypotheses.md (updated 2026-05-27)
+│               4_capability_impact_map.md (updated 2026-05-27)
+│               5_value_case.md (updated 2026-05-27)
+│               6_transformation_narrative.md (updated 2026-05-27)
+│               7_materials.md (updated 2026-05-27)
+│               8_outreach.md (updated 2026-05-27)
+│               9_interview_prep.md (updated 2026-05-27)
+│               10_case_retrospective.md (updated 2026-05-27)
 └───repository_assessments
         gap_assessment.md (updated 2026-05-24)
         repository_review.md (updated 2026-05-27)

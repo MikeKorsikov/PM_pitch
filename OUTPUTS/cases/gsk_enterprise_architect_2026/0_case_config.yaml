@@ -1,0 +1,34 @@
+case_config:
+  case_id: "gsk_enterprise_architect_2026"
+  case_type: "open_role"
+  company_name: "GSK"
+  target_role: "Enterprise Architect"
+  industry: "pharma"
+  geography: ""
+  job_description_path: ""
+  company_website: "https://www.gsk.com"
+  priority_level: ""
+  effort_tier: "Tier 2A"
+  target_output_type: "application"
+  workflow_status: "initialized"
+  evidence_confidence_score: ""
+  external_output_approved: false
+  target_stakeholders: []
+  known_technologies: []
+  suspected_pain_points: []
+  selected_value_models: []
+  personal_strengths_to_emphasize: []
+  do_not_claim:
+    - "Do not claim GSK uses a specific platform unless it appears in a job description or public source."
+    - "Do not imply internal knowledge of GSK's architecture."
+    - "Do not present pain point hypotheses as confirmed facts."
+    - "Do not state personal experience claims unless validated by the user."
+  hypotheses: []
+  output_folder: "OUTPUTS/cases/gsk_enterprise_architect_2026/"
+  evidence_sources: []
+  open_questions:
+    - "Is there a specific GSK Enterprise Architect job description to use?"
+    - "Which geography or market is the role targeting?"
+    - "Should the case remain Tier 2A application-focused or move to Tier 2B interview preparation later?"
+  user_decisions:
+    - "Initial case created for GSK Enterprise Architect application preparation."

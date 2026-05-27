@@ -1,126 +1,141 @@
-# These are slides, materials for the presentation of the case study
+# Materials Template
 
-Tools to be used for each slide:
-[ ] Discovery -> Miro
-[ ] Business architecture -> Lucidchart (BPMN)
-[ ] Current vs Target -> Lucidchart
-[ ] Solution architecture -> Lucidchart (UML)
-[ ] End-to-end value flows -> Lucidchart (BPMN + UML)
-[ ] Delivery & Operating Model -> Miro
-[ ] Governance & RACI -> Excel
-[ ] Financial Model -> Excel
-[ ] Migration roadmap -> Lucidchart
-[ ] AI -> Lucidchart (BPMN)
+Use this template to create only the materials required by the selected `target_output_type` and `effort_tier`.
 
-🧭 1. Vision & Strategy (WHY)
-Business problem / opportunity
-Strategic intent
-Target outcomes (KPIs, value)
-Constraints (regulatory, tech, org)
+Do not create a full deck, roadmap, or detailed architecture narrative unless the case justifies deep work.
 
-👉 This is your opening story
+## Material Control
 
-🏢 2. Business Architecture (WHAT the business does)
-Business capabilities
-End-to-end business processes
-Stakeholders
-Pain points / inefficiencies
+| Field | Value |
+|---|---|
+| `case_id` |  |
+| `target_output_type` | application / outreach / article / pitch_deck / interview_prep / follow_up / case_study |
+| Intended audience |  |
+| Effort tier |  |
+| Evidence level | evidenced / inferred / speculative |
+| External-use approval status | Draft / User Reviewed / Approved for External Use |
 
-👉 This is where you show “reverse engineering thinking”
+## Output Selection
 
-🧩 3. Current vs Target State
-As-is capability map (use a visual "Heat Map." Color-code the capabilities: Green (Keep), Yellow (Improve/Modernize), Red (Retire/Replace). This makes the gap analysis instantly readable for executive eyes.)
-To-be capability map
-Gap analysis
+| Target Output Type | Include | Avoid |
+|---|---|---|
+| application | tailored CV bullets, cover note, role-fit narrative | full architecture deck |
+| outreach | short message, relevance bullets, light hypothesis | long materials |
+| article | public-safe thought leadership | company-specific claims |
+| pitch_deck | executive narrative, architecture/value slides | unsupported assumptions |
+| interview_prep | talking points, STAR examples, questions | unvalidated external claims |
+| follow_up | thank-you note, concise value reinforcement | new unvalidated analysis |
+| case_study | structured transformation case | claims implying inside knowledge |
 
-👉 This is where transformation becomes concrete
+## Executive Summary
 
-🏗️ 4. Solution Architecture (HOW we enable it)
+- Target company:
+- Target role:
+- Core positioning:
+- Business value angle:
+- Evidence confidence:
 
-Instead of listing layers first, structure it like:
+## Role-Fit Positioning
 
-4.1 Solution capability map
-4.2 Application / product map
-4.3 End-to-end solution flows
+- Relevant strengths:
+- Relevant experience:
+- Capability alignment:
+- Differentiation:
+- Claims requiring user validation:
 
-Then:
+## Transformation Narrative
 
-Data architecture
-Integration architecture
-Infrastructure architecture
-Security architecture
+Use this structure only when needed for the selected tier.
 
-Answer the questions:
-- who the platform serves?
-- what decisions it enables?
-- what it replaces?
-- what it simplifies?
-- what happens if we don't invest?
-- is architecture loosely coupled?
-- is architecture stateless?
-- what is the latency?
+- Current-state context:
+- Pain point or opportunity:
+- Future-state direction:
+- Transformation journey:
+- Business value:
+- Role of architecture:
+- Role of AI or automation:
 
-👉 layered but subordinate to capability flow
+## Pain Point Framing
 
-🔁 5. End-to-End Value Flows (CRITICAL)
+| Pain Point | Evidence Level | External Wording |
+|---|---|---|
+|  | evidenced / inferred / speculative |  |
 
-This is your strongest idea — expand it:
+Rules:
 
-Business process flow (A)
-Solution process flow (B)
-Data flow
-Component flow
-Add a visual indicator of "The Bottleneck." On your "As-Is" flow, highlight exactly where the process slows down. On your "To-Be" flow, show the "AI/Automation" layer clearing that bottleneck. This turns your diagram into a story of efficiency gains.
+- Evidence may be stated directly if sourced.
+- Inference must be framed as likely, potential, or common in this context.
+- Speculation should be converted into a question or omitted from external material.
 
-👉 THIS is where you show “connect the dots” skill
+## Capability Impact
 
-⚙️ 6. Delivery & Operating Model
-DevOps / CI/CD
-Support model
-ITIL processes
-Change management
-Ownership model
+- Business capabilities impacted:
+- Technology capabilities impacted:
+- Operating model impact:
+- Governance impact:
 
-👉 shows you understand “real life systems”
+## Value Case
 
-🧑‍🤝‍🧑 7. Governance & RACI
-Decision rights
-Ownership model
-Vendor vs internal roles
-Change governance
-Guardrails, not gates
-Risk based controls
-Lightweight approvals 
+- Relevant value models:
+- Primary value drivers:
+- Practical KPIs:
+- Measurement logic:
+- Expected business outcome:
 
-👉 this is where enterprise maturity shows
+## AI and Automation Angle
 
-💰 8. Financial Model
-TCO model
-Cost breakdown
-Value realization timeline
-Investment vs benefit
-Cost to serve per customer
-Cost per transaction
-Chargeback model
-Add a "Time-to-Value" (TTV) indicator. Executive sponsors are usually more concerned with how quickly they can see the first results (e.g., "Phase 1 delivers 20% efficiency in 3 months") than the total 5-year TCO.
+- Relevant AI patterns:
+- Automation opportunity:
+- Human-in-the-loop requirement:
+- Data requirement:
+- Integration requirement:
+- Governance or risk control:
 
-👉 this is what separates architects from consultants
+## Architecture Summary
 
-🚀 9. Migration Roadmap
-Phases
-Dependencies
-Risk management
-Legacy coexistence strategy
+Use only when required by `target_output_type`.
 
-👉 very important credibility layer
+- Current architecture concern:
+- Target-state direction:
+- Integration considerations:
+- Data considerations:
+- Security and governance considerations:
+- Migration or sequencing notes:
 
-🤖 10. AI + Automation Layer (cross-cutting, not separate)
+## Stakeholder-Specific Framing
 
-Instead of “section”, treat as:
+| Stakeholder | What They Care About | Message |
+|---|---|---|
+| CFO | value, cost, risk |  |
+| CIO / CTO | platforms, integration, delivery risk |  |
+| Enterprise Architect | capability alignment, standards, governance |  |
+| Transformation Lead | roadmap, adoption, benefits |  |
+| Operations Lead | throughput, quality, service |  |
 
-AI opportunities per process
-automation candidates
-agent orchestration opportunities
-decision automation points
+## Suggested Talking Points
 
-👉 embedded in every layer above
+- Talking point 1:
+- Talking point 2:
+- Talking point 3:
+- Question for interviewer or stakeholder:
+
+## Outreach or Follow-Up Draft
+
+Use for `outreach`, `referral`, or `follow_up` outputs.
+
+```text
+Subject:
+
+Message:
+```
+
+## Final Approval Checklist
+
+- [ ] Evidence and hypotheses are separated
+- [ ] Claims are truthful and user-validated
+- [ ] `do_not_claim` items are excluded
+- [ ] Material matches target output type
+- [ ] Material is concise enough for the effort tier
+- [ ] Business value is clear
+- [ ] AI claims are realistic and governed
+- [ ] User has approved external use

@@ -1,7 +1,7 @@
 # Pain Point Hypotheses - GSK Enterprise Architect
 
 ## Purpose
-Document plausible pain point hypotheses based on public evidence, industry context, and role analysis.
+Document plausible pain point hypotheses based on public evidence, industry context, and role fit assessment.
 
 ## Important Rule
 All pain points are hypotheses unless supported by evidence.

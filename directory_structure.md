@@ -84,8 +84,9 @@ D:\PYTHON\PM_pitch
 │       ├───Case_3
 │       └───gsk_enterprise_architect_2026
 │               0_case_config.yaml (updated 2026-05-27)
+│               job_description.md (updated 2026-05-27)
 │               1_company_research.md (updated 2026-05-27)
-│               2_role_analysis.md (updated 2026-05-27)
+│               2_role_fit_assessment.md (updated 2026-05-27)
 │               3_pain_point_hypotheses.md (updated 2026-05-27)
 │               4_capability_impact_map.md (updated 2026-05-27)
 │               5_value_case.md (updated 2026-05-27)

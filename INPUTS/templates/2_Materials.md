@@ -12,8 +12,21 @@ Do not create a full deck, roadmap, or detailed architecture narrative unless th
 | `target_output_type` | application / outreach / article / pitch_deck / interview_prep / follow_up / case_study |
 | Intended audience |  |
 | Effort tier |  |
+| Role fit score |  |
+| Role fit recommendation |  |
+| User decision |  |
 | Evidence level | evidenced / inferred / speculative |
 | External-use approval status | Draft / User Reviewed / Approved for External Use |
+
+## Role Fit Gate for Application Materials
+
+Application materials should not be generated until:
+
+- [ ] `2_role_fit_assessment.md` is complete
+- [ ] recommendation is `proceed` or `proceed_with_caution`
+- [ ] user decision is `proceed` or `escalate_to_interview_prep`
+- [ ] red flag gaps are resolved or explicitly acknowledged
+- [ ] personal claims are validated by the user
 
 ## Output Selection
 

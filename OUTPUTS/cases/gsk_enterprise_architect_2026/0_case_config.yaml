@@ -5,7 +5,7 @@ case_config:
   target_role: "Enterprise Architect"
   industry: "pharma"
   geography: ""
-  job_description_path: ""
+  job_description_path: "OUTPUTS/cases/gsk_enterprise_architect_2026/job_description.md"
   company_website: "https://www.gsk.com"
   priority_level: ""
   effort_tier: "Tier 2A"
@@ -18,6 +18,15 @@ case_config:
   suspected_pain_points: []
   selected_value_models: []
   personal_strengths_to_emphasize: []
+  role_fit:
+    score: null
+    qualification_level: ""
+    recommendation: ""
+    key_strength_matches: []
+    acceptable_gaps: []
+    red_flag_gaps: []
+    overqualification_signals: []
+    user_decision: "pending"
   do_not_claim:
     - "Do not claim GSK uses a specific platform unless it appears in a job description or public source."
     - "Do not imply internal knowledge of GSK's architecture."

@@ -15,13 +15,14 @@ Use this template to capture target context for a case. Keep it concise and evid
 | `effort_tier` |  |
 | `target_output_type` |  |
 | `workflow_status` |  |
+| `job_description_path` |  |
 
 ## Source References
 
 | Source Type | Link or Path | Notes |
 |---|---|---|
 | Company website |  |  |
-| Job description |  |  |
+| Job description | OUTPUTS/cases/{case_id}/job_description.md |  |
 | Public report or article |  |  |
 | Internal user note |  |  |
 
@@ -36,10 +37,27 @@ Use this template to capture target context for a case. Keep it concise and evid
 ## Role Context
 
 - Role objective:
+- Role fit score:
+- Qualification level:
+- Recommendation:
+- User decision:
 - Key responsibilities:
 - Required capabilities:
 - Relevant personal strengths:
 - Fit risks or gaps:
+
+## Role Fit Assessment
+
+| Field | Value |
+|---|---|
+| Score |  |
+| Qualification level | underqualified / stretch / good_fit / strong_fit / overqualified / unclear |
+| Recommendation | proceed / proceed_with_caution / pause / skip / needs_user_review |
+| User decision | pending / proceed / pause / skip / escalate_to_interview_prep |
+| Key strength matches |  |
+| Acceptable gaps |  |
+| Red flag gaps |  |
+| Overqualification signals |  |
 
 ## Industry Context
 

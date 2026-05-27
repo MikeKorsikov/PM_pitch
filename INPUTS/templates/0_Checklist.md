@@ -13,6 +13,8 @@ Use this checklist to run a target case without overproducing. Start lightweight
 - [ ] `target_output_type` is selected
 - [ ] `workflow_status` is set
 - [ ] Output folder path is defined
+- [ ] For open-role cases, `job_description.md` exists or capture is explicitly waived
+- [ ] For open-role cases, `job_description_path` points to `OUTPUTS/cases/{case_id}/job_description.md`
 
 Minimum viable config is enough to start. Do not wait for all optional fields.
 
@@ -37,6 +39,8 @@ Default guidance:
 
 ## 3. Evidence Quality
 
+- [ ] Raw job description is saved for open-role cases
+- [ ] Job description source URL or origin is captured if available
 - [ ] Public evidence sources are captured
 - [ ] Job description or role source is captured if available
 - [ ] Company claims are source-backed
@@ -52,7 +56,20 @@ Default guidance:
 - [ ] Hypotheses are not presented as company facts
 - [ ] AI recommendations are tied to real pain points or role context
 
-## 5. Reasoning Chain Check
+## 5. Role Fit Gate
+
+- [ ] `2_role_fit_assessment.md` is completed for open-role cases
+- [ ] Role fit score is assigned
+- [ ] Qualification level is selected
+- [ ] Recommendation is selected
+- [ ] Key strength matches are captured
+- [ ] Acceptable gaps are captured
+- [ ] Red flag gaps are captured
+- [ ] Overqualification signals are captured if relevant
+- [ ] User go / no-go decision is recorded
+- [ ] No deeper open-role case work proceeds if decision is `pause` or `skip`
+
+## 6. Reasoning Chain Check
 
 - [ ] Industry pattern selected
 - [ ] Relevant pain point patterns selected
@@ -62,8 +79,11 @@ Default guidance:
 - [ ] Value models selected only if needed for the output
 - [ ] Personal strengths are connected to role requirements
 
-## 6. Material Readiness
+## 7. Material Readiness
 
+- [ ] For open-role applications, role fit assessment is complete
+- [ ] User decision is `proceed`, `proceed_with_caution`, or `escalate_to_interview_prep`
+- [ ] Red flag gaps are resolved or explicitly acknowledged
 - [ ] Material matches `target_output_type`
 - [ ] Material matches intended audience
 - [ ] Material is concise enough for the selected tier
@@ -72,7 +92,7 @@ Default guidance:
 - [ ] Governance, risk, and security implications are considered
 - [ ] Evidence and hypotheses are clearly separated
 
-## 7. Human Validation
+## 8. Human Validation
 
 - [ ] User confirmed whether to continue
 - [ ] User validated role fit
@@ -81,7 +101,7 @@ Default guidance:
 - [ ] User approved final positioning
 - [ ] User approved external-facing wording
 
-## 8. External Output Approval
+## 9. External Output Approval
 
 - [ ] `external_output_approved = true`
 - [ ] Outreach message is approved
@@ -92,7 +112,7 @@ Default guidance:
 
 Do not send, apply, publish, or mark `outreach_ready` without user approval.
 
-## 9. Stop or Archive Decision
+## 10. Stop or Archive Decision
 
 - [ ] Role fit is strong enough to continue
 - [ ] Evidence is sufficient for the selected output
@@ -100,7 +120,7 @@ Do not send, apply, publish, or mark `outreach_ready` without user approval.
 - [ ] Case improves interview probability, positioning quality, or reusable learning
 - [ ] If not, pause or archive the case
 
-## 10. Retrospective
+## 11. Retrospective
 
 - [ ] Outcome is captured
 - [ ] Useful evidence is recorded

@@ -94,6 +94,65 @@ If none of these conditions are met, keep the case at Tier 0 or Tier 1.
 * Do not turn weak evidence into strong claims.
 * Do not spend more effort than the opportunity justifies.
 
+## Open-Role Role Fit Gate
+
+For `case_type = open_role`, role fit assessment is an early mandatory gate.
+
+Principle:
+
+```text
+No role fit assessment = no deeper open-role case work.
+```
+
+The role fit assessment must happen before:
+
+* detailed company research
+* pain point hypotheses
+* capability impact mapping
+* value case creation
+* transformation narrative
+* application materials
+
+Exceptions:
+
+* speculative cases
+* networking cases
+* thought-leadership article cases
+* cases where the user explicitly overrides the gate
+
+The role fit assessment determines whether the target role is worth pursuing by comparing the job description against:
+
+* user skills
+* user tools
+* capability framework
+* business capabilities
+* technology capabilities
+* target positioning
+* seniority expectations
+* likely role scope
+
+It should identify whether the user is underqualified, stretch fit, good fit, strong fit, overqualified, or unclear fit.
+
+## Role Fit Scoring Model
+
+Role Fit Score: `0-100`
+
+| Score | Meaning | Recommended Action |
+|---|---|---|
+| 85-100 | Strong fit | Proceed |
+| 70-84 | Good fit | Proceed, address gaps |
+| 55-69 | Stretch / possible fit | Proceed only if company or role is high priority |
+| 40-54 | Weak fit | Usually pause or skip |
+| 0-39 | Poor fit | Skip |
+
+Also evaluate:
+
+* underqualification signals
+* overqualification signals
+* acceptable gaps
+* red flag gaps
+* positioning opportunities
+
 ## Case Configuration Model
 
 Each case starts with a configuration file:
@@ -106,7 +165,7 @@ case_config:
   target_role: ""
   industry: ""
   geography: ""
-  job_description_path: ""
+  job_description_path: "OUTPUTS/cases/{case_id}/job_description.md"
   company_website: ""
   priority_level: ""
   effort_tier: ""
@@ -119,6 +178,15 @@ case_config:
   suspected_pain_points: []
   selected_value_models: []
   personal_strengths_to_emphasize: []
+  role_fit:
+    score: null
+    qualification_level: ""
+    recommendation: ""
+    key_strength_matches: []
+    acceptable_gaps: []
+    red_flag_gaps: []
+    overqualification_signals: []
+    user_decision: "pending"
   do_not_claim: []
   hypotheses:
     - name: ""
@@ -158,6 +226,7 @@ case_config:
 | `suspected_pain_points` | Selects pain point pattern files. |
 | `selected_value_models` | Selects value model files. |
 | `personal_strengths_to_emphasize` | Anchors positioning in credible personal experience. |
+| `role_fit` | Captures role fit score, qualification level, recommendation, key gaps, and user go / no-go decision for open-role cases. |
 | `evidence_confidence_score` | Overall confidence level based on available evidence: `high`, `medium`, or `low`. |
 | `external_output_approved` | Human approval flag for external-facing outputs. Defaults to `false`. |
 | `do_not_claim` | List of unsupported, risky, or prohibited claims the agent must avoid. |
@@ -180,6 +249,28 @@ Default `do_not_claim` examples:
 * Do not imply internal knowledge of the company architecture.
 * Do not present pain point hypotheses as confirmed facts.
 * Do not state personal experience claims unless validated by the user.
+
+Accepted role fit values:
+
+| Field | Accepted Values |
+|---|---|
+| `qualification_level` | `underqualified`, `stretch`, `good_fit`, `strong_fit`, `overqualified`, `unclear` |
+| `recommendation` | `proceed`, `proceed_with_caution`, `pause`, `skip`, `needs_user_review` |
+| `user_decision` | `pending`, `proceed`, `pause`, `skip`, `escalate_to_interview_prep` |
+
+For open-role cases, save the raw job description here:
+
+```text
+OUTPUTS/cases/{case_id}/job_description.md
+```
+
+Optional future source-folder convention:
+
+```text
+OUTPUTS/cases/{case_id}/sources/job_description.md
+```
+
+Use the direct case-folder location unless a `sources/` convention is introduced.
 
 ## Minimum Viable Case Config
 
@@ -207,11 +298,12 @@ Case information should be enriched gradually. Do not require complete informati
 Recommended progression:
 
 1. Minimum viable config.
-2. Basic company research.
-3. Role analysis if a job description exists.
-4. Pain point hypotheses only if evidence supports them.
-5. Capability and value mapping only if useful for materials.
-6. Deep architecture narrative only if the opportunity justifies it.
+2. Job description capture for open-role cases.
+3. Role fit assessment and user go / no-go decision for open-role cases.
+4. Basic company research.
+5. Pain point hypotheses only if evidence supports them.
+6. Capability and value mapping only if useful for materials.
+7. Deep architecture narrative only if the opportunity justifies it.
 
 ## Input File Selection Logic
 
@@ -291,10 +383,11 @@ Use the effort tier to prevent overproduction.
 
 | Tier | Mandatory Phases | Mandatory Outputs | Optional Outputs |
 |---|---|---|---|
-| Tier 0 - Discovery | 1-2 | `0_case_config.yaml`, `1_company_research.md` | none |
-| Tier 1 - Outreach | 1-3, 12 | `0_case_config.yaml`, `1_company_research.md`, `8_outreach.md` | `2_role_analysis.md` |
-| Tier 2 - Application / First Interview | 1-11, 13 | `2_role_analysis.md`, `3_pain_point_hypotheses.md`, `4_capability_impact_map.md`, `5_value_case.md`, `6_transformation_narrative.md`, `7_materials.md`, `9_interview_prep.md` | `8_outreach.md` |
-| Tier 3 - Deep-Dive Interview / Strategic Pitch | 1-15 | Full case package | Stakeholder variants, roadmap, architecture deck, value model expansion |
+| Tier 0 - Discovery | 1-2 | `0_case_config.yaml`, `1_company_research.md`; for open-role cases also capture `job_description.md` if available | none |
+| Tier 1 - Outreach | 1, 5, 14 | `0_case_config.yaml`, `1_company_research.md`, `8_outreach.md` | lightweight `2_role_fit_assessment.md` for open-role context |
+| Tier 2A - Application Package | 1-4, 12 | `job_description.md`, `2_role_fit_assessment.md`, `7_materials.md` | `1_company_research.md`, `8_outreach.md` |
+| Tier 2B - Interview Preparation | 1-15 | `job_description.md`, `2_role_fit_assessment.md`, `3_pain_point_hypotheses.md`, `4_capability_impact_map.md`, `5_value_case.md`, `6_transformation_narrative.md`, `9_interview_prep.md` | `8_outreach.md` |
+| Tier 3 - Deep-Dive Interview / Strategic Pitch | role fit gate, 1-15 | Full case package | Stakeholder variants, roadmap, architecture deck, value model expansion |
 
 ## Phase Selection Guidance
 
@@ -303,13 +396,14 @@ Use this table to select phases by situation. Do not run more phases unless the 
 | Situation | Recommended Phases |
 |---|---|
 | Quick target scan | Phases 1-2 |
-| Networking or speculative outreach | Phases 1-3 and 12 |
-| Standard application | Phases 1-3 and 10 |
-| Strong application | Phases 1-10 |
-| Interview preparation | Phases 1-13 |
-| Strategic deep-dive | Phases 1-15 |
-| Follow-up after interview | Phases 9, 10, 12, 14 |
-| Case closure | Phases 14-15 |
+| Open-role application gate | Phases 1-4 |
+| Networking or speculative outreach | Phases 1, 5, and 14 |
+| Standard application | Phases 1-4 and 12 |
+| Strong application | Phases 1-12 |
+| Interview preparation | Phases 1-15 |
+| Strategic deep-dive | Phases 1-17 |
+| Follow-up after interview | Phases 11, 12, 14, 16 |
+| Case closure | Phases 16-17 |
 
 ## Case-Type Workflow Guidance
 
@@ -346,7 +440,8 @@ Use chronological file names so humans, agents, and scripts can follow the case 
 OUTPUTS/cases/{case_id}/
     0_case_config.yaml
     1_company_research.md
-    2_role_analysis.md
+    job_description.md
+    2_role_fit_assessment.md
     3_pain_point_hypotheses.md
     4_capability_impact_map.md
     5_value_case.md
@@ -372,6 +467,68 @@ Naming rules:
 * Store drafts and user-approved versions clearly inside the relevant file.
 * Do not overwrite user-approved outputs without noting the change.
 
+## Role Fit Assessment File Structure
+
+Use this structure for `2_role_fit_assessment.md`:
+
+```markdown
+# Role Fit Assessment - {Company Name} {Target Role}
+
+## Purpose
+Assess whether the target role is worth pursuing before deeper case work.
+
+## Job Description Source
+- Path:
+- URL:
+- Date captured:
+
+## Role Summary
+
+## Key Requirements Extracted
+
+## Required Capabilities
+
+## Required Tools / Technologies
+
+## Match Against User Skills
+| Requirement | User Evidence / Strength | Match Level | Notes |
+|---|---|---|---|
+
+Match levels: strong, moderate, weak, missing, overqualified.
+
+## Capability Fit
+| Required Capability | Relevant User Capability | Fit Level | Notes |
+|---|---|---|---|
+
+## Seniority Fit
+
+## Underqualification Signals
+
+## Overqualification Signals
+
+## Acceptable Gaps
+
+## Red Flag Gaps
+
+## Positioning Opportunities
+
+## Role Fit Score
+Score: /100
+
+## Qualification Level
+underqualified / stretch / good_fit / strong_fit / overqualified / unclear
+
+## Recommendation
+proceed / proceed_with_caution / pause / skip / needs_user_review
+
+## User Decision
+pending / proceed / pause / skip / escalate_to_interview_prep
+
+## Notes for Application Materials
+
+## Open Questions
+```
+
 ## Chronological Execution Workflow
 
 ### Phase 1 - Case Initialization
@@ -387,12 +544,51 @@ Naming rules:
 | Decision Gate | Continue only if the target is relevant enough for the selected tier. |
 | Completion Criteria | Required variables are populated, `case_type` and `target_output_type` are set, and `workflow_status = initialized`. |
 
-### Phase 2 - Target Company Research
+### Phase 2 - Job Description Capture
+
+| Field | Definition |
+|---|---|
+| Purpose | Capture the raw job description for open-role cases before role fit assessment. |
+| Trigger | `case_type = open_role` and a job description is available or requested. |
+| Inputs | Job posting URL, pasted job description, recruiter-provided description, or saved role brief. |
+| Agent Can Do | Create `job_description.md`, preserve the raw text, record source URL and capture date, update `job_description_path`. |
+| User Must Validate | Confirm the job description is the correct role and current enough to use. |
+| Outputs | `job_description.md`; updated `job_description_path` in `0_case_config.yaml`. |
+| Decision Gate | For open-role cases, do not proceed to role fit assessment until the job description is captured or the user explicitly overrides. |
+| Completion Criteria | `job_description.md` exists or the user has documented why the gate is overridden. |
+
+### Phase 3 - Role Fit Assessment
+
+| Field | Definition |
+|---|---|
+| Purpose | Decide whether the open role is worth pursuing before deeper case work. |
+| Trigger | `job_description.md` is captured for an open-role case. |
+| Inputs | `job_description.md`, skills, tools, capability framework, business capabilities, technology capabilities, target positioning. |
+| Agent Can Do | Extract role requirements, compare against user skills and capabilities, identify gaps, assign role fit score, draft recommendation. |
+| User Must Validate | Confirm personal evidence, acceptable gaps, red flag gaps, overqualification signals, and go / no-go decision. |
+| Outputs | `2_role_fit_assessment.md`; updated `role_fit` block in `0_case_config.yaml`. |
+| Decision Gate | No deeper open-role case work unless `role_fit.user_decision = proceed` or `escalate_to_interview_prep`, or the user explicitly overrides. |
+| Completion Criteria | Role fit score, qualification level, recommendation, and user decision are documented. |
+
+### Phase 4 - User Go / No-Go Decision
+
+| Field | Definition |
+|---|---|
+| Purpose | Record the user decision before investing in company research, pain point mapping, value modeling, or materials. |
+| Trigger | Role fit assessment is complete. |
+| Inputs | `2_role_fit_assessment.md`, role fit score, recommendation, user judgment. |
+| Agent Can Do | Summarize recommendation, highlight gaps, suggest proceed / pause / skip options. |
+| User Must Validate | Choose `proceed`, `pause`, `skip`, or `escalate_to_interview_prep`. |
+| Outputs | Updated `role_fit.user_decision` and `user_decisions` in `0_case_config.yaml`. |
+| Decision Gate | Stop if user decision is `pause` or `skip`. |
+| Completion Criteria | User decision is recorded. |
+
+### Phase 5 - Target Company Research
 
 | Field | Definition |
 |---|---|
 | Purpose | Capture evidence-based public signals about company strategy, transformation, technology, and operating pressures. |
-| Trigger | Case initialized. |
+| Trigger | Role fit gate is passed for open-role cases, or case is non-open-role. |
 | Inputs | Company website, annual reports, job posts, news, public transformation signals, known technologies. |
 | Agent Can Do | Collect public information, summarize evidence, separate facts from inferences, identify transformation signals. |
 | User Must Validate | Confirm whether research is relevant and whether any known context should be added or corrected. |
@@ -400,20 +596,7 @@ Naming rules:
 | Decision Gate | Proceed only if evidence supports a plausible tailored narrative or user confirms strategic interest. |
 | Completion Criteria | Evidence sources, open questions, and `evidence_confidence_score` are captured; `workflow_status = researched`. |
 
-### Phase 3 - Role and Job Description Analysis
-
-| Field | Definition |
-|---|---|
-| Purpose | Translate the role into expected capabilities, stakeholder concerns, and positioning requirements. |
-| Trigger | Job description or role target is available. |
-| Inputs | Job description, target role, capability framework, skills/tools draft inputs. |
-| Agent Can Do | Extract role requirements, map keywords to capabilities, identify fit gaps, suggest personal strengths to emphasize. |
-| User Must Validate | Confirm actual strengths, remove overclaims, approve role-fit framing. |
-| Outputs | `2_role_analysis.md`. |
-| Decision Gate | Continue if the user can credibly position against the role. |
-| Completion Criteria | Role requirements, positioning themes, and risk areas are documented. |
-
-### Phase 4 - Industry Context Selection
+### Phase 6 - Industry Context Selection
 
 | Field | Definition |
 |---|---|
@@ -426,33 +609,33 @@ Naming rules:
 | Decision Gate | Proceed only after industry lens is accepted or corrected. |
 | Completion Criteria | Industry file is selected and referenced in the case config. |
 
-### Phase 5 - Pain Point Hypothesis Mapping
+### Phase 7 - Pain Point Hypothesis Mapping
 
 | Field | Definition |
 |---|---|
 | Purpose | Infer likely enterprise pain points without presenting them as confirmed facts. |
 | Trigger | Company research and industry context are available. |
-| Inputs | Industry pattern, selected pain point pattern files, public evidence, role analysis. |
+| Inputs | Industry pattern, selected pain point pattern files, public evidence, role fit assessment. |
 | Agent Can Do | Generate pain point hypotheses, business impact, architecture implications, and evidence confidence. |
 | User Must Validate | Approve plausible hypotheses, reject weak assumptions, confirm what cannot be claimed. |
 | Outputs | `3_pain_point_hypotheses.md`. |
 | Decision Gate | Continue only with hypotheses that are plausible, relevant, and clearly labeled. |
 | Completion Criteria | Each hypothesis has `evidence_level`, `confidence`, and `user_approved` status; `workflow_status = hypotheses_generated`. |
 
-### Phase 6 - Capability Impact Mapping
+### Phase 8 - Capability Impact Mapping
 
 | Field | Definition |
 |---|---|
 | Purpose | Connect pain points to business capabilities, technology capabilities, and operating consequences. |
 | Trigger | Pain point hypotheses are selected. |
-| Inputs | Business capabilities, technology capabilities, capability framework, role analysis. |
+| Inputs | Business capabilities, technology capabilities, capability framework, role fit assessment. |
 | Agent Can Do | Map pain point -> capability impact -> architecture implication -> transformation opportunity. |
 | User Must Validate | Confirm maps align with personal experience and target role positioning. |
 | Outputs | `4_capability_impact_map.md`. |
 | Decision Gate | Proceed if the map supports a clear value-focused role narrative. |
 | Completion Criteria | Top capability impacts and transformation levers are documented. |
 
-### Phase 7 - Technology and Tooling Signal Mapping
+### Phase 9 - Technology and Tooling Signal Mapping
 
 | Field | Definition |
 |---|---|
@@ -465,46 +648,46 @@ Naming rules:
 | Decision Gate | Only include technology claims that are evidenced or clearly framed as likely industry context. |
 | Completion Criteria | Technology signals are tagged as `confirmed`, `job_post_signal`, `industry_common`, or `unknown`. |
 
-### Phase 8 - Value Model Selection
+### Phase 10 - Value Model Selection
 
 | Field | Definition |
 |---|---|
 | Purpose | Select value models that justify the transformation narrative in business terms. |
 | Trigger | Capability impacts and transformation opportunities are known. |
-| Inputs | Value model files, role analysis, stakeholder priorities, pain point hypotheses. |
+| Inputs | Value model files, role fit assessment, stakeholder priorities, pain point hypotheses. |
 | Agent Can Do | Recommend value models, define outcome logic, suggest KPIs and benefits. |
 | User Must Validate | Confirm value claims are realistic and relevant to the role stage. |
 | Outputs | `5_value_case.md`. |
 | Decision Gate | Continue only if value is clear, measurable where possible, and not inflated. |
 | Completion Criteria | Selected value models and KPIs are documented in case config and value case. |
 
-### Phase 9 - Transformation Narrative Creation
+### Phase 11 - Transformation Narrative Creation
 
 | Field | Definition |
 |---|---|
 | Purpose | Convert analysis into a concise transformation story. |
 | Trigger | Research, hypotheses, capability map, and value case are available. |
-| Inputs | Company research, role analysis, pain points, capabilities, AI patterns, value models, personal strengths. |
+| Inputs | Company research, role fit assessment, pain points, capabilities, AI patterns, value models, personal strengths. |
 | Agent Can Do | Draft current state, problem, future state, transformation journey, architecture role, AI lens, and value story. |
 | User Must Validate | Approve positioning angle, remove overstated claims, confirm personal credibility. |
 | Outputs | `6_transformation_narrative.md`. |
 | Decision Gate | Proceed only if the narrative is credible, tailored, and concise. |
 | Completion Criteria | Executive version and architecture deep-dive version are both available when tier requires them. |
 
-### Phase 10 - Material Generation
+### Phase 12 - Material Generation
 
 | Field | Definition |
 |---|---|
 | Purpose | Create target-stage materials from the approved narrative. |
 | Trigger | Narrative approved or draft-ready for a specific application stage. |
-| Inputs | Templates, transformation narrative, role analysis, value case, user-approved strengths. |
+| Inputs | Templates, transformation narrative, role fit assessment, value case, user-approved strengths. |
 | Agent Can Do | Draft CV bullets, cover letter, executive pitch, architecture story, roadmap, AI opportunity summary, stakeholder versions. |
 | User Must Validate | Approve final materials, verify personal claims, decide what is appropriate to share. |
 | Outputs | `7_materials.md` and optional stage-specific assets. |
-| Decision Gate | Do not send or reuse materials externally until `external_output_approved = true`. |
+| Decision Gate | For open-role applications, do not generate materials until role fit is complete and recommendation is `proceed` or `proceed_with_caution`; do not send externally until `external_output_approved = true`. |
 | Completion Criteria | Materials are tailored to effort tier, audience, and application stage; `workflow_status = materials_drafted`. |
 
-### Phase 11 - User Review and Validation
+### Phase 13 - User Review and Validation
 
 | Field | Definition |
 |---|---|
@@ -517,7 +700,7 @@ Naming rules:
 | Decision Gate | Proceed only after critical assumptions and materials are approved. |
 | Completion Criteria | `workflow_status = user_validated` or case is archived. |
 
-### Phase 12 - Outreach Preparation
+### Phase 14 - Outreach Preparation
 
 | Field | Definition |
 |---|---|
@@ -530,7 +713,7 @@ Naming rules:
 | Decision Gate | Outreach is ready only after user approves message and recipient strategy and `external_output_approved = true`. |
 | Completion Criteria | `workflow_status = outreach_ready`. |
 
-### Phase 13 - Interview Preparation
+### Phase 15 - Interview Preparation
 
 | Field | Definition |
 |---|---|
@@ -543,7 +726,7 @@ Naming rules:
 | Decision Gate | Interview prep is complete when user can explain the narrative naturally and defend assumptions. |
 | Completion Criteria | `workflow_status = interview_scheduled` or `interview_completed` after notes are captured. |
 
-### Phase 14 - Post-Application Tracking
+### Phase 16 - Post-Application Tracking
 
 | Field | Definition |
 |---|---|
@@ -556,7 +739,7 @@ Naming rules:
 | Decision Gate | Continue, follow up, deepen, or archive based on response and priority. |
 | Completion Criteria | Current status and next action are clear. |
 
-### Phase 15 - Case Retrospective and Knowledge Reuse
+### Phase 17 - Case Retrospective and Knowledge Reuse
 
 | Field | Definition |
 |---|---|
@@ -808,6 +991,16 @@ Variable-driven automation rules:
 * `evidence_confidence_score` determines how strongly materials can state conclusions.
 * `do_not_claim` blocks risky statements from external outputs.
 * `hypotheses[*].user_approved` determines which hypotheses can be used in approved positioning.
+
+Open-role automation rule:
+
+1. Load `job_description.md`.
+2. Extract requirements.
+3. Compare requirements against skills, tools, and capability framework.
+4. Generate `2_role_fit_assessment.md`.
+5. Update the `role_fit` block in `0_case_config.yaml`.
+6. Request user go / no-go decision.
+7. Stop unless `role_fit.user_decision = proceed` or `escalate_to_interview_prep`.
 
 Minimum automation checkpoints:
 

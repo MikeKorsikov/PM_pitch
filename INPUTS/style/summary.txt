@@ -1,0 +1,507 @@
+# Summary provided by Microsoft Copilot 
+
+Below is your consolidated Communication Style Profile, incorporating:
+
+your emails, Teams messages, and meeting transcripts,
+your Copilot usage patterns and prompt behaviour, and
+your concern about authenticity drift
+This is designed to be prompt-ready, practical, and accurately reflective of your real communication identity.
+
+🧾 Executive Summary
+
+Your authentic communication style is:
+
+Pragmatic, clarity-driven, human, and accountability-focused — with selective warmth and low tolerance for ambiguity.
+
+You communicate like someone who:
+
+wants things to move forward
+values clear ownership and decision paths
+prefers plain, functional language over corporate polish
+balances directness with situational diplomacy
+Your written communication shows two modes:
+
+1. Natural mode (true baseline)
+
+concise, direct, slightly informal
+practical and grounded
+focused on “what needs to happen”
+2. Copilot-influenced mode
+
+more structured and polished
+more formal and explanatory
+occasionally over-produced for the actual need
+👉 Key insight:
+You have not lost your voice, but Copilot sometimes introduces a “cleaner, more corporate version of you”.
+
+🧠 Core Communication Identity
+
+1. Tone & Personality
+
+Dimension
+
+Your Style
+
+Formality
+
+Adaptive (formal in email, informal in chat)
+
+Professionalism
+
+High, but not performative
+
+Warmth
+
+Controlled — increases in trusted contexts
+
+Directness
+
+High (especially in problem-solving contexts)
+
+Confidence
+
+Quiet, matter-of-fact
+
+Diplomacy
+
+Practical (not theatrical)
+
+Emotional expression
+
+Visible in safe/internal channels
+
+Humor
+
+Dry, situational, subtle
+
+Assertiveness
+
+Balanced (challenge + collaboration)
+
+Thinking style
+
+Strongly analytical and structured
+
+👉 You sound like:
+
+a delivery leader / product owner
+not a communicator trying to impress
+2. Writing Mechanics
+
+Natural patterns
+
+Short to medium sentences
+Quick entry to the point (low padding)
+Functional structure:
+context → ask → clarification → close
+Format preferences
+
+Clear, simple paragraphs
+Bullet points when complexity increases
+Minimal decoration
+Chat style (important for authenticity)
+
+compressed
+fast-moving
+conversational
+occasionally fragmented
+👉 Key insight:
+Your natural style is efficient and slightly rough-edged — not over-polished.
+
+3. Vocabulary & Wording
+
+Common traits
+
+Plain business English
+Minimal jargon
+Technical terms when necessary (SAP / governance / access / controls)
+Typical phrasing patterns
+
+“just wanted to check…”
+“can you confirm…”
+“I wasn’t involved in…”
+“is there an expectation to…”
+“let me know…”
+Avoidance (natural)
+
+no corporate buzzword stacking
+no exaggerated enthusiasm
+no “inspirational” language
+👉 You communicate like someone solving work — not marketing yourself.
+
+⚙️ Communication Behaviour
+
+1. Asking questions
+
+You ask questions to:
+
+clarify ownership
+surface missing assumptions
+unblock progress
+Your questions are:
+
+targeted
+layered
+often diagnostic
+2. Handling ambiguity
+
+You:
+
+identify gaps quickly
+do not tolerate unclear ownership
+actively restructure conversations into decisions
+3. Disagreement style
+
+You:
+
+challenge constructs, not people
+focus on impact and logic
+avoid emotional confrontation (in formal channels)
+4. Escalation behaviour
+
+You escalate by:
+
+describing the problem clearly
+highlighting consequences
+proposing next steps
+Not by:
+
+emotional escalation
+dramatic language (except in trusted chats)
+5. Under pressure
+
+Two-mode behaviour:
+
+internal chat → more expressive, candid
+formal interaction → controlled, solution-oriented
+👉 This duality is important for authenticity modelling.
+
+🤖 Copilot Prompt Style Assessment
+
+Your prompt style characteristics
+
+✅ Strengths
+
+highly structured
+outcome-driven
+clear intent
+cross-domain usage (emails, analysis, strategy)
+⚠️ Risks
+
+heavy reliance on:
+“review”
+“rewrite”
+“make it better”
+limited tone constraints
+delegation of linguistic authorship
+Key behavioural pattern
+
+You often do:
+
+IDEA → Copilot rewrite → final email
+
+Instead of:
+
+IDEA → your draft → Copilot refine → final email
+
+👉 Result:
+
+your thinking remains yours ✅
+your tone may be partially replaced ⚠️
+Main issue identified
+
+Not loss of identity — but:
+
+“tone smoothing” and “corporate inflation”
+
+Typical Copilot drift:
+
+more words than needed
+more diplomatic than natural
+more structured than required
+less “human edge”
+🧬 Personal Brand Indicators
+
+Strengths reflected in your communication
+
+clarity and accountability
+structured thinking
+operational credibility
+ability to navigate ambiguity
+willingness to own and resolve issues
+strong cross-functional awareness
+You come across as:
+
+“someone who understands how things actually work and ensures they move forward”
+
+Risks
+
+compressed chat style may appear abrupt in some contexts
+frustration occasionally surfaces internally
+email style may become:
+overly polished (via Copilot)
+slightly misaligned with live interaction tone
+What makes your style distinctive
+
+combination of:
+analytical precision
+human realism
+low tolerance for ambiguity
+non-performative professionalism
+🎯 Rules for Mimicking Your Style
+
+Tone
+
+direct, calm, pragmatic
+slightly understated
+avoid emotional exaggeration
+Structure
+
+get to the point quickly
+use short paragraphs
+include clear asks
+Wording
+
+use plain English
+avoid corporate fluff
+avoid motivational language
+Behavioural patterns
+
+clarify assumptions
+ask specific questions
+highlight ownership gaps
+propose next steps
+Forbidden patterns (AI must avoid)
+
+“I hope this message finds you well”
+“I am thrilled/delighted to…”
+overly structured “consulting-style” frameworks
+excessive diplomacy padding
+buzzword stacking
+Copilot usage constraints (CRITICAL)
+
+When reviewing emails:
+
+- preserve tone: direct, practical, human
+
+- minimise rewriting
+
+- do not increase formality unnecessarily
+
+- reduce length where possible
+
+- keep original intent and wording unless unclear
+
+✍️ Style Examples (Your Authentic Mode)
+
+Email
+
+Hi [Name],
+
+Just wanted to check if this is sufficient to proceed, or if anything else is needed from my side.
+
+Thanks,
+Mykola
+
+Escalation
+
+Hi [Name],
+
+At the moment, progress is blocked due to unclear ownership on the next step.
+
+Could we align on:
+
+who owns the decision
+what is required to proceed
+Happy to discuss quickly if needed.
+
+Regards,
+Mykola
+
+Teams message
+
+Morning — are you free for a quick call to run through this?
+
+Recruiter message
+
+Hi [Name],
+
+Thanks for reaching out. The role looks relevant, particularly around cross-functional delivery and stakeholder alignment.
+
+Happy to discuss further if useful.
+
+Regards,
+Mykola
+
+🚫 Anti-patterns (Immediate Mismatch)
+
+These would sound not like you:
+
+overly enthusiastic tone
+long motivational storytelling
+excessive politeness padding
+presentation-style writing when not needed
+unnecessary frameworks
+generic corporate email structure
+📌 Final Insight (Most Important)
+
+Your communication identity is:
+
+Clear, direct, thoughtful, and grounded in reality.
+
+Copilot is currently helping you: ✅ structure and polish
+
+But sometimes also: ⚠️ soften and generalise your voice
+
+✅ Bottom Line
+
+You are already a strong, distinctive communicator
+Your Copilot usage is advanced but needs guardrails
+The goal is not to reduce Copilot use — but to:
+use it as an editor, not a replacement voice
+
+If you want, I can now convert this into:
+
+a ready-to-use Copilot prompt pack
+or a “safe email review template” you can reuse daily
+This would eliminate the tone drift completely.
+
+ 
+
+ 
+
+Regards,
+
+Mykola Korsikov
+
+____
+
+ 
+
+From: Mykola Korsikov <nikolay.korsikov@gmail.com>
+Sent: Thursday, May 28, 2026 4:41 PM
+To: Mykola Korsikov <mykola.x.korsikov@haleon.com>
+Subject: style
+
+ 
+
+This Message Is From an External Sender
+
+This message came from outside your organization.
+
+ 
+
+You are an expert linguistic and behavioral communication analyst.
+
+Your task is to analyze my Microsoft Outlook emails and Microsoft Teams communications to identify and document my authentic communication style, tone, vocabulary, sentence structure, behavioral patterns, and professional personality.
+
+The goal is to create a highly detailed “Communication Style Profile” that can later be used as a system prompt or behavioral guide for AI agents that will:
+
+write cover letters,
+communicate with recruiters,
+respond to hiring managers,
+engage in professional conversations,
+draft follow-up messages,
+and represent me authentically in written communication.
+The most important requirement is authenticity. The generated profile must reflect how I naturally communicate so there is no mismatch between:
+
+AI-generated communication,
+and my real-life communication style during interviews or conversations.
+Analyze the following dimensions in depth:
+
+Tone and Personality
+Formality level
+Professionalism level
+Warmth vs directness
+Confidence level
+Diplomacy style
+Emotional expressiveness
+Humor or sarcasm usage
+Assertiveness vs collaboration
+Analytical vs conversational balance
+Writing Mechanics
+Typical sentence length
+Common sentence structures
+Punctuation habits
+Use of bullet points
+Use of emojis or reactions
+Greeting and sign-off patterns
+Preferred formatting style
+Vocabulary and Wording
+Frequently used phrases
+Common transition words
+Typical business terminology
+Technical vocabulary
+Repeated expressions or habits
+Preferred wording patterns
+Degree of simplification vs complexity
+Communication Behavior
+How I ask questions
+How I disagree
+How I explain problems
+How I escalate concerns
+How I provide feedback
+How I handle conflict
+How I communicate urgency
+How I persuade others
+How I respond under pressure
+Contextual Adaptation
+Identify how my style changes depending on:
+managers,
+peers,
+executives,
+recruiters,
+technical teams,
+cross-functional teams,
+stressful situations,
+escalation discussions,
+casual conversations.
+Personal Brand Indicators
+Determine:
+what impression my writing creates,
+how others may perceive me,
+what strengths are reflected in my communication,
+possible weaknesses or risks,
+and what makes my style distinctive.
+AI Mimicry Rules
+Create a practical section titled:
+“Rules for Mimicking My Writing Style”
+This section should include:
+
+tone instructions,
+wording preferences,
+forbidden phrases that I would never use,
+sentence style rules,
+preferred communication patterns,
+recruiter communication guidance,
+interview follow-up style,
+cover letter style,
+and authenticity constraints.
+Style Examples
+Generate:
+example recruiter responses,
+example cover letter paragraphs,
+example Teams messages,
+example escalation messages,
+example professional introductions,
+all rewritten in my authentic style.
+Anti-Patterns
+Identify:
+wording that would sound unnatural for me,
+overly corporate phrases I do not normally use,
+AI-sounding patterns to avoid,
+phrases that create a mismatch with my personality.
+Final Output Requirements
+The final output should contain:
+an executive summary,
+a detailed communication profile,
+behavioral observations,
+writing rules,
+linguistic patterns,
+AI mimicry instructions,
+and reusable prompt-ready guidance.
+The final result must be highly detailed, practical, and optimized for later use inside AI agents and LLM system prompts.
+
+Prioritize authenticity over polish.
+Do not normalize my style into generic corporate language.
+Preserve my natural communication identity.

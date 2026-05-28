@@ -18,6 +18,7 @@ Do not create a full deck, roadmap, or detailed architecture narrative unless th
 | Role fit recommendation |  |
 | User decision |  |
 | Evidence level | evidenced / inferred / speculative |
+| Style source used | INPUTS/style/summary.txt / INPUTS/style/system_prompt.md / not used |
 | External-use approval status | Draft / User Reviewed / Approved for External Use |
 
 ## Role Fit Gate for Application Materials
@@ -52,6 +53,7 @@ If `role_status = closed`, archive the case or reuse the material for a similar 
 - Core positioning:
 - Business value angle:
 - Evidence confidence:
+- Style target: clear, grounded, practical, understated
 
 ## Role-Fit Positioning
 
@@ -72,6 +74,26 @@ Use this structure only when needed for the selected tier.
 - Business value:
 - Role of architecture:
 - Role of AI or automation:
+
+## Cover Note / Employer Note Style Rules
+
+Use for cover notes, recruiter messages, referral notes, follow-ups, and employer-facing application text.
+
+- Start with why the role makes sense.
+- Keep the tone practical, direct, and calm.
+- Use plain business English.
+- Avoid exaggerated enthusiasm.
+- Avoid generic corporate phrases.
+- Keep paragraphs short.
+- Sound like an experienced operator explaining fit, not a candidate trying to impress.
+- Do not add claims during style polishing.
+
+Preferred structure:
+
+1. Role relevance.
+2. Relevant experience.
+3. Practical value.
+4. Short close.
 
 ## Pain Point Framing
 
@@ -152,6 +174,8 @@ Message:
 - [ ] Evidence and hypotheses are separated
 - [ ] Claims are truthful and user-validated
 - [ ] `do_not_claim` items are excluded
+- [ ] Wording aligns with `INPUTS/style/`
+- [ ] Style pass preserved authenticity and did not over-polish
 - [ ] Material matches target output type
 - [ ] Material is concise enough for the effort tier
 - [ ] Business value is clear

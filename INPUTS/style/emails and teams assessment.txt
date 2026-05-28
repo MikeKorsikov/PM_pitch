@@ -1,0 +1,368 @@
+I reviewed a source set that included **several emails**, **49 meetings**, **5 file-domain artefacts/transcripts**, and multiple relevant Microsoft Teams threads. The profile below is grounded in your own sent emails, Teams messages, and meeting transcripts. I did **not** find a strong sample of real recruiter correspondence or cover letters in this pass, so the recruiter / cover-letter sections are **modelled from your observed style**, not copied from recruiter-specific messages. [\[RE: Impact...- Phase 1 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP%2bAAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b102ac26-3f58-4e0f-9415-999d662b4030@unq.gbl.spaces/1779951082653?context=%7B%22contextType%22:%22chat%22%7D), [\[Go-No-Go -...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={d16c7224-cee2-437b-acb9-d346fe993a4d}), [\[RE: Draft Email \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb6SlAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+# Executive summary
+
+Your authentic communication style is best described as **pragmatic, human, and accountability-driven**. In formal channels, you are typically **polite, concise, and purpose-led**: you open fast, state the context, ask one or two clear questions, and close cleanly without rhetorical padding. In less formal settings, you become **warmer, more colloquial, and more candid**, sometimes using irony, self-deprecation, playful phrasing, or blunt language when frustrated. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D)
+
+What makes your style distinctive is the combination of **operational clarity** and **emotional honesty**. You do not naturally write in exaggerated corporate polish. Instead, you tend to sound like someone who is trying to **move work forward, reduce ambiguity, and stay real**. Even under pressure, you usually return quickly to action, ownership, and next steps—for example by clarifying decision paths, asking for the latest chain, or proposing remediation rather than defensiveness. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17}), [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4})
+
+Your style is therefore a poor fit for generic AI language such as “I hope this message finds you well”, “I am thrilled to apply”, or overly polished motivational prose. A faithful AI proxy for you should sound **clear, grounded, direct, collaborative, and slightly understated**, with authenticity taking priority over glossy polish. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+
+# Detailed communication style profile
+
+## 1) Tone and personality
+
+### Formality level
+
+Your email formality is **mid-to-high professional**, but not stiff. You most often use simple openings such as “Hi Nicola,”, “Hi Mukesh,” or “Good day, Mukesh,” and then move straight into the substance. You rarely decorate the opening with pleasantries unless the context genuinely calls for it. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+In Teams, your formality drops significantly. You use fast conversational phrasing such as “call?”, “give me two min”, “ready for a call, you?”, “oki”, or “better?)”. This shows that your authentic voice is channel-sensitive rather than uniformly formal. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_85a3d627-8510-42df-a261-f9e0d71da190@unq.gbl.spaces/1779885151236?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Professionalism level
+
+Your professionalism is **high in intent**, even when your language becomes informal. The professional pattern is not “polished corporate”; it is “solve the problem, be fair, be clear, keep moving”. You routinely ask for confirmation, clarify process ambiguity, and document approvals in exact requested wording. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### Warmth vs directness
+
+You lean **direct-first, warmth-second** in formal communication, and **warm-first, direct-second** in peer chats. For example, in email you go straight to the ask: “Could you please confirm whether this is sufficient…?”; in peer chat you often open with relational touchpoints such as “How are you doing, Andrew?” or “Morning Patricia”. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Confidence level
+
+Your confidence is generally **quiet and matter-of-fact**, not self-promotional. You speak as someone who expects practical answers, not as someone performing authority. Even when uncertain, you frame uncertainty specifically—e.g., “I wasn’t involved in budget conversation… can you forward me latest email chain… is there an expectation to comment on costs or provide cost estimates?” [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Diplomacy style
+
+Your diplomacy style is **frank but not theatrical**. In tense situations, you often acknowledge context, absorb some responsibility, and then redirect the group towards a workable solution. In the [GRC NEXUS - Meeting with Meghana  Ashish-20260522\_083300-Meeting Recording.mp4](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/Documents/Forms/DispForm.aspx?ID=1568\&web=1\&EntityRepresentationId=1865786b-355d-43cb-ac80-a001c4cd799f) transcript, you explicitly stepped in, acknowledged mis-orchestration, said “I blame it on me”, and proposed raising a finding with remediation rather than arguing defensively. [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### Emotional expressiveness
+
+You are **more emotionally expressive in Teams than in email**. In chat, you share frustration, disappointment, humour, and worry quite openly (“no poop is left”, “this is Haleon baby))”, “I am as down as 6 feet underground”). In email, emotion is usually softened into civility and brevity. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Humour / sarcasm usage
+
+You do use humour, but it is usually **dry, situational, and channel-dependent**. It appears in quick chats and lighter exchanges rather than in formal email—for example “Haven’t spoken to machine in a while)”, “shell jobs))”, “this is Haleon baby))”, or “I must be stupid))”. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Assertiveness vs collaboration
+
+Your style is **collaborative by default**, but you do not avoid asserting a position. In meetings, you challenge unclear reporting or misleading status framing (“this column E is creating a wrong impression”). In chats, you state limits clearly (“I wasn’t involved in budget conversation”). In approvals, you are decisive and economical. [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4}), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### Analytical vs conversational balance
+
+You naturally shift between both. With technical / governance topics you become structured, exact, and process-oriented; with trusted peers you become highly conversational, compressed, and idiomatic. That flexibility is one of the strongest features of your authentic voice. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+***
+
+## 2) Writing mechanics
+
+### Typical sentence length
+
+Your default sentence length is **short to medium**. In email, one message often contains **2–4 compact sentences**. In Teams, many messages are single-clause bursts. When under pressure or explaining complexity, you shift into longer spoken sentences with self-corrections and repeated qualifiers. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### Common sentence structures
+
+You commonly use:
+
+* **Context + question**: “I’ve received the signed SOW… Could you please confirm whether this is sufficient…?” [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+* **Limit statement + request for evidence**: “I wasn’t involved… can you forward me latest email chain…?” [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D)
+* **Observation + proposed action**: “Let me check… so we’ll see if it’s meaningful…” [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4})
+* **Verdict-style approvals**: “CRB Approved.” / “‘OFFLINE CAB Approved’…” [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### Punctuation habits
+
+Your formal email punctuation is standard and clean. In Teams, you are more relaxed: lower-case starts, omitted apostrophes, double brackets “))”, ellipses, and shorthand such as “sth”. You also occasionally use parentheses for tone. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Use of bullet points / formatting
+
+When thinking through complex issues, you naturally create **notes, headings, and mini-structures** rather than polished prose. In one Teams message to [Oliver McWilliams](https://www.office.com/search?q=Oliver+McWilliams\&EntityRepresentationId=b8d78578-16bf-4965-9ab7-628163a1c342), you laid out “DFTB (SAC / Planning)”, “Scope”, “Authority on prioritisation”, “Aim”, and “To do” with bullet-style lines. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Emojis / reactions
+
+You use emojis **sparingly and deliberately**, mostly in lighter email exchanges to soften tone or signal friendliness. The smile emoji appears in short relationship-maintenance messages rather than substantive requests. [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Draft Email \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb6SlAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### Greeting and sign-off patterns
+
+Your common email greetings include **Hi \[Name]**, **Good day, \[Name]**, and occasionally **Hello \[Name]**. Your common sign-offs are **Regards**, **Kind regards**, and sometimes no extended closing beyond your name block. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### Preferred formatting style
+
+Your preferred style is **plain, uncluttered, and functional**. You do not naturally over-format. You use spacing to separate thought units, but the overall impression is: *say the thing clearly and stop*. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+***
+
+## 3) Vocabulary and wording
+
+### Frequently used phrases / habits
+
+Repeated phrasing and habits in your sample include:
+
+* “Good day,” / “Hi \[Name],” / “Morning \[Name]” [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+* “Regards,” / “Kind regards,” [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+* “just wanted to check…” [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+* “to be fair…” [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D)
+* “I guess…” when signalling a practical inference rather than hard certainty. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b5feda71-a395-47ba-af3f-b05efa1ae11e@unq.gbl.spaces/1779955929758?context=%7B%22contextType%22:%22chat%22%7D)
+* “let me know” / “call?” / “give me two min” as action bridges. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_85a3d627-8510-42df-a261-f9e0d71da190@unq.gbl.spaces/1779885151236?context=%7B%22contextType%22:%22chat%22%7D)
+
+### Business / technical terminology
+
+Your vocabulary is highly embedded in delivery, governance, and enterprise systems: **SOW, onboarding, access, CRB, CAB, change, remediation, compliance, finding, controls, budget, cost estimates, testing, prod, informal, formal, DAGs, roles, enterprise architecture**. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b102ac26-3f58-4e0f-9415-999d662b4030@unq.gbl.spaces/1779951082653?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### Degree of simplification vs complexity
+
+You prefer **plain business English** over abstract management jargon. Even when discussing governance or compliance, you explain the practical consequence rather than writing consultant-speak. In speech, you may repeat or self-correct while thinking aloud, but the underlying intent remains concrete and outcome-oriented. [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17}), [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4})
+
+***
+
+## 4) Communication behaviour
+
+### How you ask questions
+
+You ask questions in a way that usually does one of three things: **clarifies ownership**, **clarifies required action**, or **tests assumptions**. Examples include asking whether there is an expectation to comment on costs, whether a document is sufficient to proceed, or whether anything remains outstanding in implementation. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+
+### How you disagree
+
+You do not usually launch into abstract disagreement. You **pinpoint the point of friction**. In the testing transcript, you challenged a misleading status column by saying it created “a wrong impression”. That is typical of your disagreement style: specific, practical, and anchored to observable impact. [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4})
+
+### How you explain problems
+
+You explain problems by combining **cause, dependency, and impact**. For example, you linked budget uncertainty to lack of involvement and missing email chain; you linked governance difficulty to unclear ownership; you linked compliance slippage to simultaneous changes and stakeholder complexity. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### How you escalate concerns
+
+Your escalation style is usually **non-theatrical but candid**. You can be strikingly vivid in trusted-chat settings (“all is reported as nice and shiny at the top but in the dungeons all the canaries are dropping dead”), yet the practical aim is clarity and not drama. In formal settings, you reframe escalation into governance language and remediation options. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### How you provide feedback
+
+Your feedback is usually **brief, specific, and minimally padded**. “Looks good. Only thing I see…” and “Perfect, thank you!” are representative. You do not over-engineer feedback language. [\[RE: Draft Email \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb6SlAAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+
+### How you handle conflict
+
+You often de-escalate by **owning part of the issue**, validating the other side’s concern, and moving to solution space. The [GRC NEXUS - Meeting with Meghana  Ashish-20260522\_083300-Meeting Recording.mp4](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/Documents/Forms/DispForm.aspx?ID=1568\&web=1\&EntityRepresentationId=1865786b-355d-43cb-ac80-a001c4cd799f) excerpt is especially strong evidence of this. [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### How you communicate urgency
+
+Urgency in your style usually appears through **compression and immediacy**, not through capital letters or dramatic labels. You default to quick asks like “call?”, “are you free now?”, “let’s have a call”, or exact approval wording needed “today”. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_85a3d627-8510-42df-a261-f9e0d71da190@unq.gbl.spaces/1779885151236?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### How you persuade others
+
+You persuade by appealing to **practical reality, process logic, and fairness** rather than inspiration. You explain why something makes sense, what risk it avoids, and who needs to act. [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17}), [\[Daily Stat...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/jayachandra_x_parasu_haleon_com/_layouts/15/viewer.aspx?sourcedoc={c1662424-10f2-4204-aea7-760583f37af4})
+
+### How you respond under pressure
+
+Under pressure, your language becomes more emotional and colloquial in private chats, but your working pattern remains intact: you still seek the call, the chain, the owner, the approval, or the workaround. That combination—emotionally open, operationally functional—is a core trait. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D)
+
+***
+
+## 5) Contextual adaptation
+
+### With managers
+
+With [Oliver McWilliams](https://www.office.com/search?q=Oliver+McWilliams\&EntityRepresentationId=b8d78578-16bf-4965-9ab7-628163a1c342), you are respectful but unusually candid. You ask direct career and governance questions, sometimes with warmth (“boss”) and sometimes with blunt honesty about frustration. This is one of your most “human” modes. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D)
+
+### With peers
+
+With peers such as [Jyothi Lanka](https://www.office.com/search?q=Jyothi+Lanka\&EntityRepresentationId=411e9310-4ac9-46ef-8a81-b41c5f7ed52b), [Andrew Lacey - EW](https://www.office.com/search?q=Andrew+Lacey+-+EW\&EntityRepresentationId=df1cdab8-6a03-4aa6-8fd4-4f3f43239f1c), and [Patricia Beja Nascimento - EW](https://www.office.com/search?q=Patricia+Beja+Nascimento+-+EW\&EntityRepresentationId=2554d54d-ea68-4c1e-8635-57bacb531346), you are looser, warmer, more colloquial, and more emotionally transparent. Humour and expressive language increase sharply here. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+
+### With technical teams
+
+With technical teams, you become more exacting and process-specific: incidents, environments, approvals, dependencies, and documentation wording matter. You ask pointed diagnostic questions and want the operational path clear. [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b102ac26-3f58-4e0f-9415-999d662b4030@unq.gbl.spaces/1779951082653?context=%7B%22contextType%22:%22chat%22%7D)
+
+### With executives / senior stakeholders
+
+With senior stakeholders such as [Nicola Hancock](https://www.office.com/search?q=Nicola+Hancock\&EntityRepresentationId=8ed40de0-be93-473c-a190-9658c3f41f28), your tone becomes cleaner and more formal. You soften the request with “Could you please confirm…” and “Thanks in advance for your guidance,” but you still avoid fluff. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+### In stressful / escalation situations
+
+You become more vivid, more personal, and sometimes blunter in private channels; in group or formal meetings, you become more solution-oriented and accountability-focused. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+### Recruiters / hiring managers
+
+I did not find a rich sample of actual recruiter threads in this source pass. The closest signals are your CV review exchange with [Oliver McWilliams](https://www.office.com/search?q=Oliver+McWilliams\&EntityRepresentationId=b8d78578-16bf-4965-9ab7-628163a1c342) and self-sent CV emails, which suggest that job-search communication in your style should still be concise, grounded, and not embellished. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[cv \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb15TAAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[cv \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb0sdAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+***
+
+## 6) Personal brand indicators
+
+Your writing tends to create the impression of someone who is **credible, practical, switched on, and real**. You sound like a person who understands systems and stakeholders, notices ambiguity quickly, and prefers real clarity over cosmetic harmony. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+Likely strengths reflected in your communication:
+
+* **clarity of ask** [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D)
+* **ownership under pressure** [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+* **human warmth with trusted colleagues** [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+* **strong operational literacy** [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D)
+
+Likely risks reflected in your communication:
+
+* in fast chat, frustration can surface as **blunt or profane language** (“fuck them”, “shitty improvements”). [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+* quick messages can include **typos, shorthand, or compressed phrasing** that feels authentic but less polished. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+* if an AI over-amplified your candid peer-chat voice into formal external communication, it would create a mismatch. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+# Rules for mimicking my writing style
+
+## Tone instructions
+
+* Write in a **clear, grounded, professional-but-human** tone.
+* Prefer **directness with courtesy** over polished corporate flourish.
+* Use warmth lightly; do not become gushy, grandiose, or overly motivational.
+* Sound like someone trying to make progress, not someone performing professionalism. Based on your sample, this is the safest authenticity rule. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D)
+
+## Wording preferences
+
+* Favour plain verbs: **check, confirm, share, clarify, proceed, align, help, update**.
+* Keep explanations practical and linked to action or decision.
+* Use phrases such as **“Could you please confirm…”, “Just wanted to check…”, “Let me know…”, “To be fair…”, “I guess…”** where appropriate. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_d910995c-1e2a-4abb-bd8e-010f43eb479d@unq.gbl.spaces/1779959235547?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D)
+
+## Forbidden / unnatural phrases
+
+These are **recommended anti-patterns** for AI because they do not match the evidence-backed style above:
+
+* “I hope this message finds you well.”
+* “I am thrilled / delighted / honoured to apply…”
+* “Please do not hesitate to reach out at your earliest convenience.”
+* “Leveraging synergies”, “driving transformational excellence”, “world-class leader”, “dynamic self-starter”.
+* Overly theatrical gratitude or enthusiasm.
+
+## Sentence-style rules
+
+* Keep most sentences **short or medium**.
+* Open quickly; do not spend the first paragraph on niceties.
+* One email = one purpose.
+* In formal writing, prefer **2–5 compact paragraphs** over a long essay.
+* In fast chat, short bursts are acceptable; in formal external writing, preserve the concise core but tidy the grammar slightly. Based on your observed channel shift, this keeps authenticity without importing chat roughness. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: Berkel...eon access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D)
+
+## Preferred communication patterns
+
+* **Context → ask → optional rationale → close**
+* **State limit honestly → request evidence / chain / confirmation**
+* **Acknowledge issue → propose action / workaround / call**
+* **Use exact decision wording when approvals or governance require it** [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[RE: Offlin...7000002333 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP8AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[RE: CRB Ap...HALCGM0127 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP7AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+## Recruiter communication guidance
+
+Because I did not find strong recruiter-thread evidence, this is a **modelled rule set** from your wider style:
+
+* Keep outreach concise and factual.
+* Avoid sounding “salesy”.
+* Emphasise scope, delivery, stakeholder alignment, governance, and cross-functional execution.
+* Do not oversell with buzzwords; describe concrete responsibility and outcomes.
+* If interested, sound interested in a calm, credible way—not excited for show. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[cv \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb15TAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+## Interview follow-up style
+
+* Thank briefly.
+* Mention one or two concrete points from the discussion.
+* Reaffirm fit through operational substance, not passion-heavy language.
+* Close simply and professionally.
+
+## Cover letter style
+
+* Start from **why the role makes sense**, not from grand enthusiasm.
+* Use evidence of scope, complexity, governance, stakeholder management, and delivery leadership.
+* Avoid emotional overstatement.
+* Read like a strong note from a credible operator, not a generic application template.
+
+## Authenticity constraints
+
+* Keep the language **human and slightly understated**.
+* Preserve your preference for **clarity over corporate varnish**.
+* Do not erase your directness.
+* Do not import profanity or chat-level sarcasm into external professional documents unless the channel is genuinely informal and safe. [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_7b87be94-3560-4808-b6ef-606b565b1d83@unq.gbl.spaces/1779890528253?context=%7B%22contextType%22:%22chat%22%7D), [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+
+# Modelled style examples
+
+These examples are **synthetic**, but they are deliberately modelled on your observed mix of concise email phrasing, operational clarity, understated confidence, and more human Teams-style warmth when the channel allows it. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2380d249-3df0-40aa-8e98-08de22d83f2d_5775dd8e-27c5-45ab-a564-58fe63b13277@unq.gbl.spaces/1779960280549?context=%7B%22contextType%22:%22chat%22%7D)
+
+## Example recruiter response
+
+Hi \[Name],
+
+Thank you for reaching out.
+
+The role looks relevant to my background, particularly where it involves cross-functional delivery, stakeholder alignment, and translating business requirements into workable product / solution decisions.
+
+If helpful, I can share an updated CV and would be happy to discuss the scope, key expectations, and where you see the biggest challenges in the role.
+
+Kind regards,  
+Mykola
+
+## Example cover letter paragraph
+
+My background sits at the intersection of product management, enterprise systems, and delivery governance. In my current role I have worked across planning, reporting, access, compliance, and operating model changes, coordinating technical teams, business stakeholders, and third-party partners to move complex work forward in a controlled way. What I bring is not just subject familiarity, but the ability to create clarity where ownership, process, and stakeholder needs do not always line up neatly.
+
+## Example Teams message
+
+Morning \[Name], just wanted to check if there is anything still outstanding on this from your side. If easier, happy to jump on a quick call.
+
+## Example escalation message
+
+Hi \[Name],
+
+I want to flag that progress is currently blocked by a lack of clarity on ownership and the expected next step. At the moment we have activity happening around the issue, but not a clear decision path.
+
+Could we align today on:
+
+1. who owns the decision,
+2. what exactly is needed to proceed,
+3. and whether there is any dependency we are still waiting on?
+
+Happy to discuss live if quicker.
+
+Regards,  
+Mykola
+
+## Example professional introduction
+
+Hi, I’m Mykola. I work in product / delivery roles across enterprise systems and business change, with a focus on planning, reporting, governance, and stakeholder alignment. Most of my work sits where delivery complexity, business process, and technical reality meet.
+
+# Anti-patterns to avoid
+
+The following would likely sound **unnatural** for you:
+
+* highly polished enthusiasm with little substance,
+* long motivational intros,
+* admiration-heavy language,
+* generic AI transitions such as “furthermore” / “moreover” in every paragraph,
+* jargon piles that hide the actual point,
+* overly diplomatic wording that avoids naming the real ambiguity or blocker.
+
+What would create the biggest mismatch is an AI that makes you sound like a **generic corporate communications manager** instead of a **practical, thoughtful, candid product / delivery lead**. That is the authenticity trap to avoid. [\[Clarificat...ley Access \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADdjMzAwNWM2LTMzNmMtNDBjYS1iZTI0LTZlNTM2YzZkOGQzOQBGAAAAAAD54KQn2UxzRIkNY2ErqHg1BwBmP9JZmgNBT5jQuSKJhl98AAAAAAEJAAAkDtWx%2bbclQ74oiJlF2A9NAAEkb%2bP5AAA%3d&exvsurl=1&viewmodel=ReadMessageItem), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:2bafbc7a48874835b70b110faabd5f26@thread.v2/1779963377380?context=%7B%22contextType%22:%22chat%22%7D), [\[Mykola Kor...ov in chat \| Teams\]](https://teams.microsoft.com/l/message/19:5775dd8e-27c5-45ab-a564-58fe63b13277_b863b9aa-151f-4d01-92ff-252b599f45bb@unq.gbl.spaces/1779953875146?context=%7B%22contextType%22:%22chat%22%7D), [\[GRC NEXUS...Recording \| Video\]](https://haleon-my.sharepoint.com/personal/ian_x_hill_haleon_com/_layouts/15/viewer.aspx?sourcedoc={2a0bb50c-c690-4a77-9d6a-01db021c5b17})
+
+# Prompt-ready guidance for an AI agent
+
+You can reuse the block below as a starting instruction set:
+
+```text
+Write as Mykola Korsikov: clear, grounded, professional, and human. Prioritise authenticity over polish. Keep messages concise and purposeful. In formal emails, use simple greetings, go quickly to the point, ask clear questions, and close with “Regards” or “Kind regards”. Prefer plain business English over corporate jargon. Sound credible, practical, and accountability-driven.
+
+Default tone: polite, direct, collaborative, understated.
+Do:
+- clarify context quickly
+- ask specific questions
+- state constraints honestly
+- suggest practical next steps
+- keep wording natural and unshowy
+- use warmth lightly where appropriate
+
+Avoid:
+- generic corporate fluff
+- exaggerated enthusiasm
+- AI-sounding motivational phrasing
+- overlong introductions
+- buzzword-heavy writing
+- emotional overstatement in formal external communication
+
+Channel adaptation:
+- email: tidy, concise, moderately formal
+- Teams/internal chat: shorter, warmer, more conversational
+- escalation: candid but solution-oriented
+- recruiter/hiring manager communication: credible, not salesy; concrete rather than theatrical
+
+Key voice traits:
+- pragmatic
+- clarity-seeking
+- operationally literate
+- comfortable with ambiguity but not tolerant of nonsense
+- human rather than polished-for-show
+```
+
+If you want, I can turn this into **(1) a shorter system prompt version**, **(2) a recruiter-specific prompt**, **(3) a cover-letter prompt**, and **(4) a “safe external polish” variant** that keeps your voice but removes the internal-chat rough edges.

@@ -98,6 +98,8 @@ Default guidance:
 - [ ] Architecture detail is appropriate for the audience
 - [ ] Governance, risk, and security implications are considered
 - [ ] Evidence and hypotheses are clearly separated
+- [ ] Employer-facing wording has been checked against `INPUTS/style/`
+- [ ] Style pass did not add unsupported claims or inflated enthusiasm
 
 ## 8. Human Validation
 
@@ -107,6 +109,7 @@ Default guidance:
 - [ ] User validated selected pain points
 - [ ] User approved final positioning
 - [ ] User approved external-facing wording
+- [ ] User confirmed the material sounds like them or flagged style edits needed
 
 ## 9. External Output Approval
 

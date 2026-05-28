@@ -28,11 +28,22 @@ Industry
 = Transformation Narrative
 ```
 
+External communication chain:
+
+```text
+Validated Positioning
++ Target Output Type
++ Evidence / Hypothesis Discipline
++ Personal Communication Style
+= Employer-Facing Material
+```
+
 Important rule:
 
 * Evidence is evidence.
 * Hypothesis is hypothesis.
 * User-approved positioning is final positioning.
+* Style is style; it should shape wording, not create new claims.
 
 ## Minimum Viable Execution Rule
 
@@ -93,6 +104,68 @@ If none of these conditions are met, keep the case at Tier 0 or Tier 1.
 * Do not generate AI recommendations unless AI is relevant to the role, company context, or pain point.
 * Do not turn weak evidence into strong claims.
 * Do not spend more effort than the opportunity justifies.
+* Do not let style polishing inflate claims, seniority, enthusiasm, or certainty.
+
+## Personal Communication Style Rule
+
+Use `INPUTS/style/` when generating or revising external-facing communication.
+
+This includes:
+
+* cover notes
+* application narratives
+* recruiter messages
+* referral notes
+* follow-up messages
+* notes to employers
+* interview follow-up emails
+* short professional introductions
+
+Purpose:
+
+* preserve the user's authentic written voice
+* reduce generic AI or corporate tone drift
+* keep materials direct, practical, and believable in live interview follow-up
+
+Default style:
+
+* pragmatic
+* grounded
+* clarity-driven
+* direct but collaborative
+* concise
+* understated
+* human and professional
+
+Avoid:
+
+* exaggerated enthusiasm
+* generic corporate polish
+* motivational language
+* buzzword stacking
+* excessive diplomacy padding
+* long cover-letter storytelling
+
+Preferred external material structure:
+
+1. Why the role makes sense.
+2. Relevant experience.
+3. Practical value the candidate can bring.
+4. Clear close or next step.
+
+Style source files:
+
+| File | Use |
+|---|---|
+| `INPUTS/style/summary.txt` | Quick style overview and practical rules. |
+| `INPUTS/style/system_prompt.md` | Prompt-ready style instructions for external writing. |
+| `INPUTS/style/emails and teams assessment.txt` | Detailed written communication evidence. |
+| `INPUTS/style/transcript assessment.txt` | Spoken/interview-style communication evidence. |
+
+Style usage rule:
+
+* The agent may adjust tone, structure, length, and phrasing.
+* The agent must not add claims, achievements, tools, outcomes, or confidence that are not supported elsewhere.
 
 ## Role Availability Check
 
@@ -364,6 +437,8 @@ Variables drive file selection.
 | `selected_value_models` includes `operational_efficiency` | Use `INPUTS/value_models/operational_efficiency.md`. |
 | `selected_value_models` includes `ai_adoption_value` | Use `INPUTS/value_models/ai_adoption_value.md`. |
 | Application material is needed | Use `INPUTS/templates/2_Materials.md`. |
+| Employer-facing wording is needed | Use `INPUTS/style/summary.txt` and `INPUTS/style/system_prompt.md`. |
+| Interview-style written answers are needed | Use `INPUTS/style/transcript assessment.txt` for spoken-style authenticity. |
 | Target summary is needed | Use `INPUTS/templates/1_Target_profile.md`. |
 | Case completeness check is needed | Use `INPUTS/templates/0_Checklist.md`. |
 | Personal strengths are needed | Use `INPUTS/draft_input/skills.txt` and `INPUTS/draft_input/tools.txt`. |
@@ -752,8 +827,8 @@ pending / proceed / proceed_with_caution / pause / skip / escalate_to_interview_
 |---|---|
 | Purpose | Create target-stage materials from the approved narrative. |
 | Trigger | Narrative approved or draft-ready for a specific application stage. |
-| Inputs | Templates, transformation narrative, role fit assessment, value case, user-approved strengths. |
-| Agent Can Do | Draft CV bullets, cover letter, executive pitch, architecture story, roadmap, AI opportunity summary, stakeholder versions. |
+| Inputs | Templates, transformation narrative, role fit assessment, value case, user-approved strengths, relevant `INPUTS/style/` files for external-facing wording. |
+| Agent Can Do | Draft CV bullets, cover letter, executive pitch, architecture story, roadmap, AI opportunity summary, stakeholder versions, and apply personal style calibration. |
 | User Must Validate | Approve final materials, verify personal claims, decide what is appropriate to share. |
 | Outputs | `7_materials.md` and optional stage-specific assets. |
 | Decision Gate | For open-role applications, do not generate materials until role fit is complete, role status is not closed, and recommendation is `proceed` or `proceed_with_caution`; do not send externally until `external_output_approved = true`. |
@@ -778,8 +853,8 @@ pending / proceed / proceed_with_caution / pause / skip / escalate_to_interview_
 |---|---|
 | Purpose | Prepare tailored, concise messages for recruiters, hiring managers, contacts, or referrals. |
 | Trigger | User wants networking, application support, or referral outreach. |
-| Inputs | Role analysis, transformation narrative, stakeholder profile, approved materials. |
-| Agent Can Do | Draft outreach messages, connection notes, recruiter emails, follow-up messages, and referral prompts. |
+| Inputs | Role analysis, transformation narrative, stakeholder profile, approved materials, `INPUTS/style/summary.txt`, `INPUTS/style/system_prompt.md`. |
+| Agent Can Do | Draft outreach messages, connection notes, recruiter emails, follow-up messages, and referral prompts in the user's authentic communication style. |
 | User Must Validate | Approve tone, claims, recipient choice, and whether outreach should be sent. |
 | Outputs | `8_outreach.md`. |
 | Decision Gate | Outreach is ready only after user approves message and recipient strategy and `external_output_approved = true`. |
@@ -853,6 +928,7 @@ Run these checks before moving from analysis to materials, and again before send
 | Governance | Are security, compliance, data, and change implications considered? |
 | Concision | Is the output short enough for the current effort tier? |
 | Personal Credibility | Are personal strengths and claims truthful and supportable? |
+| Personal Style Fit | Does employer-facing wording match `INPUTS/style/` and avoid generic AI tone drift? |
 | User Approval | Has the user validated critical assumptions and final materials? |
 
 Evidence and hypothesis rules:
@@ -913,6 +989,8 @@ Material principles:
 * Make AI a credible enabler, not the whole story.
 * Use concise executive language first, then deeper architecture detail if needed.
 * Avoid claiming inside knowledge unless evidence or user experience supports it.
+* Use `INPUTS/style/` to calibrate cover notes, recruiter messages, follow-ups, and notes to employers.
+* Style calibration may shorten, simplify, or humanize wording, but must not add unsupported claims.
 * Respect `target_output_type` before generating additional assets.
 
 ## Output Versioning Rules
@@ -1048,6 +1126,7 @@ Script-friendly rules:
 * Do not advance status past a validation gate without user approval.
 * Do not advance to external-facing statuses unless `external_output_approved = true`.
 * Keep evidence sources separate from generated hypotheses.
+* Treat `INPUTS/style/` as a style source only, not as evidence for professional claims.
 * Allow effort tier to determine which phases and outputs are required.
 * Preserve intermediate drafts when materially different from approved versions.
 * Use consistent normalized names for industries, pain points, value models, and outputs.
@@ -1059,6 +1138,7 @@ Variable-driven automation rules:
 * `selected_value_models` selects one or more value model files.
 * `target_role` selects relevant capability framework sections.
 * `target_output_type` determines which outputs to generate.
+* `target_output_type` determines whether style files are loaded for external wording.
 * `effort_tier` determines workflow depth.
 * `case_type` determines workflow branch.
 * For open-role cases, check `role_status` before running Tier 2A, Tier 2B, or Tier 3 steps.

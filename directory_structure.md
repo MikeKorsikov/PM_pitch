@@ -82,7 +82,7 @@ D:\PYTHON\PM_pitch
 │           ├───5_value_case.md (updated 2026-05-27)
 │           ├───6_transformation_narrative.md (updated 2026-05-28)
 │           ├───7_materials.md (updated 2026-05-28)
-│           ├───8_outreach.md (updated 2026-05-27)
+│           ├───8_outreach.md (updated 2026-05-28)
 │           ├───9_interview_prep.md (updated 2026-05-27)
 │           ├───10_case_retrospective.md (updated 2026-05-28)
 │           └───job_description.md (updated 2026-05-27)

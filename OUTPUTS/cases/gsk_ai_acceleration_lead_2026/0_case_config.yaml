@@ -10,9 +10,9 @@ case_config:
   priority_level: ""
   effort_tier: "Tier 2A"
   target_output_type: "application"
-  workflow_status: "materials_drafted"
+  workflow_status: "user_validated"
   evidence_confidence_score: "medium"
-  external_output_approved: false
+  external_output_approved: true
   target_stakeholders:
     - "R&D leaders and business owners"
     - "clinical operations users"
@@ -127,3 +127,5 @@ case_config:
     - "User confirmed personal AI-native prototype example: CRM application for spouse's business, built using Grok, Cursor, Claude, and GitHub Copilot."
     - "User confirmed CRM example should focus on tools, actual delivery process, iterations, and work with the business user."
     - "User confirmed priority leadership achievement: implementation of OnePlan solution with Board SaaS at the core and total cost over GBP 10m."
+    - "User approved external output."
+    - "Workflow status updated to user_validated."

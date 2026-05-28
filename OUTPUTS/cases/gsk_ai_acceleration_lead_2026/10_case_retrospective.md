@@ -1,7 +1,7 @@
 # Case Retrospective - GSK AI Acceleration Lead
 
 ## Outcome
-Open. Tier 2A materials drafted. User decision is proceed_with_caution.
+Open. Tier 2A materials drafted and user validated. External output approved.
 
 ## What Worked
 - Role fit assessment supports a cautious proceed decision.
@@ -31,4 +31,4 @@ _To be populated if recruiter engagement or interview occurs._
 - Consider adding a candidate evidence file for validated AI prototypes and AI-assisted delivery examples.
 
 ## Final Status
-materials_drafted; user decision proceed_with_caution; external approval still pending.
+user_validated; user decision proceed_with_caution; external output approved.

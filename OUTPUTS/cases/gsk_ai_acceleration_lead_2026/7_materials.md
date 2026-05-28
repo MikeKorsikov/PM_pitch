@@ -8,7 +8,7 @@ application
 
 ## Material Status
 - Draft status: Draft
-- External use approval: false
+- External use approval: true
 - User decision required before use: yes
 - Recommended effort tier: Tier 2A
 
@@ -61,4 +61,4 @@ I would position my contribution around making AI useful, governed, adopted, and
 - How directly to acknowledge the clinical operations and GxP/regulated AI delivery gaps in application or interview materials.
 
 ## External Use Approval
-external_output_approved: false
+external_output_approved: true

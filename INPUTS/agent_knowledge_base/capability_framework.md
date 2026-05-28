@@ -348,14 +348,25 @@ The framework distinguishes between:
 * **Python, SQL and Automation Prototyping**
   * Develop hands-on Python, SQL, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, and IDE-based technical capability through personal projects, structured learning, and occasional job-support needs.
   * Build or experiment with automation, data processing, lightweight applications, AI integrations, and internal tool concepts outside core enterprise delivery.
+  * Practical evidence includes Laserowo, a Python desktop business management application for a laser salon, covering client, appointment, and finance-management workflows.
   * Keep technical development positioned as developing capability unless specific professional delivery examples are added.
   * **Capability Level**: Developing.
-  * **Positioning**: Developing personal technical capability in Python, SQL, AI integration, and automation prototyping.
+  * **Positioning**: Developing personal technical capability in Python, SQL, AI integration, and automation prototyping, with practical evidence from a real-user business application.
+
+* **Business Application Prototyping**
+  * Translate real business workflows into lightweight software tools, screens, data models, and user-facing process flows.
+  * Build database-backed desktop application prototypes using Python, SQLite, SQLAlchemy, GUI tooling, configuration files, logging, and modular structure.
+  * Iterate with a real business user to refine client management, appointment scheduling, finance tracking, and operational workflow support.
+  * Use AI-assisted development tools to accelerate coding, debugging, refactoring, documentation, and solution exploration while retaining human validation.
+  * Keep this positioned as practical product/prototype evidence, not as production enterprise software engineering or commercial SaaS delivery.
+  * **Capability Level**: Developing / Practical project evidence.
+  * **Positioning**: Practical ability to turn business-process understanding into a working Python-based business application prototype, supporting the broader product/transformation profile.
 
 * **Prompt Engineering and AI Workflow Design**
   * Design structured prompts and AI workflows to support documentation, analysis, coding assistance, process mapping, summarization, and learning.
   * Decompose complex tasks into clear context, instructions, constraints, examples, and output formats.
-  * Experiment with AI coding assistants and AI-enabled workflows for productivity and learning.
+  * Experiment with AI coding assistants and AI-enabled workflows for productivity, learning, and practical application prototyping.
+  * Use tools such as Grok, Cursor, Claude, GitHub Copilot, and similar assistants to support iterative development and problem solving.
   * **Capability Level**: Developing.
   * **Positioning**: Developing practical prompt engineering and AI workflow design capability, mainly as productivity, learning, and prototyping support.
 
@@ -445,6 +456,7 @@ The framework distinguishes between:
   * Git / GitHub
   * APScheduler
   * bcrypt
+  * Laserowo business application prototype
 
 ## 14. Realistic Role Fit
 
@@ -490,7 +502,7 @@ The framework distinguishes between:
   * Strong background in finance systems governance, process improvement, product ownership, ITSM/SDLC/agile implementation, portfolio/business-case review, risk/control management, and stakeholder leadership.
   * Experienced across Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP, Jira, Confluence, ServiceNow, Workday, Archer, SailPoint, Fieldglass, CyberArk, Veeva, SolMan, ChaRM, LeanIX, Visio, and Microsoft 365 environments.
   * Strong in process mapping, capability mapping, application landscape documentation, data-flow diagrams, integration views, target-state architecture views, requirements, governance, and product delivery.
-  * Developing hands-on capability in Python, SQL, AI-assisted analysis, OpenAI API, automation prototyping, and enterprise architecture concepts.
+  * Developing hands-on capability in Python, SQL, AI-assisted analysis, OpenAI API, automation prototyping, business application prototyping, and enterprise architecture concepts.
   * Best positioned at the intersection of finance systems, product governance, process transformation, reporting modernization, risk/control governance, and AI-enabled ways of working.
 
 * **Short CV Skill Summary**
@@ -517,7 +529,7 @@ The framework distinguishes between:
   * Archer, SailPoint, Fieldglass, CyberArk, Veeva, SolMan, ChaRM, and LeanIX workflow/user exposure.
   * Business capability mapping and application landscape documentation.
   * AI-assisted documentation, analysis, and productivity.
-  * Python, SQL, OpenAI API, and automation prototyping — developing.
+  * Python, SQL, OpenAI API, AI-assisted business application prototyping, and automation prototyping — developing.
 
 ## 16. Positioning Principles
 
@@ -580,6 +592,9 @@ The framework distinguishes between:
   * owned identity governance architecture
   * owned cybersecurity architecture
   * performed production data engineering
+  * delivered commercial SaaS product independently
+  * acted as senior software engineer
+  * owned production ML/AI engineering
 
 ## 17. Final Candidate Narrative
 
@@ -588,7 +603,7 @@ The framework distinguishes between:
   * Strongest value is in bridging finance operations, product governance, reporting systems, SAP/Board/Azure landscapes, process architecture, access/compliance workflows, vendors, and cross-functional technology teams.
   * Demonstrated capability across finance systems and enterprise tools including Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP, Jira, Confluence, ServiceNow, Workday, Archer, SailPoint, Fieldglass, CyberArk, Veeva, SAP Solution Manager, SAP ChaRM, SAP LeanIX, Visio, and Microsoft 365.
   * Not positioned as a hands-on SAP configuration specialist, Power BI developer, specialist GRC administrator, identity governance architect, cybersecurity architect, or formal Enterprise Architect unless specific role evidence is added.
-  * Moving deliberately toward business architecture, enterprise architecture, AI-enabled process improvement, automation, and broader finance technology strategy through structured learning and hands-on personal technical development.
+  * Moving deliberately toward business architecture, enterprise architecture, AI-enabled process improvement, automation, and broader finance technology strategy through structured learning and hands-on personal technical development, including practical Python business application prototyping.
 
 * **One-Sentence Positioning**
   * Senior Finance Systems Product Manager and transformation professional with established experience owning finance technology roadmaps, backlogs, product governance, vendor delivery, support models, risk/change processes, process architecture, and cross-functional teams across planning, budgeting, controlling, reporting, compliance, and enterprise technology platforms.

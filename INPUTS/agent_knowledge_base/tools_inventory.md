@@ -385,15 +385,15 @@ The inventory distinguishes between:
 
 * **Tool**: Python
   * **Experience Level**: Developing / personal projects.
-  * **Purpose**: Automation, data processing, application prototyping, scripting, AI integration, and personal technical development.
-  * **Capabilities**: CSV processing, data loading, basic automation, object-oriented programming, desktop app prototyping, API integration, structured application design.
+  * **Purpose**: Automation, data processing, business application prototyping, scripting, AI integration, and personal technical development.
+  * **Capabilities**: CSV processing, data loading, basic automation, object-oriented programming, desktop app prototyping, database-backed workflows, API integration, structured application design.
   * **Inputs**: CSV files, Excel exports, JSON, user inputs, local databases, API responses.
-  * **Outputs**: Scripts, prototypes, processed data, small applications, automation experiments.
-  * **Integration Context**: Used in personal projects and learning, including SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, and IDEs.
+  * **Outputs**: Scripts, prototypes, processed data, small applications, automation experiments, business workflow tools.
+  * **Integration Context**: Used in personal projects and learning, including Laserowo, a desktop business management application for a laser salon using SQLite, SQLAlchemy, GUI workflows, Git/GitHub, and AI-assisted development tools.
   * **Domain**: Automation, Data, Application Development, AI Experimentation.
-  * **Transformation Relevance**: Personal capability growth toward automation, AI-enabled tooling, and internal tool prototyping.
+  * **Transformation Relevance**: Personal capability growth toward automation, AI-enabled tooling, workflow digitization, and internal tool prototyping.
   * **Architecture Layer**: Process, Data, Integration, Application.
-  * **Positioning Note**: Keep separate from core enterprise role tooling. Safe wording: developing Python capability through personal projects and learning.
+  * **Positioning Note**: Safe wording: developing Python capability through practical business application prototyping and learning. Keep separate from core enterprise role tooling and avoid senior software engineering claims.
 
 * **Tool**: SQL
   * **Experience Level**: Developing / personal and job-support use.
@@ -425,11 +425,11 @@ The inventory distinguishes between:
   * **Capabilities**: Local database storage, table design, CRUD operations, queryable records, application persistence.
   * **Inputs**: Application records, CSV-loaded data, user inputs, structured entities.
   * **Outputs**: Local database files, stored records, query results, prototype data stores.
-  * **Integration Context**: Used with Python, SQLAlchemy, pandas, and desktop application prototypes.
+  * **Integration Context**: Used with Python, SQLAlchemy, pandas, and desktop application prototypes such as Laserowo.
   * **Domain**: Data, Application Development, Automation.
   * **Transformation Relevance**: Lightweight internal tool prototyping, data persistence, automation support.
   * **Architecture Layer**: Data, Application.
-  * **Positioning Note**: Personal project capability, not core enterprise database delivery.
+  * **Positioning Note**: Personal project capability for local database-backed business applications, not core enterprise database delivery.
 
 * **Tool**: SQLAlchemy
   * **Experience Level**: Developing / personal projects.
@@ -437,11 +437,11 @@ The inventory distinguishes between:
   * **Capabilities**: Object-relational mapping, database model definition, CRUD operations, application persistence.
   * **Inputs**: Python models, database schemas, application records.
   * **Outputs**: Database tables, persisted records, query results, application data objects.
-  * **Integration Context**: Used with Python, SQLite, and modular application architecture in personal projects.
+  * **Integration Context**: Used with Python, SQLite, and modular application architecture in personal projects such as Laserowo.
   * **Domain**: Application Development, Data.
   * **Transformation Relevance**: Internal tool prototyping, structured application design, database-backed workflows.
   * **Architecture Layer**: Application, Data.
-  * **Positioning Note**: Developing ORM/database skill through personal projects.
+  * **Positioning Note**: Developing ORM/database skill through personal projects; safe to reference as part of a real-user CRM/business-management prototype.
 
 * **Tool**: Tkinter / ttkbootstrap
   * **Experience Level**: Developing / personal projects.
@@ -449,11 +449,11 @@ The inventory distinguishes between:
   * **Capabilities**: Forms, windows, buttons, tables, user input screens, simple desktop workflows.
   * **Inputs**: User inputs, forms, database records, application events.
   * **Outputs**: Desktop application screens, user interactions, stored records, prototype workflows.
-  * **Integration Context**: Used with Python, SQLite, SQLAlchemy, pandas, and modular application architecture.
+  * **Integration Context**: Used with Python, SQLite, SQLAlchemy, pandas, and modular application architecture for desktop business application prototyping.
   * **Domain**: Application Development, Automation, Small Business Tools.
   * **Transformation Relevance**: Manual process digitization, lightweight internal tool prototyping, user-facing automation concepts.
   * **Architecture Layer**: Presentation, Application.
-  * **Positioning Note**: Personal prototype GUI development capability, not core enterprise role tooling.
+  * **Positioning Note**: Personal prototype GUI development capability for business workflow tools, not core enterprise role tooling or professional UI engineering.
 
 * **Tool**: OpenAI API
   * **Experience Level**: Developing / personal projects and training.
@@ -485,11 +485,11 @@ The inventory distinguishes between:
   * **Capabilities**: Code generation, code review support, debugging suggestions, workspace reasoning, explanation of technical concepts.
   * **Inputs**: Source code, prompts, error messages, project context, development tasks.
   * **Outputs**: Code suggestions, explanations, draft implementations, debugging guidance, refactoring ideas.
-  * **Integration Context**: Used or explored with IDEs, Python projects, Git/GitHub, and local development workflows.
+  * **Integration Context**: Used or explored with IDEs, Python projects, Git/GitHub, and local development workflows; includes practical use of tools such as Grok, Cursor, Claude, and GitHub Copilot during Laserowo development.
   * **Domain**: Application Development, Automation, Learning.
   * **Transformation Relevance**: Faster prototyping, technical learning acceleration, AI-assisted development capability.
   * **Architecture Layer**: Presentation, Application, Integration.
-  * **Positioning Note**: Developing/experimental capability rather than core enterprise delivery tool.
+  * **Positioning Note**: Developing/practical capability for AI-assisted prototyping and learning. Do not position as enterprise AI engineering or autonomous AI delivery.
 
 * **Tool**: VS Code / PyCharm / Cursor
   * **Experience Level**: Developing / personal and job-support technical use.
@@ -497,7 +497,7 @@ The inventory distinguishes between:
   * **Capabilities**: Code editing, terminal use, project navigation, Python environment management, debugging, extension-based development.
   * **Inputs**: Python files, project folders, configuration files, terminal commands, source code.
   * **Outputs**: Scripts, application code, project structures, debugging output, local execution results.
-  * **Integration Context**: Used with Python, Git/GitHub, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, and AI coding assistants.
+  * **Integration Context**: Used with Python, Git/GitHub, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, and AI coding assistants for personal business application development.
   * **Domain**: Application Development, Automation, Learning.
   * **Transformation Relevance**: Personal technical capability, automation prototyping, AI-assisted coding.
   * **Architecture Layer**: Presentation, Application.
@@ -505,15 +505,15 @@ The inventory distinguishes between:
 
 * **Tool**: Git / GitHub
   * **Experience Level**: Developing / personal and job-support technical use.
-  * **Purpose**: Version control, repository management, project history, code backup, and technical project organization.
-  * **Capabilities**: Commits, repositories, change tracking, project organization, basic branching, version history.
+  * **Purpose**: Version control, repository management, project history, code backup, technical project organization, and portfolio evidence.
+  * **Capabilities**: Commits, repositories, change tracking, project organization, basic branching, version history, public portfolio curation.
   * **Inputs**: Source code, project files, documentation, configuration files.
   * **Outputs**: Versioned repositories, commit history, tracked changes, organized project assets.
-  * **Integration Context**: Used with Python projects, IDEs, personal automation, learning, and job-support technical needs.
+  * **Integration Context**: Used with Python projects, IDEs, personal automation, learning, GitHub portfolio work, and job-support technical needs.
   * **Domain**: Application Development, Automation, Learning.
   * **Transformation Relevance**: Development discipline, reproducibility, source control, technical project maturity.
   * **Architecture Layer**: Integration, Application.
-  * **Positioning Note**: Developing practical capability. Avoid claiming enterprise DevOps ownership unless evidenced.
+  * **Positioning Note**: Developing practical capability and portfolio evidence. Avoid claiming enterprise DevOps ownership unless evidenced.
 
 * **Tool**: APScheduler
   * **Experience Level**: Developing / personal projects.
@@ -644,6 +644,7 @@ The inventory distinguishes between:
   * Git / GitHub
   * APScheduler
   * bcrypt
+  * Laserowo business application prototype
 
 * **Training / Awareness-Level Tools and Concepts**
   * SAP S/4HANA
@@ -663,10 +664,10 @@ The inventory distinguishes between:
   * Archer, SailPoint, Fieldglass, SAP Solution Manager, CyberArk, Veeva Vault, SAP ChaRM, SAP LeanIX.
 
 * **Developing Technical Capability**
-  * Python, SQL, pandas, SQLite, SQLAlchemy, Tkinter, OpenAI API, Git/GitHub, VS Code/PyCharm/Cursor, AI coding assistants.
+  * Python, SQL, pandas, SQLite, SQLAlchemy, Tkinter, OpenAI API, Git/GitHub, VS Code/PyCharm/Cursor, AI coding assistants, Laserowo business application prototype.
 
 * **Suggested Short CV Phrase**
-  * Tools: Microsoft 365, Excel, PowerPoint, Visio, Jira, Confluence, ServiceNow, Workday, Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP, Archer, SailPoint, Fieldglass, CyberArk, Veeva Vault, SAP Solution Manager, SAP ChaRM, SAP LeanIX. Developing hands-on capability in Python, SQL, OpenAI API, Git/GitHub, and AI-assisted automation tooling.
+  * Tools: Microsoft 365, Excel, PowerPoint, Visio, Jira, Confluence, ServiceNow, Workday, Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, Oracle ERP, Archer, SailPoint, Fieldglass, CyberArk, Veeva Vault, SAP Solution Manager, SAP ChaRM, SAP LeanIX. Developing hands-on capability in Python, SQL, SQLite, SQLAlchemy, Git/GitHub, OpenAI API, and AI-assisted business application prototyping.
 
 ## 9. Positioning Cautions
 
@@ -680,6 +681,7 @@ The inventory distinguishes between:
 * For Jira and Confluence, it is fair to state strong hands-on use, including Jira project administration and Confluence documentation/knowledge management.
 * For Visio, it is fair to state extensive process mapping and diagramming experience.
 * Keep Python, SQL, OpenAI API, Git/GitHub, and related development tools as developing/personal/project capability unless professional delivery examples are added.
+* Laserowo can be used as practical project evidence for Python-based business application prototyping, business workflow digitization, and AI-assisted development, but not as evidence of production enterprise software engineering.
 * Keep SAP S/4HANA, SAP BTP, SAP EAF, and Azure API Management as learning/training topics unless they become part of active delivery.
 
 ## 10. Realistic Tool Narrative
@@ -689,4 +691,4 @@ The realistic tool narrative is:
 * Strong professional use of Microsoft 365, Excel, PowerPoint, Visio, Jira, Confluence, ServiceNow, and Workday for product governance, finance systems management, process documentation, ITSM, delivery tracking, stakeholder communication, and people-management workflows.
 * Strong finance systems/product exposure across Board, SAP ERP/ECC, SAP BW, SAP SAC, SAP FC, SAP FIM, Power BI, Azure, and Oracle ERP, with direct Board configuration capability and broader architecture/data-flow/governance awareness across SAP and reporting platforms.
 * Regular workflow-user exposure to Archer, SailPoint, Fieldglass, CyberArk, Veeva, SAP Solution Manager, SAP ChaRM, and SAP LeanIX in governance, access, compliance, change, documentation, workforce, and application mapping contexts.
-* Developing personal technical capability in Python, SQL, OpenAI API, Git/GitHub, and AI-assisted automation tooling.
+* Developing personal technical capability in Python, SQL, OpenAI API, Git/GitHub, and AI-assisted automation tooling, with Laserowo as practical evidence of translating a real business workflow into a database-backed desktop application prototype.

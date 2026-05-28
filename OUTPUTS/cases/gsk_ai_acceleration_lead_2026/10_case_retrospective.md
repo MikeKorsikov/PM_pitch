@@ -1,34 +1,39 @@
 # Case Retrospective - GSK AI Acceleration Lead
 
 ## Outcome
-Open. Tier 2A materials drafted and user validated. External output approved.
+Role closed / no longer available before application.
 
 ## What Worked
-- Role fit assessment supports a cautious proceed decision.
-- The job description directly aligns with AI adoption, workflow redesign, product/portfolio thinking, value measurement, and governance.
-- Candidate positioning is stronger for this role than for a generic Enterprise Architect framing.
+- The case workflow successfully produced a role fit assessment.
+- Role fit scoring identified this as a good_fit / proceed_with_caution case.
+- The process highlighted validation gaps before applying.
+- Useful application materials and AI acceleration positioning were drafted.
 
 ## What Did Not Work
-- User confirmed no direct clinical operations / clinical development experience.
-- User confirmed no pharma AI, GxP, CSV, quality, validation, or regulated technology delivery experience.
+- The process took longer than the role availability window.
+- Role-fit and material preparation happened after the opportunity was already time-sensitive.
 
 ## Reusable Assets
-- AI acceleration role-fit framework.
-- Application-safe AI transformation narrative.
-- Pain point hypotheses for regulated AI adoption in pharma.
-- Pattern for positioning personal AI prototypes as evidence of practical AI tooling and iterative business-user delivery.
+- AI Acceleration Lead role-fit logic.
+- AI adoption / governance / transformation positioning.
+- CV bullets related to AI enablement.
+- Cover/application narrative fragments.
+- Pharma AI acceleration pain point hypotheses.
+- Interview talking points.
 
 ## Weak Assumptions
-- Candidate can bridge the clinical operations gap with product/transformation leadership, enterprise systems governance, and pharma-adjacent experience.
-- Personal AI-built CRM prototype is relevant enough to support AI-native tooling credibility without overstating enterprise AI delivery.
-- OnePlan / Board SaaS implementation scope and GBP 10m total cost can be safely described externally after final user review.
+- Clinical operations / clinical development fit required validation.
+- GxP / CSV / regulated AI experience required careful positioning.
+- Hands-on AI pilot delivery depth needed clarification.
 
 ## Interview Signals
-_To be populated if recruiter engagement or interview occurs._
+_Not applicable. Role closed before application._
 
 ## Repository Updates Needed
-- Consider adding an AI acceleration / AI transformation role archetype to reusable inputs.
-- Consider adding a candidate evidence file for validated AI prototypes and AI-assisted delivery examples.
+- Add a fast-track workflow for urgent roles.
+- Add deadline / posting status fields to case config.
+- Add role availability check before deep case work.
+- Add a reuse-for-similar-roles process.
 
 ## Final Status
-user_validated; user decision proceed_with_caution; external output approved.
+Archived for reuse.

@@ -345,6 +345,14 @@ The framework distinguishes between:
   * **Capability Level**: Developing / Established as working method.
   * **Positioning**: Approved AI-assisted productivity capability for documentation, analysis, learning, and summarization with human validation.
 
+* **AI Adoption and Acceleration Enablement**
+  * Identify practical AI adoption opportunities by connecting business process issues, user workflows, governance constraints, data readiness, and measurable outcomes.
+  * Support AI pilot framing through problem definition, value hypothesis, adoption needs, stakeholder alignment, operating model impact, and human-in-the-loop controls.
+  * Translate between business users, product owners, technologists, governance stakeholders, and delivery teams so AI work remains useful, safe, and outcome-focused.
+  * Avoid positioning as deep ML engineering, production AI platform ownership, clinical AI delivery, or regulated AI validation unless direct evidence is available.
+  * **Capability Level**: Developing / Established as transformation method.
+  * **Positioning**: Credible AI adoption and acceleration enablement from a business/product/transformation perspective, not specialist AI engineering ownership.
+
 * **Python, SQL and Automation Prototyping**
   * Develop hands-on Python, SQL, SQLite, SQLAlchemy, pandas, Tkinter, OpenAI API, Git/GitHub, and IDE-based technical capability through personal projects, structured learning, and occasional job-support needs.
   * Build or experiment with automation, data processing, lightweight applications, AI integrations, and internal tool concepts outside core enterprise delivery.

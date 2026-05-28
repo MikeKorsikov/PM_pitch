@@ -7,7 +7,7 @@ D:\PYTHON\PM_pitch
 ├───directory_structure.md (updated 2026-05-28)
 ├───.antigravitycli (empty)
 ├───INPUTS
-│   ├───playbook.md (updated 2026-05-27)
+│   ├───playbook.md (updated 2026-05-28)
 │   ├───agent_knowledge_base (WHAT capabilities/tools are involved)
 │   │   ├───business_capabilities.md (updated 2026-05-24)
 │   │   ├───capability_framework.md (updated 2026-05-28)
@@ -60,9 +60,9 @@ D:\PYTHON\PM_pitch
 │   │   ├───weak_architecture_standardization.md (updated 2026-05-27)
 │   │   └───zombie_data.md (updated 2026-05-27)
 │   ├───templates (HOW to turn reasoning into materials)
-│   │   ├───0_Checklist.md (updated 2026-05-27)
-│   │   ├───1_Target_profile.md (updated 2026-05-27)
-│   │   └───2_Materials.md (updated 2026-05-27)
+│   │   ├───0_Checklist.md (updated 2026-05-28)
+│   │   ├───1_Target_profile.md (updated 2026-05-28)
+│   │   └───2_Materials.md (updated 2026-05-28)
 │   └───value_models
 │       ├───ai_adoption_value.md (updated 2026-05-27)
 │       ├───automation_roi.md (updated 2026-05-27)
@@ -70,9 +70,6 @@ D:\PYTHON\PM_pitch
 │       └───operational_efficiency.md (updated 2026-05-27)
 ├───OUTPUTS (Final company-specific deliverables)
 │   └───cases
-│       ├───Case_1 (empty)
-│       ├───Case_2 (empty)
-│       ├───Case_3 (empty)
 │       └───gsk_ai_acceleration_lead_2026
 │           ├───0_case_config.yaml (updated 2026-05-28)
 │           ├───1_company_research.md (updated 2026-05-27)

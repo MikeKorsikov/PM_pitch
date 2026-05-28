@@ -61,4 +61,4 @@ I would position my contribution around making AI useful, governed, adopted, and
 - How directly to acknowledge the clinical operations and GxP/regulated AI delivery gaps in application or interview materials.
 
 ## External Use Approval
-external_output_approved: true
+external_output_approved: false

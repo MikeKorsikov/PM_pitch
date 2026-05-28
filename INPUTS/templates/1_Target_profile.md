@@ -15,6 +15,10 @@ Use this template to capture target context for a case. Keep it concise and evid
 | `effort_tier` |  |
 | `target_output_type` |  |
 | `workflow_status` |  |
+| `role_status` | open / closed / unknown |
+| `role_status_checked_date` |  |
+| `application_deadline` |  |
+| `urgency_level` | low / medium / high / urgent |
 | `job_description_path` |  |
 
 ## Source References
@@ -53,7 +57,7 @@ Use this template to capture target context for a case. Keep it concise and evid
 | Score |  |
 | Qualification level | underqualified / stretch / good_fit / strong_fit / overqualified / unclear |
 | Recommendation | proceed / proceed_with_caution / pause / skip / needs_user_review |
-| User decision | pending / proceed / pause / skip / escalate_to_interview_prep |
+| User decision | pending / proceed / proceed_with_caution / pause / skip / escalate_to_interview_prep |
 | Key strength matches |  |
 | Acceptable gaps |  |
 | Red flag gaps |  |

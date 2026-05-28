@@ -13,6 +13,10 @@ Use this checklist to run a target case without overproducing. Start lightweight
 - [ ] `target_output_type` is selected
 - [ ] `workflow_status` is set
 - [ ] Output folder path is defined
+- [ ] For open-role cases, `role_status` is `open`, `closed`, or `unknown`
+- [ ] For open-role cases, `role_status_checked_date` is captured
+- [ ] For open-role cases, `application_deadline` is captured if known
+- [ ] For open-role cases, `urgency_level` is selected
 - [ ] For open-role cases, `job_description.md` exists or capture is explicitly waived
 - [ ] For open-role cases, `job_description_path` points to `OUTPUTS/cases/{case_id}/job_description.md`
 
@@ -20,11 +24,12 @@ Minimum viable config is enough to start. Do not wait for all optional fields.
 
 ## 2. Scope and Effort Control
 
-- [ ] Tier 0, 1, 2A, 2B, or 3 is selected
+- [ ] Tier 0, 1, 1.5, 2A, 2B, or 3 is selected
 - [ ] Selected tier matches opportunity value
 - [ ] Target output type is clear
 - [ ] Only required phases are planned
 - [ ] Deep work trigger exists before detailed analysis
+- [ ] Fast application path is used for high or urgent live postings
 - [ ] Stop/archive criteria have been considered
 
 Default guidance:
@@ -40,6 +45,7 @@ Default guidance:
 ## 3. Evidence Quality
 
 - [ ] Raw job description is saved for open-role cases
+- [ ] Role availability was checked before Tier 2A, Tier 2B, or Tier 3 work
 - [ ] Job description source URL or origin is captured if available
 - [ ] Public evidence sources are captured
 - [ ] Job description or role source is captured if available
@@ -68,6 +74,7 @@ Default guidance:
 - [ ] Overqualification signals are captured if relevant
 - [ ] User go / no-go decision is recorded
 - [ ] No deeper open-role case work proceeds if decision is `pause` or `skip`
+- [ ] No application materials are generated if `role_status = closed`
 
 ## 6. Reasoning Chain Check
 
@@ -119,10 +126,11 @@ Do not send, apply, publish, or mark `outreach_ready` without user approval.
 - [ ] Opportunity value justifies additional work
 - [ ] Case improves interview probability, positioning quality, or reusable learning
 - [ ] If not, pause or archive the case
+- [ ] Closed roles are archived with an outcome reason
 
 ## 11. Retrospective
 
-- [ ] Outcome is captured
+- [ ] Final `outcome` is captured
 - [ ] Useful evidence is recorded
 - [ ] Strong and weak hypotheses are noted
 - [ ] Reusable phrases or materials are identified

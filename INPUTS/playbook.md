@@ -94,6 +94,31 @@ If none of these conditions are met, keep the case at Tier 0 or Tier 1.
 * Do not turn weak evidence into strong claims.
 * Do not spend more effort than the opportunity justifies.
 
+## Role Availability Check
+
+For live `open_role` cases, check whether the role is still open before running Tier 2A, Tier 2B, or Tier 3 work.
+
+Principle:
+
+```text
+No role availability check = no heavy open-role case work.
+```
+
+Rules:
+
+* Check `role_status` before role fit, company research, pain point mapping, value modeling, transformation narrative, or application materials.
+* If `role_status = closed`, stop application work, set `workflow_status = archived`, and capture the reason in the retrospective.
+* If `role_status = unknown`, run only job description capture and quick role fit until the user confirms whether to continue.
+* If `urgency_level = high` or `urgent`, use the fast application path instead of the full case workflow.
+* Re-check role availability before external submission if more than one working day has passed since the last check.
+
+Accepted values:
+
+| Field | Accepted Values |
+|---|---|
+| `role_status` | `open`, `closed`, `unknown` |
+| `urgency_level` | `low`, `medium`, `high`, `urgent` |
+
 ## Open-Role Role Fit Gate
 
 For `case_type = open_role`, role fit assessment is an early mandatory gate.
@@ -171,6 +196,11 @@ case_config:
   effort_tier: ""
   target_output_type: ""
   workflow_status: "not_started"
+  outcome: ""
+  role_status: ""
+  role_status_checked_date: ""
+  application_deadline: ""
+  urgency_level: ""
   evidence_confidence_score: ""
   external_output_approved: false
   target_stakeholders: []
@@ -212,6 +242,8 @@ case_config:
 | `effort_tier` | Controls depth and output scope. |
 | `target_output_type` | Defines the current output objective. Accepted values: `application`, `outreach`, `article`, `pitch_deck`, `interview_prep`, `follow_up`, `case_study`. |
 | `workflow_status` | Tracks case progress. |
+| `role_status` | Tracks whether a live posting is still available: `open`, `closed`, or `unknown`. |
+| `urgency_level` | Controls whether to use the fast application path: `low`, `medium`, `high`, or `urgent`. |
 | `output_folder` | Defines where generated materials are stored. |
 
 ### Optional Variables
@@ -221,6 +253,9 @@ case_config:
 | `geography` | Adds market, regulatory, or location context. |
 | `job_description_path` | Enables role and keyword analysis. |
 | `company_website` | Starting point for public research. |
+| `outcome` | Final case outcome, such as `role_closed_before_application`, `applied`, `rejected`, `offer_received`, or `archived_for_reuse`. |
+| `role_status_checked_date` | Date the role availability was last checked. |
+| `application_deadline` | Known deadline or expiry date if available. |
 | `target_stakeholders` | Tailors narrative to likely audience. |
 | `known_technologies` | Guides tooling and architecture signal mapping. |
 | `suspected_pain_points` | Selects pain point pattern files. |
@@ -256,7 +291,7 @@ Accepted role fit values:
 |---|---|
 | `qualification_level` | `underqualified`, `stretch`, `good_fit`, `strong_fit`, `overqualified`, `unclear` |
 | `recommendation` | `proceed`, `proceed_with_caution`, `pause`, `skip`, `needs_user_review` |
-| `user_decision` | `pending`, `proceed`, `pause`, `skip`, `escalate_to_interview_prep` |
+| `user_decision` | `pending`, `proceed`, `proceed_with_caution`, `pause`, `skip`, `escalate_to_interview_prep` |
 
 For open-role cases, save the raw job description here:
 
@@ -377,17 +412,40 @@ Tier 2 may be split to avoid doing interview-level preparation before there is i
 | Tier 2A - Application Package | The goal is to submit a strong tailored application. | Role analysis, tailored CV bullets, cover note or application narrative, short company-fit summary. | Full architecture deck, detailed roadmap, deep value case. |
 | Tier 2B - Interview Preparation | An interview is scheduled or likely. | Pain point hypotheses, capability impact map, value case, transformation narrative, interview talking points, questions for interviewer. | Broad research or deck-building that does not support interview performance. |
 
+## Fast Application Path
+
+Use this path for live postings with `urgency_level = high` or `urgent`.
+
+Purpose: apply quickly with credible, role-fit materials, then deepen the case only after recruiter or interview signal.
+
+Steps:
+
+1. Check `role_status`.
+2. Save `job_description.md`.
+3. Run quick `2_role_fit_assessment.md`.
+4. If role fit score is 70 or higher, prepare application materials only.
+5. Apply after user approval.
+6. Do company research, pain point mapping, value modeling, and interview preparation only after interview signal.
+
+Do not use this path when:
+
+* role fit score is below 70
+* the role is closed
+* the user has not approved personal claims
+* the target output is a strategic pitch or deep interview package
+
 ## Tier-to-Output Rules
 
 Use the effort tier to prevent overproduction.
 
 | Tier | Mandatory Phases | Mandatory Outputs | Optional Outputs |
 |---|---|---|---|
-| Tier 0 - Discovery | 1-2 | `0_case_config.yaml`, `1_company_research.md`; for open-role cases also capture `job_description.md` if available | none |
+| Tier 0 - Discovery | role availability check, 1-2 | `0_case_config.yaml`, `1_company_research.md`; for open-role cases also capture `job_description.md` if available | none |
 | Tier 1 - Outreach | 1, 5, 14 | `0_case_config.yaml`, `1_company_research.md`, `8_outreach.md` | lightweight `2_role_fit_assessment.md` for open-role context |
-| Tier 2A - Application Package | 1-4, 12 | `job_description.md`, `2_role_fit_assessment.md`, `7_materials.md` | `1_company_research.md`, `8_outreach.md` |
-| Tier 2B - Interview Preparation | 1-15 | `job_description.md`, `2_role_fit_assessment.md`, `3_pain_point_hypotheses.md`, `4_capability_impact_map.md`, `5_value_case.md`, `6_transformation_narrative.md`, `9_interview_prep.md` | `8_outreach.md` |
-| Tier 3 - Deep-Dive Interview / Strategic Pitch | role fit gate, 1-15 | Full case package | Stakeholder variants, roadmap, architecture deck, value model expansion |
+| Tier 1.5 - Fast Application | role availability check, 1-4, 12 | `job_description.md`, quick `2_role_fit_assessment.md`, `7_materials.md` | minimal `1_company_research.md` only if needed |
+| Tier 2A - Application Package | role availability check, 1-4, 12 | `job_description.md`, `2_role_fit_assessment.md`, `7_materials.md` | `1_company_research.md`, `8_outreach.md` |
+| Tier 2B - Interview Preparation | role availability check, 1-15 | `job_description.md`, `2_role_fit_assessment.md`, `3_pain_point_hypotheses.md`, `4_capability_impact_map.md`, `5_value_case.md`, `6_transformation_narrative.md`, `9_interview_prep.md` | `8_outreach.md` |
+| Tier 3 - Deep-Dive Interview / Strategic Pitch | role availability check, role fit gate, 1-15 | Full case package | Stakeholder variants, roadmap, architecture deck, value model expansion |
 
 ## Phase Selection Guidance
 
@@ -397,6 +455,7 @@ Use this table to select phases by situation. Do not run more phases unless the 
 |---|---|
 | Quick target scan | Phases 1-2 |
 | Open-role application gate | Phases 1-4 |
+| Urgent live posting | Role availability check, Phases 1-4 and 12 |
 | Networking or speculative outreach | Phases 1, 5, and 14 |
 | Standard application | Phases 1-4 and 12 |
 | Strong application | Phases 1-12 |
@@ -522,7 +581,7 @@ underqualified / stretch / good_fit / strong_fit / overqualified / unclear
 proceed / proceed_with_caution / pause / skip / needs_user_review
 
 ## User Decision
-pending / proceed / pause / skip / escalate_to_interview_prep
+pending / proceed / proceed_with_caution / pause / skip / escalate_to_interview_prep
 
 ## Notes for Application Materials
 
@@ -537,12 +596,25 @@ pending / proceed / pause / skip / escalate_to_interview_prep
 |---|---|
 | Purpose | Create a controlled case workspace and define minimum target variables. |
 | Trigger | User identifies a company, role, opportunity, referral, or job description. |
-| Inputs | Company name, target role, industry, priority level, effort tier, job description if available. |
-| Agent Can Do | Create folder plan, draft `0_case_config.yaml`, infer likely input files, identify missing variables. |
-| User Must Validate | Confirm target priority, role relevance, effort tier, and whether to proceed. |
+| Inputs | Company name, target role, industry, priority level, effort tier, job description if available, role status if known. |
+| Agent Can Do | Create folder plan, draft `0_case_config.yaml`, infer likely input files, identify missing variables, initialize role availability fields. |
+| User Must Validate | Confirm target priority, role relevance, effort tier, role urgency, and whether to proceed. |
 | Outputs | `0_case_config.yaml`; initialized output folder. |
 | Decision Gate | Continue only if the target is relevant enough for the selected tier. |
 | Completion Criteria | Required variables are populated, `case_type` and `target_output_type` are set, and `workflow_status = initialized`. |
+
+### Phase 1A - Role Availability Check
+
+| Field | Definition |
+|---|---|
+| Purpose | Confirm whether a live open-role posting is still available before investing in deeper work. |
+| Trigger | `case_type = open_role`, especially when `target_output_type = application`. |
+| Inputs | Job posting URL, recruiter note, job board status, application deadline, previous role status. |
+| Agent Can Do | Check public posting status when possible, update `role_status`, `role_status_checked_date`, `application_deadline`, and `urgency_level`. |
+| User Must Validate | Confirm whether to continue if status is `unknown`, closing soon, or already closed. |
+| Outputs | Updated role availability fields in `0_case_config.yaml`; stop note if closed. |
+| Decision Gate | If role is closed, archive for reuse. If urgency is high or urgent, use the fast application path. |
+| Completion Criteria | `role_status`, `role_status_checked_date`, and `urgency_level` are recorded or an open question is added. |
 
 ### Phase 2 - Job Description Capture
 
@@ -554,7 +626,7 @@ pending / proceed / pause / skip / escalate_to_interview_prep
 | Agent Can Do | Create `job_description.md`, preserve the raw text, record source URL and capture date, update `job_description_path`. |
 | User Must Validate | Confirm the job description is the correct role and current enough to use. |
 | Outputs | `job_description.md`; updated `job_description_path` in `0_case_config.yaml`. |
-| Decision Gate | For open-role cases, do not proceed to role fit assessment until the job description is captured or the user explicitly overrides. |
+| Decision Gate | For open-role cases, do not proceed to role fit assessment until the role is open or explicitly overridden, and the job description is captured or waived. |
 | Completion Criteria | `job_description.md` exists or the user has documented why the gate is overridden. |
 
 ### Phase 3 - Role Fit Assessment
@@ -562,12 +634,12 @@ pending / proceed / pause / skip / escalate_to_interview_prep
 | Field | Definition |
 |---|---|
 | Purpose | Decide whether the open role is worth pursuing before deeper case work. |
-| Trigger | `job_description.md` is captured for an open-role case. |
+| Trigger | `job_description.md` is captured for an open-role case and role availability is not closed. |
 | Inputs | `job_description.md`, skills, tools, capability framework, business capabilities, technology capabilities, target positioning. |
 | Agent Can Do | Extract role requirements, compare against user skills and capabilities, identify gaps, assign role fit score, draft recommendation. |
 | User Must Validate | Confirm personal evidence, acceptable gaps, red flag gaps, overqualification signals, and go / no-go decision. |
 | Outputs | `2_role_fit_assessment.md`; updated `role_fit` block in `0_case_config.yaml`. |
-| Decision Gate | No deeper open-role case work unless `role_fit.user_decision = proceed` or `escalate_to_interview_prep`, or the user explicitly overrides. |
+| Decision Gate | No deeper open-role case work unless `role_fit.user_decision = proceed`, `proceed_with_caution`, or `escalate_to_interview_prep`, or the user explicitly overrides. |
 | Completion Criteria | Role fit score, qualification level, recommendation, and user decision are documented. |
 
 ### Phase 4 - User Go / No-Go Decision
@@ -684,7 +756,7 @@ pending / proceed / pause / skip / escalate_to_interview_prep
 | Agent Can Do | Draft CV bullets, cover letter, executive pitch, architecture story, roadmap, AI opportunity summary, stakeholder versions. |
 | User Must Validate | Approve final materials, verify personal claims, decide what is appropriate to share. |
 | Outputs | `7_materials.md` and optional stage-specific assets. |
-| Decision Gate | For open-role applications, do not generate materials until role fit is complete and recommendation is `proceed` or `proceed_with_caution`; do not send externally until `external_output_approved = true`. |
+| Decision Gate | For open-role applications, do not generate materials until role fit is complete, role status is not closed, and recommendation is `proceed` or `proceed_with_caution`; do not send externally until `external_output_approved = true`. |
 | Completion Criteria | Materials are tailored to effort tier, audience, and application stage; `workflow_status = materials_drafted`. |
 
 ### Phase 13 - User Review and Validation
@@ -874,6 +946,7 @@ Use this structure inside a case tracker or future master tracker when managing 
 Archive or pause the case when:
 
 * No visible role fit exists.
+* Role is closed before application.
 * Role fit is weak.
 * No credible business angle exists.
 * Insufficient public evidence exists.
@@ -897,6 +970,7 @@ Before archive:
 * Preserve reusable material.
 * Remove or flag unsupported assumptions.
 * Set `workflow_status = archived` unless the case ended as `rejected` or `offer_received`.
+* Set `outcome` with the clearest available reason, such as `role_closed_before_application`.
 
 ## Case Retrospective Process
 
@@ -987,6 +1061,9 @@ Variable-driven automation rules:
 * `target_output_type` determines which outputs to generate.
 * `effort_tier` determines workflow depth.
 * `case_type` determines workflow branch.
+* For open-role cases, check `role_status` before running Tier 2A, Tier 2B, or Tier 3 steps.
+* If `role_status = closed`, stop, set `workflow_status = archived`, and capture the retrospective.
+* If `urgency_level = high` or `urgent`, use the fast application path.
 * Deep work trigger conditions determine whether optional phases should run.
 * `evidence_confidence_score` determines how strongly materials can state conclusions.
 * `do_not_claim` blocks risky statements from external outputs.
@@ -1000,7 +1077,7 @@ Open-role automation rule:
 4. Generate `2_role_fit_assessment.md`.
 5. Update the `role_fit` block in `0_case_config.yaml`.
 6. Request user go / no-go decision.
-7. Stop unless `role_fit.user_decision = proceed` or `escalate_to_interview_prep`.
+7. Stop unless `role_fit.user_decision = proceed`, `proceed_with_caution`, or `escalate_to_interview_prep`.
 
 Minimum automation checkpoints:
 

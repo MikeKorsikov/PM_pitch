@@ -12,6 +12,8 @@ Do not create a full deck, roadmap, or detailed architecture narrative unless th
 | `target_output_type` | application / outreach / article / pitch_deck / interview_prep / follow_up / case_study |
 | Intended audience |  |
 | Effort tier |  |
+| Role status | open / closed / unknown |
+| Role status checked date |  |
 | Role fit score |  |
 | Role fit recommendation |  |
 | User decision |  |
@@ -22,11 +24,14 @@ Do not create a full deck, roadmap, or detailed architecture narrative unless th
 
 Application materials should not be generated until:
 
+- [ ] role status is `open` or the user explicitly overrides `unknown`
 - [ ] `2_role_fit_assessment.md` is complete
 - [ ] recommendation is `proceed` or `proceed_with_caution`
-- [ ] user decision is `proceed` or `escalate_to_interview_prep`
+- [ ] user decision is `proceed`, `proceed_with_caution`, or `escalate_to_interview_prep`
 - [ ] red flag gaps are resolved or explicitly acknowledged
 - [ ] personal claims are validated by the user
+
+If `role_status = closed`, archive the case or reuse the material for a similar active role instead of preparing external application content.
 
 ## Output Selection
 

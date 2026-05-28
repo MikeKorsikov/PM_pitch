@@ -5,7 +5,7 @@ Prepare outreach or networking messages if needed.
 
 ## Outreach Status
 - Not generated as a primary output for this Tier 2A application case.
-- User has validated the application case and approved external outputs.
+- User has validated the application case before the role closed; external output approval is now reset to false.
 - Outreach can be drafted if a recruiter, referral contact, or stakeholder is identified.
 
 ## Target Recipients
@@ -22,4 +22,4 @@ _Deferred pending user validation._
 - Do not imply internal knowledge of GSK architecture, systems, data, or AI maturity.
 
 ## External Use Approval
-external_output_approved: true
+external_output_approved: false

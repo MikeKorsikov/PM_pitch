@@ -1,0 +1,54 @@
+﻿Mykola Korsikov
+Poznan, Poland | +48 513 523 937 | nikolay.korsikov@gmail.com |  https://www.linkedin.com/in/korsikov/ 
+
+	Summary:
+An accomplished and strategic leader with over 15 years of project and team management experience, including 5 years specializing in product management. Proven ability to develop and execute global transformation strategies, lead complex technology implementations, and manage end-to-end service delivery for large, multinational organizations. Expertise in achieving operational excellence through standardization, automation and data analytics, and ensuring robust compliance. An influential communicator and team builder adept at managing multi-million-dollar budgets, fostering vendor partnerships, and collaborating effectively with executive leadership and cross-functional stakeholders to achieve business and security objectives. Seeking to leverage extensive finance expertise to lead and mature the finance and overall business function.
+
+	Experience:
+Product Manager | Haleon | Poznan, Poland 2022 – Present
+* Defining global Planning Budgeting and Controlling vision, strategy, and roadmap, aligning with business goals, security objectives.
+* Writing requirement documentation and user stories, including functional and non-functional requirements, use cases, & acceptance criteria.
+* Reviewing architecture proposals, assessing technical feasibility, integration with other applications and platforms.
+* Managing and refining the product backlog, balancing features, bugs, and tech debt.
+* Analyzing product usage data, API metrics (latency, errors), KPIs, and test results to monitor performance.
+* Collaborating on application integration (interfaces, API), evaluating integration options, understanding system requirements and limitations.
+* Working with data engineers, designing and implementing ETL pipelines.
+* Creating clear tech and compliance focused documentation (system access plans, disaster recovery plans, BPSD, governance plans etc.).
+* Planning, managing and communicating solution changes using ServiceNow, to ensure smooth transitions to production.
+* Defining release scope (SRN), coordinating cross-team dependencies, establishing release cadence, and managing feature rollouts.
+
+Portfolio Manager| GSK | Poznan, Poland 2020 – 2022
+* Kept leadership, key stakeholders, and dependent teams informed of roadmap progress, risks, and dependencies.
+* Researched market trends, competitor offerings, informed business to shift roadmap.
+* Facilitated agile ceremonies (stand-ups, planning, reviews, retrospectives) and championed agile principles within the team.
+* Regular review of metrics, OKR alignment, revamp of dashboards to enable proper KPI tracking.
+* Vendor management, including governance and service reviews, contract/SOW/CR reviews, finance (PO and invoice) management, license and infra management.
+
+
+Team Leader | Fujitsu | Lodz, Poland 2017 – 2019
+* Conducted user interviews, mapping user journeys to understand needs & pain points.
+* Lead syncs, clearly articulating concepts/trade-offs to diverse audiences, ensuring alignment across Finance, HR, Marketing, and Tech.
+* Orchestrated and coordinated transformational changes (technical and process nature) across various business functions.
+* Mentored team members, fostering team culture, removing blockers, inspiring teams, and influencing direction.
+* Built business cases for investing in improvements by estimating hard (ROI, cost savings), and soft (performance gains) benefits.
+
+
+	Skills:
+* Technical Skills: Azure, PowerShell, Python, Splunk, SQL, Excel, CI/CD, Data modeling, Git (GitHub, GitLab), IDE (PyCharm, VS Code), Lucidchart, MS Visio
+* Security & Compliance: Risk Management, Vulnerability Management, Security Auditing, SOX, PII Protection, Archer, ServiceNow, SailPoint, CyberArk
+* Methodologies: Agile, Scrum, DevOps Principles, ITIL Framework (Incident, Change Management), Lean Canvas
+* Leadership & Management: Team Leadership & Mentoring, Performance Management, Budget Management, Vendor & Partner Management, Stakeholder Engagement (Technical to C-Level).
+* Project management: Aha!, Jira, MS Project
+* Collaboration: MS Teams, Zoom, Slack, Confluence
+* Team and resources management: Workday, Concur, Fieldglass
+* Document management: Veeva, SOLMAN
+
+	Certifications:
+* Association of Chartered Certified Accountants
+* Registered Product Owner Certificate
+* ITIL Foundation Certificate in IT Service Managementv4
+
+	Education:
+Postgraduate Degree in Computer Science IT Academy STEP, Kyiv, Ukraine 2023
+Bachelor of Science (BSc) in Applied Accounting Oxford Brookes University, Oxford, UK 2010
+Bachelor of Law (LLB) Kyiv National University, Kyiv, Ukraine 2006

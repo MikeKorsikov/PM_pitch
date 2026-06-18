@@ -1,17 +1,19 @@
 # Application Tracking - Procter & Gamble Senior Technical Product Manager - Pampers Club App
 
 ## Status
-Application submitted.
+Rejected.
 
 ## Current Workflow State
-- Workflow status: applied.
+- Workflow status: rejected.
 - Application submitted date: 2026-05-31.
 - Post-application assessment: logic-focused tests completed.
-- Next stage: employer response / assessment outcome tracking.
+- Employer outcome: rejected.
+- Next stage: retrospective and reuse decision.
 
 ## Approval
-- Materials validated by user.
-- External output approved: true.
+- Materials validated by user before submission.
+- External output approved during application: true.
+- External output approved after case closure: false.
 - Workflow status before submission: user_validated.
 
 ## Posting Risk
@@ -34,5 +36,6 @@ https://www.pgcareers.com/global/en/job/R000145954/Senior-Technical-Product-Mana
 
 ## Post-Application Notes
 - User completed a number of logic-focused tests after submitting the application.
-- Assessment result is not yet recorded.
-- Do not move to interview preparation until there is an interview signal or employer response.
+- User confirmed rejection after application and logic-focused tests.
+- Do not move to interview preparation for this case.
+- Reuse relevant positioning for similar technical product, platform simplification, vendor governance, and delivery leadership roles.

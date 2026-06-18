@@ -11,8 +11,8 @@ case_config:
   priority_level: "high"
   effort_tier: "Tier 2A"
   target_output_type: "application"
-  workflow_status: "applied"
-  outcome: "application_submitted_assessment_completed"
+  workflow_status: "rejected"
+  outcome: "rejected_after_logic_focused_tests"
   application_submitted_date: "2026-05-31"
   assessment_status: "logic_focused_tests_completed"
   role_status: "open_user_confirmed"
@@ -20,7 +20,7 @@ case_config:
   application_deadline: ""
   urgency_level: "urgent"
   evidence_confidence_score: "medium"
-  external_output_approved: true
+  external_output_approved: false
   target_stakeholders:
     - "Pampers Club business owners"
     - "P&G IT and Product Supply stakeholders"
@@ -106,3 +106,5 @@ case_config:
     - "External output approved."
     - "User confirmed application was submitted."
     - "User completed a number of logic-focused tests after application submission."
+    - "User confirmed rejection after application and logic-focused tests."
+    - "Case closed as rejected; external output approval reset to false because the application cycle is complete."

@@ -125,6 +125,7 @@ case_config:
   output_folder: "OUTPUTS/cases/john_deere_engineering_manager_ai_solutions_2026/"
   evidence_sources:
     - "https://careers.deere.com/careers/job/137480977956?&eventID=r646lxay"
+    - "https://www.entrepreneur.com/business-news/ai-wont-replace-leaders-but-it-will-expose-weak-ones-heres-how"
     - "User-provided full job description pasted on 2026-06-18."
     - "User confirmed application submitted and recruiter interview scheduled for 2026-06-23."
     - "INPUTS/draft_input/skills.txt"
@@ -158,3 +159,4 @@ case_config:
     - "User confirmed vulnerability remediation evidence: direct remediation on OnePlan environments including security patching, application upgrades, functional accounts, security monitoring, SSL and SSO updates; managed remediation for NEXUS, BISON, SIERA, and Cadency; ensured security acceptance and compliance with standard practices."
     - "User confirmed OnePlan/Board is the primary platform example because the candidate is most familiar with it and built it from ground zero."
     - "User confirmed Azure governance evidence: ownership of resource groups and active directories, plus monitoring resource usage and cost of Azure resources."
+    - "Article insight selected for interview preparation: effective AI leadership requires workflow redesign, faster and clearer decisions, accountable governance, human judgment, trust, and team capability development; this is external thought leadership, not evidence about John Deere."

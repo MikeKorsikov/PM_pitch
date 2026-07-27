@@ -60,6 +60,10 @@ STEP 1 - Practices:
 
 7. **Personalistic founder authority as permanent governance:** Founder control of strategic reserves, personal campaign funds, and authority to abolish management layers without institutional checks. The institutionalized counterpart (Strategic Initiatives Fund with board oversight) is transferable.
 
+sub tasks:
+- collect practices [done]
+- identify companies practicing them [done]
+
 ---
 
 STEP 2 - Evidence Matrix:
@@ -69,15 +73,74 @@ Statements:
 - Leading Chinese firms resolve operational issues faster than Western governance norms permit.
 - The combination of strategic patience and operational impatience is enabled by specific, documented mechanisms, not by culture or state support.
 - Western organizations that have adopted analogous mechanisms show measurable speed improvement.
+- Some leading Chinese firms may possess deliberately designed systems that convert strategic intent into operational action.
+- Shared platforms make internal competition economically rational.
+- Centralize what must be common (identity, payments, core data, shared engineering, coordination layers). Decentralize what must be differentiated (product features, user experience, business logic, go-to-market).
+- Platform-embedded governance is superior to committee-based governance for speed. 
+- There is no documented drive toward single-vendor integration among leading Chinese platform firms.
+- Brutal selection, not superior management, may be the primary explanation for observed execution speed.
+- State support, supplier density, regulatory protection, chronic overtime, guanxi-dependent coordination, public shaming, and personalistic founder authority are non-transferable factors.
+- Leading Chinese companies execute rapidly because they combine strategic patience with operational impatience. 
+- Execution speed may be an enterprise-design outcome, rather than simply a result of harder work or more aggressive project management.
+- The most successful companies may be architected to remain in a state of continuous transformation, rather than treating transformation as a temporary programme.
+- Chinese corporate speed may come from reducing the organisational distance between:
+strategic intent;
+funding;
+decision-making;
+product development;
+technology;
+production;
+customer feedback.
+- The real advantage may not be faster project delivery, but faster organisational reconfiguration.
+- The most important capability may be the speed at which a company can change:
+resource allocation;
+decision rights;
+team ownership;
+technology priorities;
+production capacity;
+supplier mobilisation;
+-Leading Chinese companies may not predict the future better; they may be better at:
+creating options;
+recognising which option works;
+concentrating the organisation behind it.
+- Chinese founders and long-serving executives may operate with strategic horizons measured in decades rather than quarters.
+- Long CEO tenure and founder control may protect major investments from frequent strategic resets.
+- Some important Chinese corporate capabilities may have been built through patient investment, not rapid implementation.
+- Western organisations may struggle to replicate these practices when CEOs, boards and investors expect returns within shorter periods.
+- Major transformations may be personally driven by founders, CEOs or business-unit leaders rather than delegated primarily to PMOs.
+- Many organisations can run pilots; fewer can scale successful pilots rapidly.
+- Chinese companies may not have fewer controls; they may have faster and more continuous controls.
+- Removing middle-management layers may shorten decision paths.
+- Duplication is not necessarily waste under uncertainty; unmanaged duplication is.
+
 
 STEP 3: Select The 4-5 Main Mechanisms/practices
 (ask agents to rank by difficulty of implementation)
+
+- identify two practices per company
+- make top-100 boolet proof (evidence)
+- test list of practices using various AI tools for accuracy [done]
+- test evidence (if trully support statement that companies use practices) [done]
+- what practices chinese do NOT follow? [done]
+
+Selected practices:
+Start doing practices:
+ 
 
 STEP 4 - Diagrams
 Possible ideas:
 [western vs chinese]
 [before and after]
 [actual practice in action]
+
+1 - planning time horizon (short vs long) [done]
+2 - horse race [done]
+3 - red team blue team (devil's advocate) [done]
+4 - Exploration vs Construction Budget (pilot budget) [done]
+5 - Learner Driver on the Road (AI) [done]
+6 - Highway System vs Private Roads (shared platform) [done]
+
+
 
 (a) business focused
 (b) data focused
@@ -93,10 +156,10 @@ STEP 5 - draft article body
 (e) Section 2 - what is transferable (top 4 with 1 diagram per each)
     2.1. Practice 1:
         - problem
-        - chinese practice; what it means (how it works)
+        - chinese practice; what it means (how it works in China)
         - what could be the push back (it won't work because...)
-        - transferable mechanism (what western company could do)
-        - expected impact
+        - transferable mechanism (what western company could do) <- how to make it work in the West
+        - expected impact and price to pay (costs, risks [compliance, ethics], changes)
         - diagram
 (f) Final thought
 (g) Sources

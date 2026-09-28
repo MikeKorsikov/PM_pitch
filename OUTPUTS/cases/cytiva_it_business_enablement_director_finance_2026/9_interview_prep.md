@@ -103,3 +103,77 @@ Ask this if scope feels unclear:
 - Ask about platforms and decision rights.
 - Position GxP as controls/regulatory discipline unless they need specialist depth.
 - Treat this as a strong-fit opportunity.
+
+---
+
+## Senior Director Interview Update
+
+## Interview Context
+- Interviewer: Jetal Patel
+- Title: Sr. Director, IT Business Enablement - Functions
+- Date: 2026-08-28
+- Time: 15:00
+- Stage: next interview after positive recruiter feedback
+
+## Objective
+- Show senior-level fit for Finance IT business enablement, not only application support.
+- Demonstrate how you connect Finance outcomes, technology roadmaps, value streams, governance, and delivery.
+- Validate the role scope, decision rights, platform landscape, and expectations around DBS, GxP, and value realization.
+- Leave a clear impression: practical Finance technology leader who can simplify, prioritize, govern, and deliver measurable outcomes.
+
+## Likely Focus Areas
+- Finance stakeholder partnership and business enablement.
+- Roadmap ownership, backlog governance, and value stream prioritization.
+- Product-centric / agile delivery in a regulated enterprise environment.
+- Translating Finance process pain points into technology outcomes.
+- ROI, benefits, cost, adoption, and say/do tracking.
+- ERPs, Finance platforms, integrations, analytics, and automation opportunities.
+- Operating model, support model, vendor governance, and delivery governance.
+- Risk management, controls, access, auditability, and GxP/regulatory awareness.
+- Matrix leadership and ability to influence without perfect authority.
+
+## Senior Positioning Statement
+I see this role as Finance IT business enablement: understanding what Finance needs to achieve, shaping the roadmap and value streams, making prioritization transparent, and ensuring delivery creates measurable business outcomes. My strength is operating between Finance, IT, vendors, governance, and delivery teams so that technology work is tied to process improvement, control, adoption, and value.
+
+## Core Stories to Prepare
+- Finance systems product ownership: roadmap, backlog, governance, stakeholder alignment, support model, and value tracking.
+- OnePlan / Board platform story: building from early stage, shaping scope, managing vendors, controlling cost and complexity, and aligning delivery to business use.
+- Operating model improvement: simplifying ways of working, clarifying roles, reducing approval bottlenecks, and improving delivery flow.
+- Finance data / reporting / platform story: connecting Finance processes, data flows, reporting needs, controls, and platform dependencies.
+- Automation / analytics opportunity story: identifying where automation or analytics creates value, while keeping governance, ownership, and adoption realistic.
+
+## Likely Senior Director Questions and Suggested Answers
+
+| Question | Suggested Answer |
+|---|---|
+| How would you approach the first 90 days? | "I would start with the Finance outcomes and the current delivery reality. First, understand the Finance stakeholder map, application landscape, active roadmap, value streams, pain points, governance forums, and current delivery commitments. Then I would identify where prioritization, ownership, data, process, or integration issues are slowing value delivery. I would avoid changing everything immediately; the first goal is to understand where enablement is blocked and where focused improvement can create visible value." |
+| How do you make sure Finance IT work creates business value? | "I try to connect every roadmap item to a business outcome: faster close, better reporting, lower manual effort, reduced risk, improved adoption, better controls, or lower run cost. I also like to define success measures early, even if they are practical rather than financially perfect. The important thing is that Finance and IT agree what value means before delivery starts." |
+| How do you handle competing priorities from senior stakeholders? | "I make trade-offs visible. I look at business value, compliance risk, operational impact, dependency, capacity, cost, and urgency. Then I put options in front of stakeholders with consequences. That helps move the discussion from preference-based priority to value- and risk-based priority." |
+| What is your leadership style in a matrix organization? | "I try to create clarity: who owns the decision, who owns delivery, who is consulted, and what success looks like. In matrix environments people often work hard but pull in different directions. My role is to align priorities, remove blockers, escalate early, and keep communication practical." |
+| How do you approach continuous improvement? | "I start with process evidence: cycle time, bottlenecks, rework, handoffs, controls, defects, user friction, and support volume. Then I separate root cause from symptoms. Sometimes the answer is automation; sometimes it is process ownership, standardization, data quality, governance, or clearer decision rights." |
+| How do you approach automation or AI in Finance? | "I am interested in AI and automation where they support a real process outcome. I would not start with the technology. I would start with repeatable work, knowledge retrieval, reporting explanation, reconciliation, workflow routing, controls, and decision support. In Finance, governance, data quality, auditability, and adoption matter as much as the tool." |
+| What is your experience in regulated environments? | "My strongest evidence is controls, audit, access governance, documentation, change governance, and risk-managed delivery. I would be careful not to overstate specialist GxP validation leadership, but I understand the need for disciplined process, evidence, approvals, traceability, and controlled change in regulated environments." |
+| What would you need from the organization to be successful? | "Clear decision rights, access to Finance and IT stakeholders, visibility of current roadmaps and pain points, transparency on platform ownership, and agreement on how value is measured. Without those, enablement roles can become coordination roles rather than value delivery roles." |
+
+## Questions to Ask Jetal Patel
+- What are the most important Finance outcomes this role needs to enable in the next 6 to 12 months?
+- How is IT Business Enablement - Functions organized, and how does this role interact with Finance, delivery teams, architecture, and governance?
+- What does the Discovery model mean in practice at Cytiva?
+- What decision rights would this role have over Finance roadmaps, value streams, prioritization, and delivery trade-offs?
+- Which Finance platforms, ERPs, analytics platforms, or automation areas are most in scope?
+- Where are the biggest current bottlenecks: process standardization, data quality, integrations, governance, adoption, compliance, or delivery capacity?
+- How deep is the expected GxP or regulated-technology experience for this role?
+- How important is direct Danaher Business System experience compared with broader continuous improvement and operational excellence experience?
+- What would make you say after 6 months that hiring this person was clearly the right decision?
+
+## Risks to Manage in This Interview
+- Do not present yourself as a Danaher Business System expert.
+- Do not claim specialist GxP / CSV validation ownership.
+- Do not over-focus on AI unless Jetal makes AI/advanced analytics central.
+- Do not sound like a pure application service manager; keep the emphasis on business enablement, roadmap, value, and delivery governance.
+- Do not make the interview only about tools. Use tools as evidence of landscape fluency, not as the core story.
+
+## Best Interview Angle
+Lead as a Finance IT enablement and transformation leader:
+
+> "I help Finance and IT turn business priorities into governed, value-based technology delivery. My strength is connecting roadmap, process, data, controls, vendors, stakeholders, and measurable outcomes."

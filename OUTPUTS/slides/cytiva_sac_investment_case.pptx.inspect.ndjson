@@ -1,0 +1,177 @@
+{"kind":"deck","id":"pr/xngwkm","name":"Deck"}
+{"kind":"layout","layoutId":"4d0c6168-54c0-4d0d-98ab-f35be7681219","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"0c1ada86-bda6-49a9-b428-20ed8bdcc621","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3x6j0e","slide":1,"title":"Finance technology investment case","textShapes":5}
+{"kind":"textbox","id":"sh/2143y943","slide":1,"text":"Finance technology investment case","textPreview":"Finance technology investment case","textChars":34,"textLines":1,"bbox":[70,88,850,70]}
+{"kind":"textbox","id":"sh/p4v2to3e","slide":1,"text":"Illustrative journey: moving finance reporting and planning capability from Power BI reliance to SAP SAC","textPreview":"Illustrative journey: moving finance reporting and planning capability from Power BI reliance to SAP SAC","textChars":104,"textLines":1,"bbox":[72,178,900,70]}
+{"kind":"textbox","id":"sh/o3ml0jmt","slide":1,"text":"Objective\nGive leadership enough evidence to choose: retain current setup, improve it, or fund a phased SAC move.","textPreview":"Objective | Give leadership enough evidence to choose: retain current setup, improve it, or fund a phased SAC move.","textChars":113,"textLines":2,"bbox":[72,308,500,150]}
+{"kind":"textbox","id":"sh/b6dkvelk","slide":1,"text":"Decision style\nBusiness outcome first. Technology second. TCO, risk, adoption and execution confidence visible before funding.","textPreview":"Decision style | Business outcome first. Technology second. TCO, risk, adoption and execution confidence visible before funding.","textChars":126,"textLines":2,"bbox":[642,308,500,150]}
+{"kind":"textbox","id":"sh/a54329kz","slide":1,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/3x6j0e","slide":1,"text":"Position this as an illustrative executive case, not a factual Cytiva proposal. Use it to explain how you would build and defend a multi-year investment case."}
+{"kind":"slide","id":"sl/0hkirz","slide":2,"title":"Baseline finance reporting estate","textShapes":9}
+{"kind":"textbox","id":"sh/utorm947","slide":2,"text":"Baseline finance reporting estate","textPreview":"Baseline finance reporting estate","textChars":33,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/hwfqx43y","slide":2,"text":"Power BI delivers usable reporting, but the operating model can still create hidden cost and fragmentation.","textPreview":"Power BI delivers usable reporting, but the operating model can still create hidden cost and fragmentation.","textChars":107,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/wv69ojmd","slide":2,"text":"Current working pattern","textPreview":"Current working pattern","textChars":23,"textLines":1,"bbox":[68,150,300,390]}
+{"kind":"textbox","id":"sh/7qd8rulw","slide":2,"text":"Multiple data extracts\nLocal report logic\nManual commentary\nSeparate planning cycles\nMarket-specific workarounds","textPreview":"Multiple data extracts | Local report logic | Manual commentary | Separate planning cycles | Market-specific workarounds","textChars":112,"textLines":5,"bbox":[94,215,245,230]}
+{"kind":"textbox","id":"sh/m54rip4b","slide":2,"text":"Main risks","textPreview":"Main risks","textChars":10,"textLines":1,"bbox":[410,150,360,390]}
+{"kind":"textbox","id":"sh/9sfqt43m","slide":2,"text":"Different versions of performance\nSlow planning and review cycles\nManual controls around reports\nHigh dependency on expert users\nLimited link between plan, forecast and actuals","textPreview":"Different versions of performance | Slow planning and review cycles | Manual controls around reports | High dependency on expert users | ...","textChars":176,"textLines":5,"bbox":[436,215,295,245]}
+{"kind":"textbox","id":"sh/8rm9kzmh","slide":2,"text":"Finance outcome affected","textPreview":"Finance outcome affected","textChars":24,"textLines":1,"bbox":[812,150,360,390]}
+{"kind":"textbox","id":"sh/rmhs3yl0","slide":2,"text":"Decision quality\nForecast confidence\nReporting efficiency\nGoverned data use\nAbility to standardize across regions","textPreview":"Decision quality | Forecast confidence | Reporting efficiency | Governed data use | Ability to standardize across regions","textChars":113,"textLines":5,"bbox":[838,215,295,230]}
+{"kind":"textbox","id":"sh/618rut4f","slide":2,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/0hkirz","slide":2,"text":"This slide should not attack Power BI. The message is that a reporting tool can be useful while the wider finance planning and performance process remains fragmented."}
+{"kind":"slide","id":"sl/rdwzkl","slide":3,"title":"Cost of doing nothing","textShapes":33}
+{"kind":"textbox","id":"sh/elgz21cn","slide":3,"text":"Cost of doing nothing","textPreview":"Cost of doing nothing","textChars":21,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/1o7yxgby","slide":3,"text":"The case needs to show the financial and operational drag that remains if the estate stays as-is.","textPreview":"The case needs to show the financial and operational drag that remains if the estate stays as-is.","textChars":97,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/gnyh4bud","slide":3,"text":"12k hrs","textPreview":"12k hrs","textChars":7,"textLines":1,"bbox":[80,150,170,40]}
+{"kind":"textbox","id":"sh/rypgrmtw","slide":3,"text":"Annual manual reporting effort","textPreview":"Annual manual reporting effort","textChars":30,"textLines":1,"bbox":[80,186,190,38]}
+{"kind":"textbox","id":"sh/6xwfyhcb","slide":3,"text":"180","textPreview":"180","textChars":3,"textLines":1,"bbox":[330,150,170,40]}
+{"kind":"textbox","id":"sh/t07ytwb2","slide":3,"text":"Duplicate finance reports","textPreview":"Duplicate finance reports","textChars":25,"textLines":1,"bbox":[330,186,190,38]}
+{"kind":"textbox","id":"sh/szyh0ruh","slide":3,"text":"10 wks","textPreview":"10 wks","textChars":6,"textLines":1,"bbox":[570,150,170,40]}
+{"kind":"textbox","id":"sh/ju5gnmt0","slide":3,"text":"Planning cycle duration","textPreview":"Planning cycle duration","textChars":23,"textLines":1,"bbox":[570,186,190,38]}
+{"kind":"textbox","id":"sh/itwfuhcf","slide":3,"text":"35/mo","textPreview":"35/mo","textChars":5,"textLines":1,"bbox":[810,150,170,40]}
+{"kind":"textbox","id":"sh/c36943at","slide":3,"text":"Critical data reconciliations","textPreview":"Critical data reconciliations","textChars":29,"textLines":1,"bbox":[810,186,190,38]}
+{"kind":"textbox","id":"sh/d4fqd8re","slide":3,"text":"£1.2m","textPreview":"£1.2m","textChars":5,"textLines":1,"bbox":[1040,150,170,40]}
+{"kind":"textbox","id":"sh/q1or2dsn","slide":3,"text":"Run cost tied to legacy reporting","textPreview":"Run cost tied to legacy reporting","textChars":33,"textLines":1,"bbox":[1040,186,190,38]}
+{"kind":"textbox","id":"sh/b2x8bi98","slide":3,"text":"Cost area","textPreview":"Cost area","textChars":9,"textLines":1,"bbox":[86,285,280,42]}
+{"kind":"textbox","id":"sh/oz6903ax","slide":3,"text":"What continues","textPreview":"What continues","textChars":14,"textLines":1,"bbox":[366,285,320,42]}
+{"kind":"textbox","id":"sh/p0fq98r2","slide":3,"text":"Business impact","textPreview":"Business impact","textChars":15,"textLines":1,"bbox":[686,285,320,42]}
+{"kind":"textbox","id":"sh/2x4rytsr","slide":3,"text":"Evidence to validate","textPreview":"Evidence to validate","textChars":20,"textLines":1,"bbox":[1006,285,210,42]}
+{"kind":"textbox","id":"sh/3yd87y9c","slide":3,"text":"Manual effort","textPreview":"Manual effort","textChars":13,"textLines":1,"bbox":[86,327,280,42]}
+{"kind":"textbox","id":"sh/8vq9c7a1","slide":3,"text":"Report preparation, checking, commentary","textPreview":"Report preparation, checking, commentary","textChars":40,"textLines":1,"bbox":[366,327,320,42]}
+{"kind":"textbox","id":"sh/9wzalsrm","slide":3,"text":"Capacity stays trapped in low-value work","textPreview":"Capacity stays trapped in low-value work","textChars":40,"textLines":1,"bbox":[686,327,320,42]}
+{"kind":"textbox","id":"sh/hcvqpsjq","slide":3,"text":"Time studies, close calendar","textPreview":"Time studies, close calendar","textChars":28,"textLines":1,"bbox":[1006,327,210,42]}
+{"kind":"textbox","id":"sh/wbm9wni5","slide":3,"text":"Data friction","textPreview":"Data friction","textChars":13,"textLines":1,"bbox":[86,369,280,42]}
+{"kind":"textbox","id":"sh/vad8ni1k","slide":3,"text":"Local logic and repeated reconciliation","textPreview":"Local logic and repeated reconciliation","textChars":39,"textLines":1,"bbox":[366,369,320,42]}
+{"kind":"textbox","id":"sh/up4rux0z","slide":3,"text":"Leadership debates the numbers before decisions","textPreview":"Leadership debates the numbers before decisions","textChars":47,"textLines":1,"bbox":[686,369,320,42]}
+{"kind":"textbox","id":"sh/9ovqlsje","slide":3,"text":"Data lineage review","textPreview":"Data lineage review","textChars":19,"textLines":1,"bbox":[1006,369,210,42]}
+{"kind":"textbox","id":"sh/8nm9sn29","slide":3,"text":"Platform complexity","textPreview":"Platform complexity","textChars":19,"textLines":1,"bbox":[86,411,280,42]}
+{"kind":"textbox","id":"sh/7md8ji1o","slide":3,"text":"More reports and integrations than needed","textPreview":"More reports and integrations than needed","textChars":41,"textLines":1,"bbox":[366,411,320,42]}
+{"kind":"textbox","id":"sh/ml4rqdk3","slide":3,"text":"Run cost and change effort stay high","textPreview":"Run cost and change effort stay high","textChars":36,"textLines":1,"bbox":[686,411,320,42]}
+{"kind":"textbox","id":"sh/lkbqh8ji","slide":3,"text":"App and report inventory","textPreview":"App and report inventory","textChars":24,"textLines":1,"bbox":[1006,411,210,42]}
+{"kind":"textbox","id":"sh/kj29o32x","slide":3,"text":"Control exposure","textPreview":"Control exposure","textChars":16,"textLines":1,"bbox":[86,453,280,42]}
+{"kind":"textbox","id":"sh/ap0ny90v","slide":3,"text":"Manual evidence and unclear ownership","textPreview":"Manual evidence and unclear ownership","textChars":37,"textLines":1,"bbox":[366,453,320,42]}
+{"kind":"textbox","id":"sh/bq9orehg","slide":3,"text":"Audit and compliance effort stays high","textPreview":"Audit and compliance effort stays high","textChars":38,"textLines":1,"bbox":[686,453,320,42]}
+{"kind":"textbox","id":"sh/cri50jy1","slide":3,"text":"Control findings, access reviews","textPreview":"Control findings, access reviews","textChars":32,"textLines":1,"bbox":[1006,453,210,42]}
+{"kind":"textbox","id":"sh/xsr6toz6","slide":3,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/rdwzkl","slide":3,"text":"All figures are illustrative. The interview point is the method: quantify cost of doing nothing before asking for investment."}
+{"kind":"slide","id":"sl/h7bjl4","slide":4,"title":"Options for leadership","textShapes":24}
+{"kind":"textbox","id":"sh/hkvex8jy","slide":4,"text":"Options for leadership","textPreview":"Options for leadership","textChars":22,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/uhkf2d0n","slide":4,"text":"A credible case compares choices. It does not pretend there is only one possible answer.","textPreview":"A credible case compares choices. It does not pretend there is only one possible answer.","textChars":88,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/fitwvy18","slide":4,"text":"Option","textPreview":"Option","textChars":6,"textLines":1,"bbox":[60,145,180,42]}
+{"kind":"textbox","id":"sh/4nmx8nip","slide":4,"text":"Description","textPreview":"Description","textChars":11,"textLines":1,"bbox":[240,145,250,42]}
+{"kind":"textbox","id":"sh/pove1sja","slide":4,"text":"Benefits","textPreview":"Benefits","textChars":8,"textLines":1,"bbox":[490,145,250,42]}
+{"kind":"textbox","id":"sh/2l4f6d0j","slide":4,"text":"Risks","textPreview":"Risks","textChars":5,"textLines":1,"bbox":[740,145,220,42]}
+{"kind":"textbox","id":"sh/3mdwzi14","slide":4,"text":"Decision view","textPreview":"Decision view","textChars":13,"textLines":1,"bbox":[960,145,220,42]}
+{"kind":"textbox","id":"sh/cb6xcni1","slide":4,"text":"A. Keep Power BI-led model","textPreview":"A. Keep Power BI-led model","textChars":26,"textLines":1,"bbox":[60,187,180,42]}
+{"kind":"textbox","id":"sh/dcfy5sz6","slide":4,"text":"Continue with current reporting setup and local improvements","textPreview":"Continue with current reporting setup and local improvements","textChars":60,"textLines":1,"bbox":[240,187,250,42]}
+{"kind":"textbox","id":"sh/p0zuhkzq","slide":4,"text":"Low disruption, low upfront spend","textPreview":"Low disruption, low upfront spend","textChars":33,"textLines":1,"bbox":[490,187,250,42]}
+{"kind":"textbox","id":"sh/ozqtofy5","slide":4,"text":"Fragmentation and manual effort remain","textPreview":"Fragmentation and manual effort remain","textChars":38,"textLines":1,"bbox":[740,187,220,42]}
+{"kind":"textbox","id":"sh/nyhcfahk","slide":4,"text":"Accept only if pain is low","textPreview":"Accept only if pain is low","textChars":26,"textLines":1,"bbox":[960,187,220,42]}
+{"kind":"textbox","id":"sh/2x8bm5gz","slide":4,"text":"B. Improve current model","textPreview":"B. Improve current model","textChars":24,"textLines":1,"bbox":[60,229,180,42]}
+{"kind":"textbox","id":"sh/x4julkzm","slide":4,"text":"Rationalize reports, strengthen data governance, automate selected steps","textPreview":"Rationalize reports, strengthen data governance, automate selected steps","textChars":72,"textLines":1,"bbox":[240,229,250,42]}
+{"kind":"textbox","id":"sh/c3adsfy1","slide":4,"text":"Fastest practical improvement","textPreview":"Fastest practical improvement","textChars":29,"textLines":1,"bbox":[490,229,250,42]}
+{"kind":"textbox","id":"sh/b21cjuhg","slide":4,"text":"May not fix planning and performance integration","textPreview":"May not fix planning and performance integration","textChars":48,"textLines":1,"bbox":[740,229,220,42]}
+{"kind":"textbox","id":"sh/a18bqpgb","slide":4,"text":"Good bridge if funding is constrained","textPreview":"Good bridge if funding is constrained","textChars":37,"textLines":1,"bbox":[960,229,220,42]}
+{"kind":"textbox","id":"sh/d8fu90zi","slide":4,"text":"C. Phased SAC move","textPreview":"C. Phased SAC move","textChars":18,"textLines":1,"bbox":[60,271,180,42]}
+{"kind":"textbox","id":"sh/s76tgvyx","slide":4,"text":"Move priority planning and performance capabilities into SAC over 2-3 years","textPreview":"Move priority planning and performance capabilities into SAC over 2-3 years","textChars":75,"textLines":1,"bbox":[240,271,250,42]}
+{"kind":"textbox","id":"sh/4ratwvqt","slide":4,"text":"Stronger standardization and governed planning","textPreview":"Stronger standardization and governed planning","textChars":46,"textLines":1,"bbox":[490,271,250,42]}
+{"kind":"textbox","id":"sh/5sjup07e","slide":4,"text":"Higher change effort and adoption risk","textPreview":"Higher change effort and adoption risk","textChars":38,"textLines":1,"bbox":[740,271,220,42]}
+{"kind":"textbox","id":"sh/ipsbul8n","slide":4,"text":"Preferred if Finance wants global consistency","textPreview":"Preferred if Finance wants global consistency","textChars":45,"textLines":1,"bbox":[960,271,220,42]}
+{"kind":"textbox","id":"sh/jq1cnqp8","slide":4,"text":"Recommended decision logic\nChoose SAC only where it improves Finance outcomes enough to justify TCO, migration risk and adoption effort. Keep Power BI where it remains the right consumption layer.","textPreview":"Recommended decision logic | Choose SAC only where it improves Finance outcomes enough to justify TCO, migration risk and adoption effort...","textChars":196,"textLines":2,"bbox":[118,522,1040,88]}
+{"kind":"textbox","id":"sh/sfad0f6p","slide":4,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/h7bjl4","slide":4,"text":"This is deliberately balanced. The recommendation is not 'replace Power BI everywhere'. It is to choose the right role for each platform."}
+{"kind":"slide","id":"sl/dmdp0g","slide":5,"title":"TCO and value view","textShapes":39}
+{"kind":"textbox","id":"sh/4ba94byt","slide":5,"text":"TCO and value view","textPreview":"TCO and value view","textChars":18,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/3a1sv6x8","slide":5,"text":"Leadership needs to see total cost, not only implementation cost.","textPreview":"Leadership needs to see total cost, not only implementation cost.","textChars":65,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/29sr21gn","slide":5,"text":"Investment category","textPreview":"Investment category","textChars":19,"textLines":1,"bbox":[62,136,235,42]}
+{"kind":"textbox","id":"sh/d03a1gfa","slide":5,"text":"Year 1","textPreview":"Year 1","textChars":6,"textLines":1,"bbox":[297,136,155,42]}
+{"kind":"textbox","id":"sh/cfu98byp","slide":5,"text":"Year 2","textPreview":"Year 2","textChars":6,"textLines":1,"bbox":[452,136,155,42]}
+{"kind":"textbox","id":"sh/relsz6x4","slide":5,"text":"Year 3","textPreview":"Year 3","textChars":6,"textLines":1,"bbox":[607,136,155,42]}
+{"kind":"textbox","id":"sh/qdcr6lgj","slide":5,"text":"What the spend buys","textPreview":"What the spend buys","textChars":19,"textLines":1,"bbox":[762,136,385,42]}
+{"kind":"textbox","id":"sh/14na50f6","slide":5,"text":"SAC implementation and integration","textPreview":"SAC implementation and integration","textChars":34,"textLines":1,"bbox":[62,178,235,42]}
+{"kind":"textbox","id":"sh/03e9cvy1","slide":5,"text":"£1.8m","textPreview":"£1.8m","textChars":5,"textLines":1,"bbox":[297,178,155,42]}
+{"kind":"textbox","id":"sh/u5cnadgr","slide":5,"text":"£1.2m","textPreview":"£1.2m","textChars":5,"textLines":1,"bbox":[452,178,155,42]}
+{"kind":"textbox","id":"sh/v6l4jihw","slide":5,"text":"£0.5m","textPreview":"£0.5m","textChars":5,"textLines":1,"bbox":[607,178,155,42]}
+{"kind":"textbox","id":"sh/w7u5cnyh","slide":5,"text":"Priority FP&A models, data feeds, testing and deployment","textPreview":"Priority FP&A models, data feeds, testing and deployment","textChars":56,"textLines":1,"bbox":[762,178,385,42]}
+{"kind":"textbox","id":"sh/h83mlsz2","slide":5,"text":"Licences and cloud/run cost","textPreview":"Licences and cloud/run cost","textChars":27,"textLines":1,"bbox":[62,220,235,42]}
+{"kind":"textbox","id":"sh/i9wnexgn","slide":5,"text":"£0.7m","textPreview":"£0.7m","textChars":5,"textLines":1,"bbox":[297,220,155,42]}
+{"kind":"textbox","id":"sh/ja54nih8","slide":5,"text":"£0.9m","textPreview":"£0.9m","textChars":5,"textLines":1,"bbox":[452,220,155,42]}
+{"kind":"textbox","id":"sh/4be5gnyt","slide":5,"text":"£1.0m","textPreview":"£1.0m","textChars":5,"textLines":1,"bbox":[607,220,155,42]}
+{"kind":"textbox","id":"sh/5cnmpsze","slide":5,"text":"SAC usage, support, environments and platform operations","textPreview":"SAC usage, support, environments and platform operations","textChars":56,"textLines":1,"bbox":[762,220,385,42]}
+{"kind":"textbox","id":"sh/yds32tgj","slide":5,"text":"Change, training and adoption","textPreview":"Change, training and adoption","textChars":29,"textLines":1,"bbox":[62,262,235,42]}
+{"kind":"textbox","id":"sh/ze14byh4","slide":5,"text":"£0.4m","textPreview":"£0.4m","textChars":5,"textLines":1,"bbox":[297,262,155,42]}
+{"kind":"textbox","id":"sh/3ihkjuxw","slide":5,"text":"£0.3m","textPreview":"£0.3m","textChars":5,"textLines":1,"bbox":[452,262,155,42]}
+{"kind":"textbox","id":"sh/2hojapwb","slide":5,"text":"£0.2m","textPreview":"£0.2m","textChars":5,"textLines":1,"bbox":[607,262,155,42]}
+{"kind":"textbox","id":"sh/pkz2l4fm","slide":5,"text":"User adoption, process redesign, governance and support model","textPreview":"User adoption, process redesign, governance and support model","textChars":61,"textLines":1,"bbox":[762,262,385,42]}
+{"kind":"textbox","id":"sh/ojq1cze1","slide":5,"text":"Retired reporting / legacy cost","textPreview":"Retired reporting / legacy cost","textChars":31,"textLines":1,"bbox":[62,304,235,42]}
+{"kind":"textbox","id":"sh/fexkfaxk","slide":5,"text":"-£0.2m","textPreview":"-£0.2m","textChars":6,"textLines":1,"bbox":[297,304,155,42]}
+{"kind":"textbox","id":"sh/edoj6pgz","slide":5,"text":"-£0.7m","textPreview":"-£0.7m","textChars":6,"textLines":1,"bbox":[452,304,155,42]}
+{"kind":"textbox","id":"sh/1gf2hkfq","slide":5,"text":"-£1.1m","textPreview":"-£1.1m","textChars":6,"textLines":1,"bbox":[607,304,155,42]}
+{"kind":"textbox","id":"sh/gf618fe5","slide":5,"text":"Decommissioned reports, infrastructure, support and duplicate tools","textPreview":"Decommissioned reports, infrastructure, support and duplicate tools","textChars":67,"textLines":1,"bbox":[762,304,385,42]}
+{"kind":"textbox","id":"sh/za1krexo","slide":5,"text":"Net annual cash impact","textPreview":"Net annual cash impact","textChars":22,"textLines":1,"bbox":[62,346,235,42]}
+{"kind":"textbox","id":"sh/y98ji9wj","slide":5,"text":"£2.7m","textPreview":"£2.7m","textChars":5,"textLines":1,"bbox":[297,346,155,42]}
+{"kind":"textbox","id":"sh/wv2hcbul","slide":5,"text":"£1.7m","textPreview":"£1.7m","textChars":5,"textLines":1,"bbox":[452,346,155,42]}
+{"kind":"textbox","id":"sh/hwby5gv6","slide":5,"text":"£0.6m","textPreview":"£0.6m","textChars":5,"textLines":1,"bbox":[607,346,155,42]}
+{"kind":"textbox","id":"sh/utkza1wv","slide":5,"text":"Illustrative investment profile before benefits","textPreview":"Illustrative investment profile before benefits","textChars":47,"textLines":1,"bbox":[762,346,385,42]}
+{"kind":"textbox","id":"sh/vutg36dg","slide":5,"text":"Capacity released from manual reporting","textPreview":"Capacity released from manual reporting","textChars":39,"textLines":1,"bbox":[420,513,230,22]}
+{"kind":"shape","id":"sh/4jmhgbux","slide":5,"bbox":[665,515,0,14]}
+{"kind":"shape","id":"sh/5kvy9gvi","slide":5,"bbox":[665,515,0,14]}
+{"kind":"textbox","id":"sh/ixkzelcr","slide":5,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[0,510,80,24]}
+{"kind":"textbox","id":"sh/jitg7qdc","slide":5,"text":"Report rationalization progress","textPreview":"Report rationalization progress","textChars":31,"textLines":1,"bbox":[420,546,230,22]}
+{"kind":"shape","id":"sh/snmhkvut","slide":5,"bbox":[665,548,0,14]}
+{"kind":"shape","id":"sh/tovid0ve","slide":5,"bbox":[665,548,0,14]}
+{"kind":"textbox","id":"sh/dk3qdwvi","slide":5,"text":"60","textPreview":"60","textChars":2,"textLines":1,"bbox":[0,543,80,24]}
+{"kind":"textbox","id":"sh/sjup4rex","slide":5,"text":"Planning cycle reduction","textPreview":"Planning cycle reduction","textChars":24,"textLines":1,"bbox":[420,579,230,22]}
+{"kind":"shape","id":"sh/ril8bmdc","slide":5,"bbox":[665,581,0,14]}
+{"kind":"shape","id":"sh/qhc72hwr","slide":5,"bbox":[665,581,0,14]}
+{"kind":"textbox","id":"sh/5g3q9cv6","slide":5,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[0,576,80,24]}
+{"kind":"textbox","id":"sh/4fap07e1","slide":5,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/dmdp0g","slide":5,"text":"All numbers are illustrative. The important point is showing implementation cost, run cost, adoption cost, retired cost and measurable benefits together."}
+{"kind":"slide","id":"sl/tvhu9p","slide":6,"title":"Phased investment roadmap","textShapes":23}
+{"kind":"textbox","id":"sh/ilsja58f","slide":6,"text":"Phased investment roadmap","textPreview":"Phased investment roadmap","textChars":25,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/5o32lk76","slide":6,"text":"A multi-year case becomes defensible when each phase proves value and reduces risk.","textPreview":"A multi-year case becomes defensible when each phase proves value and reduces risk.","textChars":83,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/4nu1cfql","slide":6,"text":"Phase","textPreview":"Phase","textChars":5,"textLines":1,"bbox":[62,135,150,42]}
+{"kind":"textbox","id":"sh/vi10fqpo","slide":6,"text":"Scope","textPreview":"Scope","textChars":5,"textLines":1,"bbox":[212,135,295,42]}
+{"kind":"textbox","id":"sh/uhsj6l8j","slide":6,"text":"Value proof","textPreview":"Value proof","textChars":11,"textLines":1,"bbox":[507,135,295,42]}
+{"kind":"textbox","id":"sh/hkjih07u","slide":6,"text":"Decision gate","textPreview":"Decision gate","textChars":13,"textLines":1,"bbox":[802,135,295,42]}
+{"kind":"textbox","id":"sh/gja18vq9","slide":6,"text":"0-6 months","textPreview":"0-6 months","textChars":10,"textLines":1,"bbox":[62,177,150,42]}
+{"kind":"textbox","id":"sh/fe5krup8","slide":6,"text":"Baseline estate, report inventory, data lineage, priority FP&A use cases","textPreview":"Baseline estate, report inventory, data lineage, priority FP&A use cases","textChars":72,"textLines":1,"bbox":[212,177,295,42]}
+{"kind":"textbox","id":"sh/edwjip8n","slide":6,"text":"Clear problem size, owners and pain points","textPreview":"Clear problem size, owners and pain points","textChars":42,"textLines":1,"bbox":[507,177,295,42]}
+{"kind":"textbox","id":"sh/knmpormx","slide":6,"text":"Fund only if baseline confirms value","textPreview":"Fund only if baseline confirms value","textChars":36,"textLines":1,"bbox":[802,177,295,42]}
+{"kind":"textbox","id":"sh/lov6hw3i","slide":6,"text":"6-12 months","textPreview":"6-12 months","textChars":11,"textLines":1,"bbox":[62,219,150,42]}
+{"kind":"textbox","id":"sh/ylk7mh47","slide":6,"text":"Pilot SAC for selected planning or performance process","textPreview":"Pilot SAC for selected planning or performance process","textChars":54,"textLines":1,"bbox":[212,219,295,42]}
+{"kind":"textbox","id":"sh/zmtofmls","slide":6,"text":"Adoption, cycle time, data quality and user confidence","textPreview":"Adoption, cycle time, data quality and user confidence","textChars":54,"textLines":1,"bbox":[507,219,295,42]}
+{"kind":"textbox","id":"sh/cj2pk7m1","slide":6,"text":"Scale if pilot beats current model","textPreview":"Scale if pilot beats current model","textChars":34,"textLines":1,"bbox":[802,219,295,42]}
+{"kind":"textbox","id":"sh/xkb6dc3m","slide":6,"text":"Year 2","textPreview":"Year 2","textChars":6,"textLines":1,"bbox":[62,261,150,42]}
+{"kind":"textbox","id":"sh/axknix4v","slide":6,"text":"Expand SAC to priority markets and standard models","textPreview":"Expand SAC to priority markets and standard models","textChars":50,"textLines":1,"bbox":[212,261,295,42]}
+{"kind":"textbox","id":"sh/bytob2lg","slide":6,"text":"Reduced variants, fewer reports, better governance","textPreview":"Reduced variants, fewer reports, better governance","textChars":50,"textLines":1,"bbox":[507,261,295,42]}
+{"kind":"textbox","id":"sh/ovi5g7m5","slide":6,"text":"Retire overlapping capability","textPreview":"Retire overlapping capability","textChars":29,"textLines":1,"bbox":[802,261,295,42]}
+{"kind":"textbox","id":"sh/pwb69c3a","slide":6,"text":"Year 3","textPreview":"Year 3","textChars":6,"textLines":1,"bbox":[62,303,150,42]}
+{"kind":"textbox","id":"sh/5gjex4r2","slide":6,"text":"Optimize, automate and embed AI-assisted productivity where governed","textPreview":"Optimize, automate and embed AI-assisted productivity where governed","textChars":68,"textLines":1,"bbox":[212,303,295,42]}
+{"kind":"textbox","id":"sh/4fadozah","slide":6,"text":"Lower run cost, faster insight, stronger controls","textPreview":"Lower run cost, faster insight, stronger controls","textChars":49,"textLines":1,"bbox":[507,303,295,42]}
+{"kind":"textbox","id":"sh/3e1cvu9w","slide":6,"text":"Move to continuous improvement model","textPreview":"Move to continuous improvement model","textChars":36,"textLines":1,"bbox":[802,303,295,42]}
+{"kind":"textbox","id":"sh/id8vmpsb","slide":6,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/tvhu9p","slide":6,"text":"Use this slide to show that funding is conditional and staged. Each phase has a gate rather than asking for blind commitment."}
+{"kind":"slide","id":"sl/q3ad0c","slide":7,"title":"Decision point","textShapes":21}
+{"kind":"textbox","id":"sh/mh4vy54z","slide":7,"text":"Decision point","textPreview":"Decision point","textChars":14,"textLines":1,"bbox":[56,34,900,48]}
+{"kind":"textbox","id":"sh/9kfe90nq","slide":7,"text":"The recommendation depends on evidence from the baseline and appetite for transformation risk.","textPreview":"The recommendation depends on evidence from the baseline and appetite for transformation risk.","textChars":94,"textLines":1,"bbox":[58,82,1080,30]}
+{"kind":"textbox","id":"sh/8j6d0vm5","slide":7,"text":"Approve phased SAC investment","textPreview":"Approve phased SAC investment","textChars":29,"textLines":1,"bbox":[80,165,310,115]}
+{"kind":"textbox","id":"sh/zedw3q5o","slide":7,"text":"Use when Finance wants global planning standardization, governed performance management and measurable simplification.","textPreview":"Use when Finance wants global planning standardization, governed performance management and measurable simplification.","textChars":118,"textLines":1,"bbox":[105,225,260,50]}
+{"kind":"textbox","id":"sh/yt4vul43","slide":7,"text":"Approve bridge improvement first","textPreview":"Approve bridge improvement first","textChars":32,"textLines":1,"bbox":[485,165,310,115]}
+{"kind":"textbox","id":"sh/lgve50ne","slide":7,"text":"Use when funding or adoption risk is too high, but reporting rationalization and data governance still need action.","textPreview":"Use when funding or adoption risk is too high, but reporting rationalization and data governance still need action.","textChars":115,"textLines":1,"bbox":[510,225,260,50]}
+{"kind":"textbox","id":"sh/0fmdwvm9","slide":7,"text":"Do not approve full migration yet","textPreview":"Do not approve full migration yet","textChars":33,"textLines":1,"bbox":[890,165,310,115]}
+{"kind":"textbox","id":"sh/bqtcz65c","slide":7,"text":"Use when the baseline cannot prove enough value, user adoption risk is high, or Power BI remains sufficient.","textPreview":"Use when the baseline cannot prove enough value, user adoption risk is high, or Power BI remains sufficient.","textChars":108,"textLines":1,"bbox":[915,225,260,50]}
+{"kind":"textbox","id":"sh/qpkvql4r","slide":7,"text":"Leadership should decide","textPreview":"Leadership should decide","textChars":24,"textLines":1,"bbox":[118,370,300,42]}
+{"kind":"textbox","id":"sh/wn2987qt","slide":7,"text":"Evidence required","textPreview":"Evidence required","textChars":17,"textLines":1,"bbox":[418,370,300,42]}
+{"kind":"textbox","id":"sh/x8bqhc7y","slide":7,"text":"Next action","textPreview":"Next action","textChars":11,"textLines":1,"bbox":[718,370,300,42]}
+{"kind":"textbox","id":"sh/alkr6x8n","slide":7,"text":"What Finance outcome matters most","textPreview":"What Finance outcome matters most","textChars":33,"textLines":1,"bbox":[118,412,300,42]}
+{"kind":"textbox","id":"sh/bmt8f2p8","slide":7,"text":"Cycle time, cost, control, insight or standardization baseline","textPreview":"Cycle time, cost, control, insight or standardization baseline","textChars":62,"textLines":1,"bbox":[418,412,300,42]}
+{"kind":"textbox","id":"sh/oji94nqh","slide":7,"text":"Confirm value drivers","textPreview":"Confirm value drivers","textChars":21,"textLines":1,"bbox":[718,412,300,42]}
+{"kind":"textbox","id":"sh/9kbqds72","slide":7,"text":"Where SAC creates better value","textPreview":"Where SAC creates better value","textChars":30,"textLines":1,"bbox":[118,454,300,42]}
+{"kind":"textbox","id":"sh/mh072x8b","slide":7,"text":"Use cases where planning and performance need governed workflow","textPreview":"Use cases where planning and performance need governed workflow","textChars":63,"textLines":1,"bbox":[418,454,300,42]}
+{"kind":"textbox","id":"sh/ni98bipw","slide":7,"text":"Prioritize first release","textPreview":"Prioritize first release","textChars":24,"textLines":1,"bbox":[718,454,300,42]}
+{"kind":"textbox","id":"sh/8fm9gr6l","slide":7,"text":"What Power BI should still do","textPreview":"What Power BI should still do","textChars":29,"textLines":1,"bbox":[118,496,300,42]}
+{"kind":"textbox","id":"sh/tgvapw76","slide":7,"text":"Reporting needs where consumption layer is enough","textPreview":"Reporting needs where consumption layer is enough","textChars":49,"textLines":1,"bbox":[418,496,300,42]}
+{"kind":"textbox","id":"sh/hk7idsve","slide":7,"text":"Avoid unnecessary migration","textPreview":"Avoid unnecessary migration","textChars":27,"textLines":1,"bbox":[718,496,300,42]}
+{"kind":"textbox","id":"sh/gjyhknut","slide":7,"text":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textPreview":"Illustrative case for interview preparation. Figures are assumptions for discussion, not Cytiva actuals.","textChars":104,"textLines":1,"bbox":[56,682,1120,20]}
+{"kind":"notes","id":"nt/q3ad0c","slide":7,"text":"End by showing you are not pushing technology for its own sake. You are helping leadership choose based on evidence, timing and risk."}
